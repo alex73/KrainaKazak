@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Краіна казак</string>
+    <string name="download_nowifi_title">Спампоўванне</string>
+    <string name="download_nowifi_message">Ваша прылада падключана не праз Wifi, таму гэта можа каштаваць шмат грошай. Спампаваць %dmb?</string>
+    <string name="download_youtube_nowifi_title">Відэа - YouTube</string>
+    <string name="download_youtube_nowifi_message">Ваша прылада падключана не праз Wifi, таму гэта можа каштаваць шмат грошай. Глядзець відэа з YouTube ?</string>
+    <string name="download_start">Спампоўванне пачалося</string>
+    <string name="download_finish">Спампоўванне скончылася</string>
+    <string name="ok">Добра</string>
+    <string name="yes">Так</string>
+    <string name="no">Не</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:focusableInTouchMode="false"
+    android:background="#00000000">
+
+    <ImageView
+        android:id="@+id/item_cover"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/item_1" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/item_viewed_mark"
+        android:layout_toRightOf="@+id/item_cover"
+        android:ellipsize="end"
+        android:lines="2"
+        android:text="name dsafhasdkjlhg kajsdhg kjashd gkhasd kjlgh kajsldhg kasdhg"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/item_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_name"
+        android:layout_toLeftOf="@+id/item_download_mark"
+        android:layout_toRightOf="@+id/item_cover"
+        android:ellipsize="end"
+        android:lines="2"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:text="details jsadghfjasg fgasdjfg asjdgf jaskdg fjasgd fjgas jf"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/item_viewed_mark"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/checkmark" />
+
+    <ImageView
+        android:id="@+id/item_download_mark"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/item_name"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/download" />
+
+</RelativeLayout>

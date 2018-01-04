@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/album_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="112dp" >
+
+        <ImageView
+            android:id="@+id/album_cover"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="11dp"
+            app:srcCompat="@drawable/app_icon" />
+
+        <TextView
+            android:id="@+id/album_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/album_cover"
+            android:text="name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/album_details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/album_name"
+            android:layout_marginBottom="12dp"
+            android:layout_toLeftOf="@+id/album_download"
+            android:layout_toRightOf="@+id/album_cover"
+            android:text="details asdghfasgd jfgasdf jasghd jfgasjgh jhasg gjf ghf hd gfdytr uyt jg jhgujyrtut outgy g"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+            android:id="@+id/album_download"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignBottom="@id/album_details"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            app:srcCompat="@drawable/download" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/album_separator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97d8eb"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--ImageView
+        android:id="@+id/imageHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/main_header_winter" /-->
+
+    <ImageView
+        android:id="@+id/imageHeaderLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/main_header_logo_winter" />
+
+    <ImageView
+        android:id="@+id/btnSettings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/main_button_settings" />
+
+    <org.alex73.android.dzietkam.ui.MainGridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/imageFooter"
+        android:layout_below="@id/imageHeaderLogo" >
+
+        <ImageView
+            android:id="@+id/btnKnizki"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/main_button_knizki" />
+        <ImageView
+            android:id="@+id/btnPiesienki"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/main_button_piesienki" />
+        <ImageView
+            android:id="@+id/btnKalychanki"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/main_button_kalychanki" />
+        <ImageView
+            android:id="@+id/btnAudyjokazki"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/main_button_audiotales" />
+        <ImageView
+            android:id="@+id/btnTexty"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/main_button_texts" />
+        <ImageView
+            android:id="@+id/btnAdukacyja"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/main_button_education" />
+        <ImageView
+            android:id="@+id/btnMulty"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/main_button_mult" />
+
+    </org.alex73.android.dzietkam.ui.MainGridLayout>
+
+    <ImageView
+        android:id="@+id/imageFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/main_footer_winter" />
+
+</RelativeLayout>

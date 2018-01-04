@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.alex73.android.dzietkam"
+    android:versionCode="20300"
+    android:versionName="2.3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="25" />
+    <uses-feature android:name="android.software.leanback" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- For Google Analytics -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ui.AnalyticsApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:banner="@drawable/banner"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ItemsListActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="standard" />
+        <activity
+            android:name=".playbook.PlayBookActivity"
+            android:theme="@style/AppTheme.NoActionBarFullscreen"
+            android:launchMode="singleInstance"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard|navigation"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".ui.AboutActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".play.text.PlayTextActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".play.audio.PlayAudioActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleInstance"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard|navigation" />
+        <activity
+            android:name=".play.youtube.PlayYoutubeActivity"
+            android:theme="@style/AppTheme.NoActionBarFullscreen"
+            android:launchMode="singleInstance"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard|navigation" />
+
+        <service
+            android:name=".download.DownloadService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="org.alex73.android.dzietkam.AddDownload" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".play.audio.service.PlayService"
+            android:exported="false" >
+        </service>
+
+    </application>
+</manifest>

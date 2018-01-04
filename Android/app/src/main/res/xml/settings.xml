@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="pref_storage"
+        android:title="Спампаванае"
+        android:dialogTitle="Дзе захоўваць спампаванае ?" />
+    <SwitchPreference
+        android:key="pref_ask_wifi"
+        android:defaultValue="true"
+        android:title="Ашчаджаць трафік ?"
+        android:summaryOn="Пытацца калі не WiFi" android:summaryOff="Не пытацца" />
+    <SwitchPreference
+        android:key="pref_show_multy"
+        android:defaultValue="true"
+        android:title="Дазваляць прагляд мультфільмаў ?"
+        android:summaryOn="Дазволяць" android:summaryOff="Не дазваляць" />
+
+</PreferenceScreen>
