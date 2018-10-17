@@ -1,6 +1,6 @@
 package org.alex73.android.dzietkam.util;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.ViewGroup;
 
 public class EmptyRecycleViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

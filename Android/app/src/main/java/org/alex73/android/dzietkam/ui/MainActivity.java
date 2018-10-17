@@ -10,8 +10,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -31,13 +31,6 @@ public class MainActivity extends AppCompatActivity {
     private final Logger log = new Logger(getClass());
 
     AnalyticsApplication application;
-
-    @SuppressLint("NewApi")
-    public View onCreateView(View parent, String name, Context context, AttributeSet attrs) {
-        if (Build.VERSION.SDK_INT >= 11)
-            return super.onCreateView(parent, name, context, attrs);
-        return null;
-    }
 
     @Override
     public void onCreate(Bundle icicle) {

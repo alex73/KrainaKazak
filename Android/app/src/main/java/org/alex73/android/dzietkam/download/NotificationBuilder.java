@@ -15,8 +15,8 @@ import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
-import android.support.v4.app.NotificationCompat;
-import android.support.v7.widget.AppCompatDrawableManager;
+import androidx.core.app.NotificationCompat;
+import androidx.appcompat.widget.AppCompatDrawableManager;
 import android.widget.RemoteViews;
 
 public class NotificationBuilder {
@@ -54,7 +54,7 @@ public class NotificationBuilder {
         mBuilder.setContentText(progress + " %");
         mBuilder.setContent(views);
         mBuilder.setContentIntent(mNotificationAction);
-        mBuilder.setVisibility(Notification.VISIBILITY_PUBLIC);
+        mBuilder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
 
         // notification.flags |= Notification.FLAG_ONGOING_EVENT;
         // if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -85,7 +85,7 @@ public class NotificationBuilder {
         mBuilder.setContentTitle(song.item.parent.title);
         mBuilder.setContentText(song.item.title);
         mBuilder.setContentIntent(mNotificationAction);
-        mBuilder.setVisibility(Notification.VISIBILITY_PUBLIC);
+        mBuilder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
 
         return mBuilder.build();
     }

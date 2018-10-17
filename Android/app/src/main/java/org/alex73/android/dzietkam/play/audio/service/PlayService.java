@@ -11,7 +11,7 @@ import android.media.MediaPlayer.OnErrorListener;
 import android.media.MediaPlayer.OnInfoListener;
 import android.os.IBinder;
 import android.os.PowerManager;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import org.alex73.android.dzietkam.CatalogLoader;
 import org.alex73.android.dzietkam.Logger;

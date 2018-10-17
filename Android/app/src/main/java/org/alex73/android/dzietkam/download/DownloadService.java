@@ -16,7 +16,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.IBinder;
 import android.os.Process;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 public class DownloadService extends Service {
     public static final String ACTION_CLOSE = "org.alex73.android.dzietkam.DownloadClose";
