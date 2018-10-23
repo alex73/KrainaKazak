@@ -1,16 +1,21 @@
 package org.alex73.android.dzietkam.playbook;
 
 import java.io.BufferedInputStream;
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
 
 import org.alex73.android.dzietkam.Logger;
+import org.alex73.android.dzietkam.R;
+import org.alex73.android.dzietkam.catalog.Catalog;
 import org.alex73.android.dzietkam.imagecache.Dimension;
 import org.alex73.android.dzietkam.imagecache.ImageCalc;
 import org.alex73.android.dzietkam.imagecache.Rectangle;
+import org.alex73.android.dzietkam.playbook.textpagesstore.Texts;
 import org.alex73.android.dzietkam.util.PackFileWrapper;
 
 import android.annotation.SuppressLint;
@@ -21,6 +26,8 @@ import android.graphics.BitmapFactory.Options;
 import android.graphics.BitmapRegionDecoder;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+
+import com.google.gson.Gson;
 
 public class BookLoader {
 
@@ -268,6 +275,18 @@ public class BookLoader {
     public PackFileWrapper.FileObjectDataSource getAudioFile(int pageNum) throws IOException {
         BookPage page = pages.get(pageNum);
         return file.createDataSource(page.audio);
+    }
+
+    public Texts getTextPages() {
+        if (!file.isFileExist("pages.json")) {
+            return null;
+        }
+        try (BufferedReader rd = new BufferedReader(new InputStreamReader(file.createStream("pages.json"), "UTF-8"))) {
+            return new Gson().fromJson(rd, Texts.class);
+        } catch (Exception ex) {
+            log.e("Error load page", ex);
+            return null;
+        }
     }
 
     static class BookPage {

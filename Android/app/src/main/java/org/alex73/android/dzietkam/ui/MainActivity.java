@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnTexty).setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ItemsListActivity.class);
-                intent.setData(Uri.parse("/texty"));
+                intent.setData(Uri.parse("/teksty"));
                 startActivity(intent);
             }
         });
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 boolean allowed = sharedPref.getBoolean("pref_show_multy",true);
                 if (allowed) {
                     Intent intent = new Intent(MainActivity.this, ItemsListActivity.class);
-                    intent.setData(Uri.parse("/multy"));
+                    intent.setData(Uri.parse("/multfilmy"));
                     startActivity(intent);
                 } else {
                     Toast.makeText(MainActivity.this, "Забаронена", Toast.LENGTH_SHORT).show();

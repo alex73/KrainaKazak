@@ -233,6 +233,19 @@
             "settings": {}
           },
           {
+            "id": "NuPacakaj1",
+            "type": "book",
+            "title": "Ну, пачакай 1",
+            "description": "",
+            "cover": "cover_knizki_nupacakaj1",
+            "file": {
+              "name": "knizki/NuPacakaj1.pack",
+              "size": 102562177,
+              "sha256": "7faa12cef4871c88fb45e6bd3bd3319e2d81db768f258232c9e5828004457ca5"
+            },
+            "settings": {}
+          },
+          {
             "id": "Maly_i_Karlsan1",
             "type": "book",
             "title": "Малы і Карлсан. Частка 1",

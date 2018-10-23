@@ -1,17 +1,22 @@
 package org.alex73.android.dzietkam.play.audio.service;
 
+import android.app.Notification;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.Service;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnErrorListener;
 import android.media.MediaPlayer.OnInfoListener;
+import android.os.Build;
 import android.os.IBinder;
 import android.os.PowerManager;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 import org.alex73.android.dzietkam.CatalogLoader;
 import org.alex73.android.dzietkam.Logger;
@@ -37,6 +42,8 @@ public class PlayService extends Service {
     public static final String EXTRA_SEEK = "seek";
     public static final String EXTRA_VOLUME = "volume";
 
+    public static final String CHANNEL_ID = "KrainaKazakPlayAudio";
+
     private static final int NOTIFICATION_ID = 2;
 
     private static final Logger log = new Logger(PlayService.class);
@@ -44,6 +51,7 @@ public class PlayService extends Service {
     PackFileWrapper songFile;
     protected static final PlayStatus currentStatus = new PlayStatus();
     private PackFileWrapper.FileObjectDataSource currentDataSource;
+    private NotificationManager mNotificationManager;
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
@@ -110,6 +118,20 @@ public class PlayService extends Service {
         currentStatus.player.setOnErrorListener(onErrorListener);
         currentStatus.player.setOnInfoListener(onInfoListener);
         currentStatus.player.setWakeMode(this, PowerManager.PARTIAL_WAKE_LOCK);
+
+        if (Build.VERSION.SDK_INT >= 26) {
+            createNotificationChannel();
+        }
+    }
+
+    @RequiresApi(26)
+    private void createNotificationChannel() {
+        NotificationChannel chan = new NotificationChannel(CHANNEL_ID,
+                "KrainaKazak audio play service", NotificationManager.IMPORTANCE_HIGH);
+        chan.setLightColor(Color.BLUE);
+        chan.setLockscreenVisibility(Notification.VISIBILITY_PRIVATE);
+        mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        mNotificationManager.createNotificationChannel(chan);
     }
 
     @Nullable
@@ -121,6 +143,9 @@ public class PlayService extends Service {
     @Override
     public void onDestroy() {
         stopForeground(true);
+        if (Build.VERSION.SDK_INT >= 26) {
+            mNotificationManager.deleteNotificationChannel(CHANNEL_ID);
+        }
 
         MediaPlayer p = currentStatus.player;
         currentStatus.player = null;

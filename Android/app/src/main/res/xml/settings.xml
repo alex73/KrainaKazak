@@ -13,6 +13,6 @@
         android:key="pref_show_multy"
         android:defaultValue="true"
         android:title="Дазваляць прагляд мультфільмаў ?"
-        android:summaryOn="Дазволяць" android:summaryOff="Не дазваляць" />
+        android:summaryOn="Дазваляць" android:summaryOff="Не дазваляць" />
 
 </PreferenceScreen>

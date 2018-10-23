@@ -234,9 +234,7 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
         @Override
         public void onClick(View v) {
             // pause
-            if (playerPaused) {
-
-            } else {
+            if (!playerPaused) {
                 getWindow().clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
                 mMediaPlayer.pause();
                 playerPaused = true;

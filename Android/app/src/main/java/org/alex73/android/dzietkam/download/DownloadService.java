@@ -8,14 +8,20 @@ import org.alex73.android.dzietkam.Logger;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
+import android.app.Notification;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.os.Build;
 import android.os.IBinder;
 import android.os.Process;
+
+import androidx.annotation.RequiresApi;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 public class DownloadService extends Service {
@@ -25,6 +31,8 @@ public class DownloadService extends Service {
     public static final String EXTRA_NAME = "name";
     public static final String EXTRA_STORE = "store";
     public static final String EXTRA_SIZE = "size";
+
+    public static final String CHANNEL_ID = "KrainaKazarDownloader";
 
     private static final int NOTIFICATION_ID = 1;
 
@@ -44,11 +52,27 @@ public class DownloadService extends Service {
         super.onCreate();
 
         mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+
+        if (Build.VERSION.SDK_INT >= 26) {
+            createNotificationChannel();
+        }
+    }
+
+    @RequiresApi(26)
+    private void createNotificationChannel() {
+        NotificationChannel chan = new NotificationChannel(CHANNEL_ID,
+                "KrainaKazak downloader service", NotificationManager.IMPORTANCE_LOW);
+        chan.setLightColor(Color.BLUE);
+        chan.setLockscreenVisibility(Notification.VISIBILITY_PRIVATE);
+        mNotificationManager.createNotificationChannel(chan);
     }
 
     @Override
     public void onDestroy() {
         stopForeground(true);
+        if (Build.VERSION.SDK_INT >= 26) {
+            mNotificationManager.deleteNotificationChannel(CHANNEL_ID);
+        }
 
         super.onDestroy();
     }

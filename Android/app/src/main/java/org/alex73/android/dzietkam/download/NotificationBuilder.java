@@ -2,30 +2,36 @@ package org.alex73.android.dzietkam.download;
 
 import org.alex73.android.dzietkam.R;
 import org.alex73.android.dzietkam.play.audio.PlayAudioActivity;
+import org.alex73.android.dzietkam.play.audio.service.PlayService;
 import org.alex73.android.dzietkam.play.audio.service.PlayStatus;
 
 import android.annotation.SuppressLint;
 import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.os.Build;
+
+import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 import androidx.appcompat.widget.AppCompatDrawableManager;
 import android.widget.RemoteViews;
 
 public class NotificationBuilder {
+
     @SuppressLint("NewApi")
     public static Notification createDownloadNotification(Service caller, String title, int progress) {
-
         RemoteViews views = new RemoteViews(caller.getPackageName(), R.layout.notification);
 
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+        if (Build.VERSION.SDK_INT < 21) {
             // vector drawable for old versions
             Drawable d = AppCompatDrawableManager.get().getDrawable(caller, R.drawable.notification_close);
             Bitmap b = Bitmap.createBitmap(d.getIntrinsicWidth(), d.getIntrinsicHeight(), Bitmap.Config.ARGB_8888);
@@ -48,7 +54,7 @@ public class NotificationBuilder {
         intent.setAction(Intent.ACTION_MAIN);
         PendingIntent mNotificationAction = PendingIntent.getActivity(caller, 0, intent, 0);
 
-        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(caller);
+        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(caller, DownloadService.CHANNEL_ID);
         mBuilder.setSmallIcon(R.drawable.notification_icon);
         mBuilder.setContentTitle(title);
         mBuilder.setContentText(progress + " %");
@@ -80,7 +86,7 @@ public class NotificationBuilder {
         intent.addCategory(Intent.CATEGORY_LAUNCHER);
         PendingIntent mNotificationAction = PendingIntent.getActivity(caller, 0, intent, 0);
 
-        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(caller);
+        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(caller, PlayService.CHANNEL_ID);
         mBuilder.setSmallIcon(R.drawable.notification_icon);
         mBuilder.setContentTitle(song.item.parent.title);
         mBuilder.setContentText(song.item.title);
