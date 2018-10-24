@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.alex73.android.dzietkam"
-    android:versionCode="20400"
-    android:versionName="2.4.0" >
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.alex73.android.dzietkam">
 
     <uses-feature android:name="android.software.leanback" android:required="false" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
