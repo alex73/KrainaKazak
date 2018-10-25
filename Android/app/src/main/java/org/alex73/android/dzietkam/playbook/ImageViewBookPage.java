@@ -15,6 +15,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.graphics.Typeface;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,6 +53,10 @@ public class ImageViewBookPage extends ImageViewBase {
     @Override
     protected void onDrawOver(Canvas canvas) {
         if (texts != null) {
+            Paint pp=new Paint();
+            pp.setTextSize(40);
+            pp.setTypeface(Typeface.DEFAULT);
+            canvas.drawText("testzzzzzzzzzzzzzzzzzzzzzz", 20, 100, pp);
             Page currentPage = texts.pages.get(pageIndex);
 
             for (Text t : currentPage.texts) {
@@ -90,6 +95,7 @@ public class ImageViewBookPage extends ImageViewBase {
             return 0;
         }
         for (int fontSize = 1;; fontSize++) {
+            paint.setTypeface(Typeface.DEFAULT);
             paint.setTextSize(fontSize);
             Paint.FontMetrics metrics = paint.getFontMetrics();
             for (Measure m : measures) {
@@ -137,6 +143,7 @@ public class ImageViewBookPage extends ImageViewBase {
         }
 
         public void output(Canvas canvas, Paint paint, int fontSize) {
+            paint.setTypeface(Typeface.DEFAULT);
             paint.setTextSize(fontSize);
             paint.setColor(Integer.decode(style.background.replaceAll("^#", "0x")));
             canvas.drawRect(area.x, area.y, area.width, area.height, paint);

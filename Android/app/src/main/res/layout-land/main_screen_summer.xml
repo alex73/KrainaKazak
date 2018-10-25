@@ -71,6 +71,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/main_button_mult" />
+        <ImageView
+            android:id="@+id/btnDyjafilmy"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/main_button_dyja" />
 
     </org.alex73.android.dzietkam.ui.MainGridLayout>
 

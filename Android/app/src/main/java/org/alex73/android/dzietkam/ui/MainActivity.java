@@ -104,6 +104,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        findViewById(R.id.btnDyjafilmy).setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ItemsListActivity.class);
+                intent.setData(Uri.parse("/dyjafilmy"));
+                startActivity(intent);
+            }
+        });
         findViewById(R.id.btnSettings).setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AboutActivity.class);
