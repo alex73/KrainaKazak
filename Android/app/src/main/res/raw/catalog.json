@@ -233,43 +233,6 @@
             "settings": {}
           },
           {
-            "id": "NuPacakaj1",
-            "type": "book",
-            "title": "Ну, пачакай 1",
-            "description": "",
-            "cover": "cover_knizki_nupacakaj1",
-            "file": {
-              "name": "knizki/NuPacakaj1.pack",
-              "size": 102562177,
-              "sha256": "7faa12cef4871c88fb45e6bd3bd3319e2d81db768f258232c9e5828004457ca5"
-            },
-            "settings": {}
-          },
-          {
-            "id": "Maly_i_Karlsan1",
-            "type": "book",
-            "title": "Малы і Карлсан. Частка 1",
-            "cover": "cover_knizki_maly_i_karlsan1",
-            "file": {
-              "name": "knizki/Maly_i_Karlsan1.pack",
-              "size": 7126698,
-              "sha256": "8c2dc3582409699275526e9914f5bd9931ab778e648c0ceef6d97df39bfba75b"
-            },
-            "settings": {}
-          },
-          {
-            "id": "Maly_i_Karlsan2",
-            "type": "book",
-            "title": "Малы і Карлсан. Частка 2",
-            "cover": "cover_knizki_maly_i_karlsan2",
-            "file": {
-              "name": "knizki/Maly_i_Karlsan2.pack",
-              "size": 7445079,
-              "sha256": "8206b7d14e472802238aaaf89fd90b4025ffdd3c9c3502add396612c37599898"
-            },
-            "settings": {}
-          },
-          {
             "id": "Adkul_biarucca_dzieci",
             "type": "book",
             "title": "Адкуль бяруцца дзеці",
@@ -9540,6 +9503,49 @@
                 "cover": "cover_multfilmy_padarozzy_na_navalnicnaj_chmary_vzd1pkvo57k"
               }
             ]
+          }
+        ]
+      },
+      {
+        "id": "dyjafilmy",
+        "title": "Дыяфільмы",
+        "items": [
+          {
+            "id": "NuPacakaj1",
+            "type": "book",
+            "title": "Ну, пачакай 1",
+            "description": "",
+            "cover": "cover_dyjafilmy_nupacakaj1",
+            "file": {
+              "name": "dyjafilmy/NuPacakaj1.pack",
+              "size": 102562177,
+              "sha256": "7faa12cef4871c88fb45e6bd3bd3319e2d81db768f258232c9e5828004457ca5"
+            },
+            "settings": {}
+          },
+          {
+            "id": "Maly_i_Karlsan1",
+            "type": "book",
+            "title": "Малы і Карлсан. Частка 1",
+            "cover": "cover_dyjafilmy_maly_i_karlsan1",
+            "file": {
+              "name": "dyjafilmy/Maly_i_Karlsan1.pack",
+              "size": 7126698,
+              "sha256": "8c2dc3582409699275526e9914f5bd9931ab778e648c0ceef6d97df39bfba75b"
+            },
+            "settings": {}
+          },
+          {
+            "id": "Maly_i_Karlsan2",
+            "type": "book",
+            "title": "Малы і Карлсан. Частка 2",
+            "cover": "cover_dyjafilmy_maly_i_karlsan2",
+            "file": {
+              "name": "dyjafilmy/Maly_i_Karlsan2.pack",
+              "size": 7445079,
+              "sha256": "8206b7d14e472802238aaaf89fd90b4025ffdd3c9c3502add396612c37599898"
+            },
+            "settings": {}
           }
         ]
       }
