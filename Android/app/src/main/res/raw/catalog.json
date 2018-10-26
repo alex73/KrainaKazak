@@ -9518,8 +9518,99 @@
             "cover": "cover_dyjafilmy_nupacakaj1",
             "file": {
               "name": "dyjafilmy/NuPacakaj1.pack",
-              "size": 102562177,
-              "sha256": "7faa12cef4871c88fb45e6bd3bd3319e2d81db768f258232c9e5828004457ca5"
+              "size": 102569038,
+              "sha256": "54fb52d28154e44a6c72f1315ee439d11334e4f732539b48d8cb45013e1eeb6a"
+            },
+            "settings": {}
+          },
+          {
+            "id": "NuPacakaj2",
+            "type": "book",
+            "title": "Ну, пачакай 2",
+            "description": "",
+            "cover": "cover_dyjafilmy_nupacakaj2",
+            "file": {
+              "name": "dyjafilmy/NuPacakaj2.pack",
+              "size": 66637700,
+              "sha256": "7d08250f3e892dc0497ad251abb4a9c8e2739e829dba9c50679562236da2dc9c"
+            },
+            "settings": {}
+          },
+          {
+            "id": "NuPacakaj3",
+            "type": "book",
+            "title": "Ну, пачакай 3",
+            "description": "",
+            "cover": "cover_dyjafilmy_nupacakaj3",
+            "file": {
+              "name": "dyjafilmy/NuPacakaj3.pack",
+              "size": 99285241,
+              "sha256": "c275b2a176e0a120e6c417643e13128e82f362170ef4d188ef0b31b3aa184e8f"
+            },
+            "settings": {}
+          },
+          {
+            "id": "NuPacakaj4",
+            "type": "book",
+            "title": "Ну, пачакай 4",
+            "description": "",
+            "cover": "cover_dyjafilmy_nupacakaj4",
+            "file": {
+              "name": "dyjafilmy/NuPacakaj4.pack",
+              "size": 80396653,
+              "sha256": "531cb9a683b6ef00062e82f03c4d05e8a3b9fa7e08fc9d9c1be4d248355282ab"
+            },
+            "settings": {}
+          },
+          {
+            "id": "NuPacakaj5",
+            "type": "book",
+            "title": "Ну, пачакай 5",
+            "description": "",
+            "cover": "cover_dyjafilmy_nupacakaj5",
+            "file": {
+              "name": "dyjafilmy/NuPacakaj5.pack",
+              "size": 84265564,
+              "sha256": "b605d922e988c1b0fee61bf8d36dca5168bc4e34ac2fd8182e42149d16c7ee00"
+            },
+            "settings": {}
+          },
+          {
+            "id": "NuPacakaj6",
+            "type": "book",
+            "title": "Ну, пачакай 6",
+            "description": "",
+            "cover": "cover_dyjafilmy_nupacakaj6",
+            "file": {
+              "name": "dyjafilmy/NuPacakaj6.pack",
+              "size": 86899545,
+              "sha256": "6c48b80ef47c554989974c0199f8ba513092e188944a32b5da33cb793d0e2fcc"
+            },
+            "settings": {}
+          },
+          {
+            "id": "NuPacakaj7",
+            "type": "book",
+            "title": "Ну, пачакай 7",
+            "description": "",
+            "cover": "cover_dyjafilmy_nupacakaj7",
+            "file": {
+              "name": "dyjafilmy/NuPacakaj7.pack",
+              "size": 85134455,
+              "sha256": "ff6bc86a0d84ff49f22ecab32fcb6b468acf0fcd2a703b17967c86d777028915"
+            },
+            "settings": {}
+          },
+          {
+            "id": "NuPacakaj8",
+            "type": "book",
+            "title": "Ну, пачакай 8",
+            "description": "",
+            "cover": "cover_dyjafilmy_nupacakaj8",
+            "file": {
+              "name": "dyjafilmy/NuPacakaj8.pack",
+              "size": 74551651,
+              "sha256": "486c15bd2786c0f6049cfa29a46f66162399aff420e8b34bcd643386a18878de"
             },
             "settings": {}
           },

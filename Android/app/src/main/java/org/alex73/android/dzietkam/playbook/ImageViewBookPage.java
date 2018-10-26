@@ -25,7 +25,6 @@ public class ImageViewBookPage extends ImageViewBase {
     private int pageIndex;
     private Paint paintText;
     private Texts texts;
-    private Rect outputRect;
     private Map<String, Integer> fontSizeCache;
 
     public ImageViewBookPage(Context context) {
@@ -48,15 +47,15 @@ public class ImageViewBookPage extends ImageViewBase {
             public void run() {
                 Bitmap bmp = pl.loadPicture(pageIndex, new Dimension(width, height), pl.getCropCenterMin());
                 mBitmap = bmp;
+                drawText();
                 postInvalidate();
             }
         }.start();
     }
 
-    @Override
-    protected void onDrawOver(Canvas canvas, Rect dst) {
+    protected void drawText() {
         if (texts != null) {
-            outputRect = dst;
+            Canvas canvas = new Canvas(mBitmap);
             Page currentPage = texts.pages.get(pageIndex - 1);
             for (Text t : currentPage.texts) {
                 Style style = getStyle(t.style);
@@ -74,7 +73,7 @@ public class ImageViewBookPage extends ImageViewBase {
                 paint.setTypeface(tf);
 
                 OutputPlace place = new OutputPlace(currentPage, t, style);
-                String cacheKey = style.name + '_' + dst.width() + '_' + dst.height();
+                String cacheKey = style.name + '_' + mBitmap.getWidth() + '_' + mBitmap.getHeight();
                 Integer fontSize = fontSizeCache.get(cacheKey);
                 if (fontSize == null) {
                     fontSize = measureStyle(style, paint);
@@ -95,7 +94,7 @@ public class ImageViewBookPage extends ImageViewBase {
     }
 
     double getScale(Page p) {
-        return p.width * 1.0 / outputRect.width();
+        return p.width * 1.0 / mBitmap.getWidth();
     }
 
     int measureStyle(Style style, Paint paint) {
@@ -135,10 +134,10 @@ public class ImageViewBookPage extends ImageViewBase {
             this.style = style;
             this.scale = getScale(page);
             area = new Rect();
-            area.left = (int) Math.round(text.xMin / scale) + outputRect.left;
-            area.top = (int) Math.round(text.yMin / scale) + outputRect.top;
-            area.right = (int) Math.round(text.xMax / scale) + outputRect.left;
-            area.bottom = (int) Math.round(text.yMax / scale) + outputRect.top;
+            area.left = (int) Math.round(text.xMin / scale);
+            area.top = (int) Math.round(text.yMin / scale);
+            area.right = (int) Math.round(text.xMax / scale);
+            area.bottom = (int) Math.round(text.yMax / scale);
             insets = new StyleInsets();
             if (style.insets != null) {
                 insets.top = (int) Math.round(style.insets.top / scale);
@@ -263,8 +262,8 @@ public class ImageViewBookPage extends ImageViewBase {
         }
 
         Dimension getRect(Paint paint) {
-            int width = (int) Math.round(paint.measureText(line.substring(begin, end)));
-            int height = (int) Math.round(paint.getTextSize());
+            int width = Math.round(paint.measureText(line.substring(begin, end)));
+            int height = Math.round(paint.getTextSize());
             return new Dimension(width, height);
         }
     }

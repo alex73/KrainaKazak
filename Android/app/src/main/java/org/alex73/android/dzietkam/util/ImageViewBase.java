@@ -179,8 +179,5 @@ public abstract class ImageViewBase extends View {
         }
 
         canvas.drawBitmap(dr, src, dst, p);
-        onDrawOver(canvas, dst);
     }
-
-    protected void onDrawOver(Canvas canvas, Rect dst) {}
 }
