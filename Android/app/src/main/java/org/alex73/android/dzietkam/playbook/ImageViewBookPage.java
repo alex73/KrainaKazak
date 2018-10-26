@@ -1,7 +1,6 @@
 package org.alex73.android.dzietkam.playbook;
 
 import org.alex73.android.dzietkam.imagecache.Dimension;
-import org.alex73.android.dzietkam.imagecache.Rectangle;
 import org.alex73.android.dzietkam.playbook.textpagesstore.Page;
 import org.alex73.android.dzietkam.playbook.textpagesstore.Style;
 import org.alex73.android.dzietkam.playbook.textpagesstore.StyleInsets;
@@ -19,12 +18,15 @@ import android.graphics.Typeface;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class ImageViewBookPage extends ImageViewBase {
     private BookLoader pl;
     private int pageIndex;
     private Paint paintText;
     private Texts texts;
+    private Rect outputRect;
+    private Map<String, Integer> fontSizeCache;
 
     public ImageViewBookPage(Context context) {
         super(context);
@@ -32,8 +34,9 @@ public class ImageViewBookPage extends ImageViewBase {
         paintText.setColor(Color.RED);
     }
 
-    public void setContent(BookLoader pl, int pageIndex) {
+    public void setContent(BookLoader pl, int pageIndex, Map<String, Integer> fontSizeCache) {
         this.pl = pl;
+        this.fontSizeCache = fontSizeCache;
         this.pageIndex = pageIndex;
         this.texts = pl.getTextPages();
         updateContent();
@@ -51,24 +54,37 @@ public class ImageViewBookPage extends ImageViewBase {
     }
 
     @Override
-    protected void onDrawOver(Canvas canvas) {
+    protected void onDrawOver(Canvas canvas, Rect dst) {
         if (texts != null) {
-            Paint pp=new Paint();
-            pp.setTextSize(40);
-            pp.setTypeface(Typeface.DEFAULT);
-            canvas.drawText("testzzzzzzzzzzzzzzzzzzzzzz", 20, 100, pp);
-            Page currentPage = texts.pages.get(pageIndex);
-
+            outputRect = dst;
+            Page currentPage = texts.pages.get(pageIndex - 1);
             for (Text t : currentPage.texts) {
                 Style style = getStyle(t.style);
-                OutputPlace place = new OutputPlace(currentPage, t, style);
-
                 Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
-                int fontSize = measureStyle(style, paint);
+                Typeface tf;
+                if (style.bold && style.italic) {
+                    tf = Typeface.create(Typeface.DEFAULT, Typeface.BOLD_ITALIC);
+                } else if (style.bold && !style.italic) {
+                    tf = Typeface.create(Typeface.DEFAULT, Typeface.BOLD);
+                } else if (!style.bold && style.italic) {
+                    tf = Typeface.create(Typeface.DEFAULT, Typeface.ITALIC);
+                } else {
+                    tf = Typeface.create(Typeface.DEFAULT, Typeface.NORMAL);
+                }
+                paint.setTypeface(tf);
+
+                OutputPlace place = new OutputPlace(currentPage, t, style);
+                String cacheKey = style.name + '_' + dst.width() + '_' + dst.height();
+                Integer fontSize = fontSizeCache.get(cacheKey);
+                if (fontSize == null) {
+                    fontSize = measureStyle(style, paint);
+                    fontSizeCache.put(cacheKey, fontSize);
+                }
                 place.output(canvas, paint, fontSize);
             }
         }
     }
+
     Style getStyle(String name) {
         for (Style s : texts.styles) {
             if (name.equals(s.name)) {
@@ -79,7 +95,7 @@ public class ImageViewBookPage extends ImageViewBase {
     }
 
     double getScale(Page p) {
-        return p.width * 1.0 / getWidth();
+        return p.width * 1.0 / outputRect.width();
     }
 
     int measureStyle(Style style, Paint paint) {
@@ -94,10 +110,8 @@ public class ImageViewBookPage extends ImageViewBase {
         if (measures.isEmpty()) {
             return 0;
         }
-        for (int fontSize = 1;; fontSize++) {
-            paint.setTypeface(Typeface.DEFAULT);
+        for (int fontSize = 1; ; fontSize++) {
             paint.setTextSize(fontSize);
-            Paint.FontMetrics metrics = paint.getFontMetrics();
             for (Measure m : measures) {
                 List<Block> blocks = new ArrayList<>();
                 if (m.isBigger(paint, getScale(m.page), blocks)) {
@@ -112,7 +126,7 @@ public class ImageViewBookPage extends ImageViewBase {
         final Text text;
         final Style style;
         final double scale;
-        final Rectangle area;
+        final Rect area;
         final StyleInsets insets;
 
         public OutputPlace(Page page, Text text, Style style) {
@@ -120,35 +134,34 @@ public class ImageViewBookPage extends ImageViewBase {
             this.text = text;
             this.style = style;
             this.scale = getScale(page);
-            area = new Rectangle();
-            area.x = (int) Math.round(text.xMin / scale);
-            area.y = (int) Math.round(text.yMin / scale);
-            area.width = (int) Math.round((text.xMax - text.xMin + 1) / scale);
-            area.height = (int) Math.round((text.yMax - text.yMin + 1) / scale);
+            area = new Rect();
+            area.left = (int) Math.round(text.xMin / scale) + outputRect.left;
+            area.top = (int) Math.round(text.yMin / scale) + outputRect.top;
+            area.right = (int) Math.round(text.xMax / scale) + outputRect.left;
+            area.bottom = (int) Math.round(text.yMax / scale) + outputRect.top;
             insets = new StyleInsets();
             if (style.insets != null) {
                 insets.top = (int) Math.round(style.insets.top / scale);
-                        insets.left = (int) Math.round(style.insets.left / scale);
-                        insets.bottom= (int) Math.round(style.insets.bottom / scale);
-                        insets.right=(int) Math.round(style.insets.right / scale);
+                insets.left = (int) Math.round(style.insets.left / scale);
+                insets.bottom = (int) Math.round(style.insets.bottom / scale);
+                insets.right = (int) Math.round(style.insets.right / scale);
             }
         }
 
         int getTextMaxWidth() {
-            return area.width - insets.left - insets.right;
+            return area.width() - insets.left - insets.right;
         }
 
         int getTextMaxHeight() {
-            return area.height - insets.top - insets.bottom;
+            return area.height() - insets.top - insets.bottom;
         }
 
         public void output(Canvas canvas, Paint paint, int fontSize) {
-            paint.setTypeface(Typeface.DEFAULT);
             paint.setTextSize(fontSize);
-            paint.setColor(Integer.decode(style.background.replaceAll("^#", "0x")));
-            canvas.drawRect(area.x, area.y, area.width, area.height, paint);
+            paint.setColor(0xFF000000 | Integer.decode(style.background.replaceAll("^#", "0x")));
+            canvas.drawRect(area, paint);
 
-            paint.setColor(Integer.decode(style.foreground.replaceAll("^#", "0x")));
+            paint.setColor(0xFF000000 | Integer.decode(style.foreground.replaceAll("^#", "0x")));
 
             Paint.FontMetrics metrics = paint.getFontMetrics();
 
@@ -156,7 +169,7 @@ public class ImageViewBookPage extends ImageViewBase {
             List<Block> blocks = new ArrayList<>();
             m.getHeightForWidth(getTextMaxWidth(), paint, scale, blocks);
 
-            int y = area.y + insets.top;
+            int y = area.top + insets.top + Math.round(-metrics.ascent);
             int leaveY = getTextMaxHeight() - blocks.size() * Math.round(paint.getTextSize());
             switch (style.alignVertical) {
                 case TOP:
@@ -168,9 +181,8 @@ public class ImageViewBookPage extends ImageViewBase {
                     y += leaveY;
                     break;
             }
-            y += metrics.ascent;
             for (Block b : blocks) {
-                int x = area.x + insets.left;
+                int x = area.left + insets.left;
                 int leaveX = getTextMaxWidth() - b.getRect(paint).width;
                 switch (style.alignHorizontal) {
                     case LEFT:

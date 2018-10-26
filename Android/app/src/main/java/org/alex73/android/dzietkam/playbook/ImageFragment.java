@@ -67,7 +67,7 @@ public class ImageFragment extends Fragment {
 //        } catch (IOException ex) {// TODO
 //        }
         ImageViewBookPage view=new ImageViewBookPage(getContext());
-        view.setContent(parent.pl, index+1);
+        view.setContent(parent.pl, index+1, parent.fontSizeCache);
         view.setOnClickListener(parent.mOnClickListener);
         return view;
     }

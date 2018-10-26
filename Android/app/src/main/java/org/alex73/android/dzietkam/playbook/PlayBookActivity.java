@@ -2,6 +2,9 @@ package org.alex73.android.dzietkam.playbook;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collections;
+import java.util.Map;
+import java.util.TreeMap;
 
 import org.alex73.android.dzietkam.CatalogLoader;
 import org.alex73.android.dzietkam.Logger;
@@ -60,6 +63,7 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
     BookLoader pl;
     PackFileWrapper packFile;
     PackFileWrapper.FileObjectDataSource packFileDataSource;
+    Map<String,Integer> fontSizeCache;
 
     @SuppressLint("NewApi")
     public View onCreateView(View parent, String name, Context context, AttributeSet attrs) {
@@ -89,6 +93,7 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
             log.e("Error read pack file", ex);
         }
         pl = new BookLoader(packFile);
+        fontSizeCache = Collections.synchronizedMap(new TreeMap<>());
 
         buttons = findViewById(R.id.pauseLayer);
         buttons.setVisibility(View.INVISIBLE);
@@ -112,6 +117,8 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
                 return false;
             }
         });
+        findViewById(R.id.buttonPrev).setOnClickListener(mClickPrev);
+        findViewById(R.id.buttonNext).setOnClickListener(mClickNext);
     }
 
     @Override
@@ -230,6 +237,18 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
         mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
     }
 
+    OnClickListener mClickPrev = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            flipper.postDelayed(()->flipper.setCurrentItem(flipper.getCurrentItem()-1, true), 100);
+        }
+    };
+    OnClickListener mClickNext = new OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            flipper.postDelayed(()->flipper.setCurrentItem(flipper.getCurrentItem()+1, true), 100);
+        }
+    };
     OnClickListener mOnClickListener = new OnClickListener() {
         @Override
         public void onClick(View v) {

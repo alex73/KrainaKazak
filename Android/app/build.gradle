@@ -6,8 +6,8 @@ android {
         applicationId "org.alex73.android.dzietkam"
         minSdkVersion 14
         targetSdkVersion 28
-        versionCode 20400
-        versionName "2.4"
+        versionCode 20500
+        versionName "2.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 	vectorDrawables.useSupportLibrary true
     }
