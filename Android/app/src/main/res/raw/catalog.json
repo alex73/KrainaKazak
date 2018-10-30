@@ -3616,6 +3616,170 @@
                 }
               }
             ]
+          },
+          {
+            "id": "Bacharevic",
+            "title": "Выбраныя казкі братоў Грым",
+            "description": "У перакладзе Альгерда Бахарэвіча. Логвінаў, 2014",
+            "cover": "cover_teksty_bacharevic",
+            "file": {
+              "name": "teksty/Bacharevic.pack",
+              "size": 234730,
+              "sha256": "452314676f302b35983297f61b92aa48e0d5c19fb4f5e45cbccb04295f7b1e74"
+            },
+            "settings": {},
+            "items": [
+              {
+                "id": "Cyrvony_Kapturok",
+                "type": "text",
+                "title": "Чырвоны Каптурок",
+                "file": {
+                  "name": "#Cyrvony_Kapturok"
+                }
+              },
+              {
+                "id": "Papialuska",
+                "type": "text",
+                "title": "Папялушка",
+                "file": {
+                  "name": "#Papialuska"
+                }
+              },
+              {
+                "id": "Razumnaja_Elza",
+                "type": "text",
+                "title": "Разумная Эльза",
+                "file": {
+                  "name": "#Razumnaja_Elza"
+                }
+              },
+              {
+                "id": "Siem_krumkacou",
+                "type": "text",
+                "title": "Сем крумкачоў",
+                "file": {
+                  "name": "#Siem_krumkacou"
+                }
+              },
+              {
+                "id": "Stancavanyja_caraviki",
+                "type": "text",
+                "title": "Станцаваныя чаравікі",
+                "file": {
+                  "name": "#Stancavanyja_caraviki"
+                }
+              },
+              {
+                "id": "Damaviki",
+                "type": "text",
+                "title": "Дамавікі",
+                "file": {
+                  "name": "#Damaviki"
+                }
+              },
+              {
+                "id": "Advazny_kraviec",
+                "type": "text",
+                "title": "Адважны кравец",
+                "file": {
+                  "name": "#Advazny_kraviec"
+                }
+              },
+              {
+                "id": "Jak_kotka_i_mys_razam_zyli",
+                "type": "text",
+                "title": "Як котка і мыш разам жылі",
+                "file": {
+                  "name": "#Jak_kotka_i_mys_razam_zyli"
+                }
+              },
+              {
+                "id": "Chlopcyk_z_palcyk",
+                "type": "text",
+                "title": "Хлопчык з пальчык",
+                "file": {
+                  "name": "#Chlopcyk_z_palcyk"
+                }
+              },
+              {
+                "id": "Pani_Zavirucha",
+                "type": "text",
+                "title": "Пані Завіруха",
+                "file": {
+                  "name": "#Pani_Zavirucha"
+                }
+              }
+            ]
+          },
+          {
+            "id": "Hrym",
+            "title": "Казкі братоў Грым",
+            "description": "",
+            "cover": "cover_teksty_hrym",
+            "file": {
+              "name": "teksty/Hrym.pack",
+              "size": 281379,
+              "sha256": "95991d2b32dfaa83d24ddc81e0b207928791d5f3eb2c82cc42c4ea3a03677f07"
+            },
+            "settings": {},
+            "items": [
+              {
+                "id": "Bremienskija_muzyki",
+                "type": "text",
+                "title": "Брэменскія музыкі",
+                "file": {
+                  "name": "#Bremienskija_muzyki"
+                }
+              },
+              {
+                "id": "Harscok_kasy",
+                "type": "text",
+                "title": "Гаршчок кашы",
+                "file": {
+                  "name": "#Harscok_kasy"
+                }
+              },
+              {
+                "id": "Karalevic_jaki_nicoha_nie_bajausia",
+                "type": "text",
+                "title": "Каралевіч, які нічога не баяўся",
+                "file": {
+                  "name": "#Karalevic_jaki_nicoha_nie_bajausia"
+                }
+              },
+              {
+                "id": "Karol-zabiania",
+                "type": "text",
+                "title": "Кароль-жабяня, альбо жалезны Гайнрых",
+                "file": {
+                  "name": "#Karol-zabiania"
+                }
+              },
+              {
+                "id": "Rapuncal",
+                "type": "text",
+                "title": "Рапунцаль",
+                "file": {
+                  "name": "#Rapuncal"
+                }
+              },
+              {
+                "id": "Rumpielscilcchen",
+                "type": "text",
+                "title": "Румпельшцільцхен",
+                "file": {
+                  "name": "#Rumpielscilcchen"
+                }
+              },
+              {
+                "id": "Sesc_lebiadziau",
+                "type": "text",
+                "title": "Шэсць лебядзяў",
+                "file": {
+                  "name": "#Sesc_lebiadziau"
+                }
+              }
+            ]
           }
         ]
       },
@@ -9511,6 +9675,84 @@
         "title": "Дыяфільмы",
         "items": [
           {
+            "id": "try-kacianiatki",
+            "type": "book",
+            "title": "Тры кацяняткі",
+            "description": "",
+            "cover": "cover_dyjafilmy_try_kacianiatki",
+            "file": {
+              "name": "dyjafilmy/try-kacianiatki.pack",
+              "size": 983811,
+              "sha256": "29170f272b8e94b6e3892daf0c97e87faa6fd4c24499d4bd19b64d390afdb917"
+            },
+            "settings": {}
+          },
+          {
+            "id": "vili",
+            "type": "book",
+            "title": "Дзе ж Вілі ?",
+            "description": "",
+            "cover": "cover_dyjafilmy_vili",
+            "file": {
+              "name": "dyjafilmy/vili.pack",
+              "size": 53916355,
+              "sha256": "101e455b54ab51ee6c61ea0d70b707585f96552d55af6034f6dd8261df68c46a"
+            },
+            "settings": {}
+          },
+          {
+            "id": "try-parasiatki",
+            "type": "book",
+            "title": "Тры парасяткі",
+            "description": "",
+            "cover": "cover_dyjafilmy_try_parasiatki",
+            "file": {
+              "name": "dyjafilmy/try-parasiatki.pack",
+              "size": 69861038,
+              "sha256": "26b6a0113dc3187d99207d42b4c3b5967394843d112f6ebbaec3f5e90583546a"
+            },
+            "settings": {}
+          },
+          {
+            "id": "sasiska",
+            "type": "book",
+            "title": "Сіньора Сасіска",
+            "description": "",
+            "cover": "cover_dyjafilmy_sasiska",
+            "file": {
+              "name": "dyjafilmy/sasiska.pack",
+              "size": 57211731,
+              "sha256": "98e2e3962d84f59b0b17960e606a745ceacc5ac94cfc4d6af1e96ff774fdc47d"
+            },
+            "settings": {}
+          },
+          {
+            "id": "karlsan1",
+            "type": "book",
+            "title": "Малы і Карлсан, 1",
+            "description": "",
+            "cover": "cover_dyjafilmy_karlsan1",
+            "file": {
+              "name": "dyjafilmy/karlsan1.pack",
+              "size": 80023879,
+              "sha256": "78898e37f764a0b09b6b2351eeaba09fd3acef2c38bc43866e6a280492624648"
+            },
+            "settings": {}
+          },
+          {
+            "id": "karlsan2",
+            "type": "book",
+            "title": "Малы і Карлсан, 2",
+            "description": "",
+            "cover": "cover_dyjafilmy_karlsan2",
+            "file": {
+              "name": "dyjafilmy/karlsan2.pack",
+              "size": 82313205,
+              "sha256": "46f39d312d8ee29f43f45607053b1094cf9c5e48bc1d0200342e415f33c442d3"
+            },
+            "settings": {}
+          },
+          {
             "id": "NuPacakaj1",
             "type": "book",
             "title": "Ну, пачакай 1",
@@ -9615,26 +9857,145 @@
             "settings": {}
           },
           {
-            "id": "Maly_i_Karlsan1",
+            "id": "kotubotach",
             "type": "book",
-            "title": "Малы і Карлсан. Частка 1",
-            "cover": "cover_dyjafilmy_maly_i_karlsan1",
+            "title": "Кот у ботах",
+            "description": "",
+            "cover": "cover_dyjafilmy_kotubotach",
             "file": {
-              "name": "dyjafilmy/Maly_i_Karlsan1.pack",
-              "size": 7126698,
-              "sha256": "8c2dc3582409699275526e9914f5bd9931ab778e648c0ceef6d97df39bfba75b"
+              "name": "dyjafilmy/kotubotach.pack",
+              "size": 75417162,
+              "sha256": "152bd17e221bcf1c0c1bd310a6bcd308d53ae6c941199174f740925aaa6bdfc8"
             },
             "settings": {}
           },
           {
-            "id": "Maly_i_Karlsan2",
+            "id": "cyrvony-kapturok",
             "type": "book",
-            "title": "Малы і Карлсан. Частка 2",
-            "cover": "cover_dyjafilmy_maly_i_karlsan2",
+            "title": "Чырвоны Каптурок",
+            "description": "",
+            "cover": "cover_dyjafilmy_cyrvony_kapturok",
             "file": {
-              "name": "dyjafilmy/Maly_i_Karlsan2.pack",
-              "size": 7445079,
-              "sha256": "8206b7d14e472802238aaaf89fd90b4025ffdd3c9c3502add396612c37599898"
+              "name": "dyjafilmy/cyrvony-kapturok.pack",
+              "size": 59754303,
+              "sha256": "e72fd8c92f3780ab19ae009b367f75561477860d9c7dbcc029b41c1d94da0346"
+            },
+            "settings": {}
+          },
+          {
+            "id": "ptushka",
+            "type": "book",
+            "title": "Птушка-шчасце",
+            "description": "",
+            "cover": "cover_dyjafilmy_ptushka",
+            "file": {
+              "name": "dyjafilmy/ptushka.pack",
+              "size": 2553665,
+              "sha256": "256c6df55172a882fe0a4f1d6d3ddfcc331c479b304198d634d6269511f54e4d"
+            },
+            "settings": {}
+          },
+          {
+            "id": "pryhazunia",
+            "type": "book",
+            "title": "Прыгажуня ў сонным лесе",
+            "description": "",
+            "cover": "cover_dyjafilmy_pryhazunia",
+            "file": {
+              "name": "dyjafilmy/pryhazunia.pack",
+              "size": 2726758,
+              "sha256": "eaaca016c68cce25eae87fbc83a44a8445de678151a07f9f2fb146db15611b96"
+            },
+            "settings": {}
+          },
+          {
+            "id": "cakatucha",
+            "type": "book",
+            "title": "Муха Цакатуха",
+            "description": "",
+            "cover": "cover_dyjafilmy_cakatucha",
+            "file": {
+              "name": "dyjafilmy/cakatucha.pack",
+              "size": 50614896,
+              "sha256": "04b26a74c90bc91652253d96b5db8ad714031f01791ad094c0335ca5883eb3a2"
+            },
+            "settings": {}
+          },
+          {
+            "id": "maloje_palcanio",
+            "type": "book",
+            "title": "Малое Пальчанё",
+            "description": "",
+            "cover": "cover_dyjafilmy_maloje_palcanio",
+            "file": {
+              "name": "dyjafilmy/maloje_palcanio.pack",
+              "size": 5492032,
+              "sha256": "bfdf1ad2af20023f31e0a06bd6908bef0e0250e07fc235c3a313d1eb7f6765e9"
+            },
+            "settings": {}
+          },
+          {
+            "id": "myjdadir",
+            "type": "book",
+            "title": "Мыйдадзір",
+            "description": "",
+            "cover": "cover_dyjafilmy_myjdadir",
+            "file": {
+              "name": "dyjafilmy/myjdadir.pack",
+              "size": 3955223,
+              "sha256": "d52d1507ae364d6051e34a163f0a48fd5470e06702f3f006cab7de3c769cfdfc"
+            },
+            "settings": {}
+          },
+          {
+            "id": "piarscianacka",
+            "type": "book",
+            "title": "Пярсцяначка",
+            "description": "",
+            "cover": "cover_dyjafilmy_piarscianacka",
+            "file": {
+              "name": "dyjafilmy/piarscianacka.pack",
+              "size": 67813017,
+              "sha256": "40afb19ed4b52831bcea77d52f668340ce094507726e8251f5bd007a1727b2c0"
+            },
+            "settings": {}
+          },
+          {
+            "id": "pryncesa-na-haroshynie",
+            "type": "book",
+            "title": "Прынцэса на гарошыне",
+            "description": "",
+            "cover": "cover_dyjafilmy_pryncesa_na_haroshynie",
+            "file": {
+              "name": "dyjafilmy/pryncesa-na-haroshynie.pack",
+              "size": 28764639,
+              "sha256": "43ef0069b8f32a8d2f21aa79f4c74358da70ec178947424be86ded929286ed6a"
+            },
+            "settings": {}
+          },
+          {
+            "id": "slaniania",
+            "type": "book",
+            "title": "Сланяня",
+            "description": "",
+            "cover": "cover_dyjafilmy_slaniania",
+            "file": {
+              "name": "dyjafilmy/slaniania.pack",
+              "size": 949187,
+              "sha256": "a9d4d82ef2c0f5180569a8ac4cebc88b6d09cbddcbc475c7319724f1109f24f3"
+            },
+            "settings": {}
+          },
+          {
+            "id": "snieznaja-karalieva",
+            "type": "book",
+            "title": "Снежная каралева",
+            "description": "",
+            "cover": "cover_dyjafilmy_snieznaja_karalieva",
+            "file": {
+              "name": "dyjafilmy/snieznaja-karalieva.pack",
+              "size": 66760420,
+              "sha256": "2bb03f1b5edf4bbe06319b31098fc7eb6a1320b768fa1f50c59694488fa272ca"
             },
             "settings": {}
           }
