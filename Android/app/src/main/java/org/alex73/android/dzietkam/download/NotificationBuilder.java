@@ -58,8 +58,9 @@ public class NotificationBuilder {
         mBuilder.setSmallIcon(R.drawable.notification_icon);
         mBuilder.setContentTitle(title);
         mBuilder.setContentText(progress + " %");
-        mBuilder.setContent(views);
+        //mBuilder.setContent(views);
         mBuilder.setContentIntent(mNotificationAction);
+        mBuilder.setPriority(NotificationCompat.PRIORITY_DEFAULT);
         mBuilder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
 
         // notification.flags |= Notification.FLAG_ONGOING_EVENT;
@@ -91,6 +92,7 @@ public class NotificationBuilder {
         mBuilder.setContentTitle(song.item.parent.title);
         mBuilder.setContentText(song.item.title);
         mBuilder.setContentIntent(mNotificationAction);
+        mBuilder.setPriority(NotificationCompat.PRIORITY_DEFAULT);
         mBuilder.setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
 
         return mBuilder.build();
