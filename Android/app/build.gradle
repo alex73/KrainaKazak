@@ -47,4 +47,7 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'androidx.fragment:fragment:1.0.0'
     implementation 'androidx.viewpager:viewpager:1.0.0'
+
+    implementation 'com.google.firebase:firebase-core:17.0.0'
 }
+apply plugin: 'com.google.gms.google-services'

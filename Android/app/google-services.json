@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "576164360036",
+    "firebase_url": "https://kraini-kazak-android.firebaseio.com",
+    "project_id": "kraini-kazak-android",
+    "storage_bucket": "kraini-kazak-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576164360036:android:0311751a4c72a2622f5471",
+        "android_client_info": {
+          "package_name": "org.alex73.android.dzietkam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576164360036-v97q92eq9pdm3vgnmuv1tuq15ub7eadg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAlyBfeypnZyr3wjpcnRECPe_myf4Zigo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576164360036-v97q92eq9pdm3vgnmuv1tuq15ub7eadg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
