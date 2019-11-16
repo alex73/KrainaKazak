@@ -6,7 +6,6 @@
       {
         "id": "knizki",
         "title": "Кніжкі",
-        "settings": {},
         "items": [
           {
             "id": "ZRohaUsiahoMnoha",
@@ -34,8 +33,7 @@
               "name": "knizki/SabacajaHramata.pack",
               "size": 16224101,
               "sha256": "da0900b5c840d5160419068c791a3259f363fd5b49ebe8989bdc20d5e5aaf2fa"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "StrasnyZvier",
@@ -47,8 +45,7 @@
               "name": "knizki/StrasnyZvier.pack",
               "size": 9153353,
               "sha256": "0682e7062f3a8269d7032cd3bee73bb28fbcb71653b708a3238c70edc74d223f"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "Siniaja_svita_naleva_pasyta",
@@ -60,8 +57,7 @@
               "name": "knizki/Siniaja_svita_naleva_pasyta.pack",
               "size": 16907505,
               "sha256": "a691afaca485aee52a86f31e55089da3d1495c75ac57bbfaedbc58e502855f75"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "Tvoj_siabar_nos",
@@ -73,8 +69,7 @@
               "name": "knizki/Tvoj_siabar_nos.pack",
               "size": 8266236,
               "sha256": "6b4e9d26434447bdbb08bd91a31dd91e0d0d5ec1112ae03507681c0754bd80f0"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "JasinyZabauki",
@@ -86,8 +81,7 @@
               "name": "knizki/JasinyZabauki.pack",
               "size": 41578477,
               "sha256": "57d8697dcf0148e74fcfe7dec60f1441f57294e912a9c3033a386a600c335a09"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "MiMoBelarus",
@@ -99,8 +93,7 @@
               "name": "knizki/MiMoBelarus.pack",
               "size": 13839934,
               "sha256": "6296418d9fa156623713f97d328e8a9aa0deef895464cb19a27a34c45a03555f"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "MiMoUkraine",
@@ -112,8 +105,7 @@
               "name": "knizki/MiMoUkraine.pack",
               "size": 11769622,
               "sha256": "f616ce71d11d296d1d214894b26ef14b8d9f31cc6dbdf92993234e60e85b96da"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "Molli1",
@@ -125,8 +117,7 @@
               "name": "knizki/Molli1.pack",
               "size": 6789679,
               "sha256": "53da2229cc99fc3f5e8903cf84cf2f38950d607d85241146ee9d5a5a18e71da5"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "Molli2",
@@ -138,8 +129,7 @@
               "name": "knizki/Molli2.pack",
               "size": 8090427,
               "sha256": "b80a6aebb13161d796689da94adedc41f01a929527f71f8917b569fd9f48dc3f"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "Molli3",
@@ -151,8 +141,7 @@
               "name": "knizki/Molli3.pack",
               "size": 6736208,
               "sha256": "e143546494e371602b13fc3bf798be7859b32cbebc9b60441036cd34724a2e58"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "Molli4",
@@ -164,8 +153,7 @@
               "name": "knizki/Molli4.pack",
               "size": 7268428,
               "sha256": "e8298fa12a65ee5c0307fb5c4f9297a7c710e66f18f4cb7870ddc7603165548f"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "MalecaKacier",
@@ -177,8 +165,7 @@
               "name": "knizki/MalecaKacier.pack",
               "size": 9290754,
               "sha256": "e7234cb8f8092e583c2fe4692d1b65738be41b73378d2296b2222d17a806e528"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "Ciahnicok_na_ramoncie",
@@ -190,8 +177,7 @@
               "name": "knizki/Ciahnicok_na_ramoncie.pack",
               "size": 7876342,
               "sha256": "7078eb4949dcbc360a5e07a21bd13afbf4d4c2e586671b8cb7c599f28cfd6a7a"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "Alina_i_Palina",
@@ -203,8 +189,7 @@
               "name": "knizki/Alina_i_Palina.pack",
               "size": 16166295,
               "sha256": "80d0092bdc520dea9c8ae695c3f29a5744a016e19b41536b6ad87e4215feb894"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "CyrvonyKapturok",
@@ -216,8 +201,7 @@
               "name": "knizki/CyrvonyKapturok.pack",
               "size": 14671957,
               "sha256": "1dcf1da5637fd16b4f73cd0a7dce2f9f4dfd7578a6873c1415be7fbe2647d82b"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "Kosmas",
@@ -229,8 +213,7 @@
               "name": "knizki/Kosmas.pack",
               "size": 24457795,
               "sha256": "443fbeab5f0c4b29171ece26d427faca1377092e081984344c677e67386682c3"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "Adkul_biarucca_dzieci",
@@ -244,27 +227,25 @@
               "sha256": "e03a02c5f5ac4e5e39bf0c27fb23785b8c8f7455a9553b672c8cf375ed95a5ee"
             },
             "settings": {
-              "answer": "1517",
-              "question": "Год першага выдання Скарыны"
+              "question": "Год першага выдання Скарыны",
+              "answer": "1517"
             }
           }
         ]
       },
       {
-        "id": "teksty",
-        "title": "Тэксты",
+        "id": "teksty2",
         "items": [
           {
             "id": "Ihar_Kuzminic",
             "title": "Казкі",
             "description": "Ігар Кузьмініч",
-            "cover": "cover_teksty_ihar_kuzminic",
+            "cover": "cover_teksty2_ihar_kuzminic",
             "file": {
-              "name": "teksty/Ihar_Kuzminic.pack",
-              "size": 179093,
-              "sha256": "32775c83d958632301cd794f627273599878132d1e0f5e0a75c51842b4ef8eb9"
+              "name": "teksty2/Ihar_Kuzminic.pack",
+              "size": 179272,
+              "sha256": "eb8b7f47bd90ef16add4c290ed60abf55f10d942cf764a36da90f35098d643a5"
             },
-            "settings": {},
             "items": [
               {
                 "id": "01",
@@ -368,13 +349,12 @@
             "id": "Kazki1957b",
             "title": "Беларускія народныя казкі",
             "description": "Беларускія казкі. Мюнхен, 1957",
-            "cover": "cover_teksty_kazki1957b",
+            "cover": "cover_teksty2_kazki1957b",
             "file": {
-              "name": "teksty/Kazki1957b.pack",
-              "size": 208339,
-              "sha256": "e4b97e6256426d72a89699fa3505fe70594bd1717502b9a9851509fce2e7e935"
+              "name": "teksty2/Kazki1957b.pack",
+              "size": 208861,
+              "sha256": "2ea6c4ce149509a0def4cee36f3a96595d530e7026909195f70b07171c12a1ac"
             },
-            "settings": {},
             "items": [
               {
                 "id": "Ab_durniu_i_zalatym_ptachu",
@@ -462,13 +442,12 @@
             "id": "Cyt_0-3",
             "title": "Чытанка для дзіцячага садка: да 3 гадоў",
             "description": "уклад. : Вінцук Вячорка, Пётра Садоўскі",
-            "cover": "cover_teksty_cyt_0_3",
+            "cover": "cover_teksty2_cyt_0_3",
             "file": {
-              "name": "teksty/Cyt_0-3.pack",
-              "size": 88654,
-              "sha256": "f5679b653c40c97a4d8de72a5c70408716d4aab058a6e456848cb29c689f143a"
+              "name": "teksty2/Cyt_0-3.pack",
+              "size": 92133,
+              "sha256": "7acc5c9ad1aaa270c1ec8dcb5cd0c70278409355702891182601cb54c65fc524"
             },
-            "settings": {},
             "items": [
               {
                 "id": "001",
@@ -1358,13 +1337,12 @@
             "id": "Cyt_3-4",
             "title": "Чытанка для дзіцячага садка: 3-4 гады",
             "description": "уклад. : Вінцук Вячорка, Пётра Садоўскі",
-            "cover": "cover_teksty_cyt_3_4",
+            "cover": "cover_teksty2_cyt_3_4",
             "file": {
-              "name": "teksty/Cyt_3-4.pack",
-              "size": 156342,
-              "sha256": "15cc9887e8010a89c6fd9ee493cf2133c2e766745f2da462d147e956cfe2c252"
+              "name": "teksty2/Cyt_3-4.pack",
+              "size": 159337,
+              "sha256": "8dead16462fdac03ecacd1f88f13910a9eacb4b138f50546f6bed69b42f0952c"
             },
-            "settings": {},
             "items": [
               {
                 "id": "001",
@@ -1710,7 +1688,8 @@
               {
                 "id": "039",
                 "type": "text",
-                "title": "Каток — залаты лабок.Беларуская народная казка",
+                "title": "Каток — залаты лабок",
+                "description": "Беларуская народная казка",
                 "file": {
                   "name": "#039"
                 }
@@ -2135,13 +2114,12 @@
             "id": "Cyt_4-5",
             "title": "Чытанка для дзіцячага садка: 4-5 гадоў",
             "description": "уклад. : Вінцук Вячорка, Пётра Садоўскі",
-            "cover": "cover_teksty_cyt_4_5",
+            "cover": "cover_teksty2_cyt_4_5",
             "file": {
-              "name": "teksty/Cyt_4-5.pack",
-              "size": 207346,
-              "sha256": "dde0e14fa8b788e643919c04e040b9b14e3315c1bdb28f9635eefeec718cd3e1"
+              "name": "teksty2/Cyt_4-5.pack",
+              "size": 210285,
+              "sha256": "95f93a17dd0b1153de9943610bc2c83f5726c53b62f73c0ac38ec7574bdbe90d"
             },
-            "settings": {},
             "items": [
               {
                 "id": "001",
@@ -2896,13 +2874,12 @@
             "id": "Cyt_5-6",
             "title": "Чытанка для дзіцячага садка: 5-6 гадоў",
             "description": "уклад. : Вінцук Вячорка, Пётра Садоўскі",
-            "cover": "cover_teksty_cyt_5_6",
+            "cover": "cover_teksty2_cyt_5_6",
             "file": {
-              "name": "teksty/Cyt_5-6.pack",
-              "size": 277832,
-              "sha256": "ef870611893bcf8012201d7cfbdd8cc6318e5eeeefe109f07e1061ba58d55939"
+              "name": "teksty2/Cyt_5-6.pack",
+              "size": 280627,
+              "sha256": "f69633fd19f6f1c3457d3789fb6b82ebf29668e08d7d9fe7ef0ad9b9a6f0327e"
             },
-            "settings": {},
             "items": [
               {
                 "id": "001",
@@ -3621,13 +3598,12 @@
             "id": "Bacharevic",
             "title": "Выбраныя казкі братоў Грым",
             "description": "У перакладзе Альгерда Бахарэвіча. Логвінаў, 2014",
-            "cover": "cover_teksty_bacharevic",
+            "cover": "cover_teksty2_bacharevic",
             "file": {
-              "name": "teksty/Bacharevic.pack",
-              "size": 234730,
-              "sha256": "452314676f302b35983297f61b92aa48e0d5c19fb4f5e45cbccb04295f7b1e74"
+              "name": "teksty2/Bacharevic.pack",
+              "size": 235202,
+              "sha256": "6e2e34cb1f568519a4f26430dc00d4f48f7022611ce7e8232c8970da65f61f04"
             },
-            "settings": {},
             "items": [
               {
                 "id": "Cyrvony_Kapturok",
@@ -3714,14 +3690,12 @@
           {
             "id": "Hrym",
             "title": "Казкі братоў Грым",
-            "description": "",
-            "cover": "cover_teksty_hrym",
+            "cover": "cover_teksty2_hrym",
             "file": {
-              "name": "teksty/Hrym.pack",
-              "size": 281379,
-              "sha256": "95991d2b32dfaa83d24ddc81e0b207928791d5f3eb2c82cc42c4ea3a03677f07"
+              "name": "teksty2/Hrym.pack",
+              "size": 281554,
+              "sha256": "e549f68f813737eb06720781fc2454b36b3cf151445d727ee679c72f1d423b93"
             },
-            "settings": {},
             "items": [
               {
                 "id": "Bremienskija_muzyki",
@@ -3792,7 +3766,6 @@
             "title": "Дзінь-дзілінь: пара гуляць у казкі",
             "description": "12 казак аўтарства Сяргея Вітушкі",
             "cover": "cover_audyjokazki_vituska_dzin_dzilin",
-            "settings": {},
             "items": [
               {
                 "id": "01",
@@ -3802,8 +3775,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/01.pack",
                   "size": 4650299,
                   "sha256": "b6278936f8efbc085745f17dcd97f9d0ddcee8903dc4c3a977163cb4d45b8e90"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "02",
@@ -3815,8 +3787,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/02.pack",
                   "size": 17611079,
                   "sha256": "7524398ead5b64680f5498f5a2436c34a717cf2b5a32c350879a7eb597b81579"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "03",
@@ -3828,8 +3799,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/03.pack",
                   "size": 14816846,
                   "sha256": "f240b66a7b9e605776a93b6e830c09bab30ca5ff443b92d297ed09491562925e"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "04",
@@ -3841,8 +3811,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/04.pack",
                   "size": 13853862,
                   "sha256": "b900d0c66c091800b285d3a6a58835f1685dcd0a232248a16be219efd893cef8"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "05",
@@ -3854,8 +3823,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/05.pack",
                   "size": 12393364,
                   "sha256": "d67e7b99d474ac885ee0a02bcab7c9a9c2c8c3c46bce39f989293e995f29a1e7"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "06",
@@ -3867,8 +3835,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/06.pack",
                   "size": 16026135,
                   "sha256": "535808316be330fb229f37256acabcf78c7e0b42a3dde97d3965e40134de3949"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "07",
@@ -3880,8 +3847,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/07.pack",
                   "size": 23491061,
                   "sha256": "cf031b6b94ddfda611e3d3f51e1552211e847ab8ccaaedb4cd89d09a3c85baf7"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "08",
@@ -3893,8 +3859,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/08.pack",
                   "size": 20954030,
                   "sha256": "5aa49fd48d6811a3edfab14b8b6c056771df0c53538ffde0a8afd07f8a631857"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "09",
@@ -3906,8 +3871,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/09.pack",
                   "size": 30299242,
                   "sha256": "417c51e0dee884ac626873e3688296798ddb9d6faa8839204ab45c1284e9d0dd"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "10",
@@ -3919,8 +3883,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/10.pack",
                   "size": 20223290,
                   "sha256": "80541a68b33f946bab8ed4e89df7199f5aa8c628529a19b8a4368c1d66705fd7"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "11",
@@ -3932,8 +3895,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/11.pack",
                   "size": 38223269,
                   "sha256": "010b4b3f87f1c9e9f2be0081dda19753d09edc7d03371d991cac84eda8ed0df0"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "12",
@@ -3945,8 +3907,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/12.pack",
                   "size": 33399894,
                   "sha256": "e0dd6c9fcac709fa75880f167e833ddc8ff8df636244b3e9f719edccac7e0274"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "13",
@@ -3958,8 +3919,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/13.pack",
                   "size": 8655005,
                   "sha256": "050c28df25a22a7c12f6aea5b243831942212443d4d58dfe677e15d652d1c07f"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "14",
@@ -3969,8 +3929,7 @@
                   "name": "audyjokazki/vituska_dzin-dzilin/14.pack",
                   "size": 5552963,
                   "sha256": "07b1dd67d3a0d0dd57551f85a1f78ef058023882f7baa84480b147f7d57e15ba"
-                },
-                "settings": {}
+                }
               }
             ]
           },
@@ -3979,7 +3938,6 @@
             "title": "Казачка на добры сон",
             "description": "Віталь Краўчанка",
             "cover": "cover_audyjokazki_vital_kraucanka",
-            "settings": {},
             "items": [
               {
                 "id": "01",
@@ -3990,8 +3948,7 @@
                   "name": "audyjokazki/vital_kraucanka/01.pack",
                   "size": 22052257,
                   "sha256": "ddde15f29b31eead7ea08ec12aa9e6a4c3d42bdc312ae1b2dd529cc9cdc242ed"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "02",
@@ -4001,8 +3958,7 @@
                   "name": "audyjokazki/vital_kraucanka/02.pack",
                   "size": 9383104,
                   "sha256": "d933bc97e058f872a68ba7df076d842ae7fcfefe9b82bf021ee2264c451c7129"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "03",
@@ -4012,8 +3968,7 @@
                   "name": "audyjokazki/vital_kraucanka/03.pack",
                   "size": 15889083,
                   "sha256": "3e5df3f687f1316405c98a9ff4a4b56809ca3ef0e1fee0b0ec27e93f1a3113d9"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "04",
@@ -4023,8 +3978,7 @@
                   "name": "audyjokazki/vital_kraucanka/04.pack",
                   "size": 12903160,
                   "sha256": "1ad43e920256c16acdcac7fd86b961ec1c81fcab65c634211620ce5fe71329af"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "05",
@@ -4034,8 +3988,7 @@
                   "name": "audyjokazki/vital_kraucanka/05.pack",
                   "size": 14849994,
                   "sha256": "de47f281bc95e73a341e8e0533c7efe151f81689973311a965fb1de93314a62a"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "06",
@@ -4045,8 +3998,7 @@
                   "name": "audyjokazki/vital_kraucanka/06.pack",
                   "size": 17664920,
                   "sha256": "a9e4d3636348d4d3d6c7f06cbf034e333093ac1a4d59d90d222651b6a694be7f"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "07",
@@ -4056,8 +4008,7 @@
                   "name": "audyjokazki/vital_kraucanka/07.pack",
                   "size": 14572484,
                   "sha256": "e7fa971478336c63964c4055699fe710aaca51c11dd2ccb1315b6a8326816293"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "08",
@@ -4068,8 +4019,7 @@
                   "name": "audyjokazki/vital_kraucanka/08.pack",
                   "size": 20210782,
                   "sha256": "e9a957fb2791bc570f7d99b988b5c3364c0c37160520b2a5ae13d77ae7aaa4a0"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "09",
@@ -4080,8 +4030,7 @@
                   "name": "audyjokazki/vital_kraucanka/09.pack",
                   "size": 20260554,
                   "sha256": "2398e9171b5e6bc6125b9a5ff00538db67dfd1c68c4d7e9ddb07e53a0f86e901"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "10",
@@ -4092,8 +4041,7 @@
                   "name": "audyjokazki/vital_kraucanka/10.pack",
                   "size": 12499432,
                   "sha256": "cfdd5bf983cee3cdc7b0cbd43bd137f0aa21b42673c0bdde02ad63920bd7e9ea"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "11",
@@ -4104,8 +4052,7 @@
                   "name": "audyjokazki/vital_kraucanka/11.pack",
                   "size": 12572236,
                   "sha256": "391a7271ce8b6dbb5cf89c4161cb1a5f083931ad86231c7c46e57d607069982c"
-                },
-                "settings": {}
+                }
               }
             ]
           },
@@ -4114,7 +4061,6 @@
             "title": "Казкі",
             "description": "Алена Масла",
             "cover": "cover_audyjokazki_alena_masla",
-            "settings": {},
             "items": [
               {
                 "id": "01",
@@ -4125,8 +4071,7 @@
                   "name": "audyjokazki/alena_masla/01.pack",
                   "size": 2957414,
                   "sha256": "276717b4ea5d506ada1dca00c8c305e0b5cf81f3e941278d798e989dbfaffa37"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "02",
@@ -4137,8 +4082,7 @@
                   "name": "audyjokazki/alena_masla/02.pack",
                   "size": 11304554,
                   "sha256": "9eedd8c95bd041dd796951195e375c8f08956b617b7a8c706217d41ee77ce0a1"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "03",
@@ -4149,8 +4093,7 @@
                   "name": "audyjokazki/alena_masla/03.pack",
                   "size": 11899536,
                   "sha256": "07662ec00c862ba29054c566f4a783fd5549faf22a69436beb7e0c5ae7e91e38"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "04",
@@ -4161,8 +4104,7 @@
                   "name": "audyjokazki/alena_masla/04.pack",
                   "size": 7802455,
                   "sha256": "e51cc0fa640f3b2de1814ec17c519e3b1956b82725d85df2c0c4d6db79b60e86"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "05",
@@ -4173,8 +4115,7 @@
                   "name": "audyjokazki/alena_masla/05.pack",
                   "size": 3446818,
                   "sha256": "3a68611bd4a9cda876fa7ffafc168da33e414bbe16845a08f17b1f13391527ec"
-                },
-                "settings": {}
+                }
               }
             ]
           },
@@ -4183,7 +4124,6 @@
             "title": "Казкі",
             "description": "Ігар Кузьмініч",
             "cover": "cover_audyjokazki_ihar_kuzminic",
-            "settings": {},
             "items": [
               {
                 "id": "biely",
@@ -4193,8 +4133,7 @@
                   "name": "audyjokazki/ihar_kuzminic/biely.pack",
                   "size": 18340512,
                   "sha256": "872a85fc7940b3dc9137c939385528535aff16e6e136aa5e0c3fad9c5a3c7360"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "hory",
@@ -4204,8 +4143,7 @@
                   "name": "audyjokazki/ihar_kuzminic/hory.pack",
                   "size": 6972305,
                   "sha256": "325276ca031fcd7fe3b44028af9e5bc2a0f8a572b0ebfad47df7ffff0bf9fb9b"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "matcyna",
@@ -4215,8 +4153,7 @@
                   "name": "audyjokazki/ihar_kuzminic/matcyna.pack",
                   "size": 20861595,
                   "sha256": "7adc02304be6ca630ce201ca80a5f7f8e3eecd504f501f3e0a945e4593528f6d"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "pradprymalnik",
@@ -4226,8 +4163,7 @@
                   "name": "audyjokazki/ihar_kuzminic/pradprymalnik.pack",
                   "size": 20925061,
                   "sha256": "6d82e01969bf27947dc00f72afa2285641e2bea50a43209901bd8b622b3c0ad4"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "sciah",
@@ -4237,8 +4173,7 @@
                   "name": "audyjokazki/ihar_kuzminic/sciah.pack",
                   "size": 22616649,
                   "sha256": "e6ff670234047acec8b725eca602b3a5331987cd3430e159a6b9c8f5b4035a74"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "susviet",
@@ -4248,8 +4183,7 @@
                   "name": "audyjokazki/ihar_kuzminic/susviet.pack",
                   "size": 17963563,
                   "sha256": "02dc69ad34f68d0c56a043cc3b8ae3156b805e9ebb5ce688846c4aa4cfdde8ac"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "volaty",
@@ -4259,8 +4193,7 @@
                   "name": "audyjokazki/ihar_kuzminic/volaty.pack",
                   "size": 9796151,
                   "sha256": "224a05f74a3e76623e39bc87690c92e9c945ecd1743ad3a3bac9b3166ea16327"
-                },
-                "settings": {}
+                }
               }
             ]
           },
@@ -4269,7 +4202,6 @@
             "title": "Казкі",
             "description": "Міхал Залескі",
             "cover": "cover_audyjokazki_michal_zaleski",
-            "settings": {},
             "items": [
               {
                 "id": "01",
@@ -4279,8 +4211,7 @@
                   "name": "audyjokazki/michal_zaleski/01.pack",
                   "size": 2313716,
                   "sha256": "9125648e0460db132f5a9650657a6bd0c0d0b07a63ca1cbc3e52610c1dbbc5f8"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "02",
@@ -4290,8 +4221,7 @@
                   "name": "audyjokazki/michal_zaleski/02.pack",
                   "size": 1206662,
                   "sha256": "82aeaa06acfaed9bd9f3789af8008fce790194a7617201b28ffe338b320f8a49"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "03",
@@ -4301,8 +4231,7 @@
                   "name": "audyjokazki/michal_zaleski/03.pack",
                   "size": 1223093,
                   "sha256": "c4d07f629ebbb3d4692b95e5246a4fc4f554052c0e550e5f5a90a9f49a94ef12"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "04",
@@ -4312,8 +4241,7 @@
                   "name": "audyjokazki/michal_zaleski/04.pack",
                   "size": 3173500,
                   "sha256": "e883bbea855cf6a5a13adb0b6cfccc9ffff9785de0c05c21e55403dfb1741482"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "05",
@@ -4323,8 +4251,7 @@
                   "name": "audyjokazki/michal_zaleski/05.pack",
                   "size": 1094952,
                   "sha256": "ec5a89acf09f7325983e1a6f9c04e5b9baf1bc65fca5d5e4f6bd998c97372b99"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "06",
@@ -4334,8 +4261,7 @@
                   "name": "audyjokazki/michal_zaleski/06.pack",
                   "size": 1308568,
                   "sha256": "2ac2f9bbf6c96ff4e2be46788fcbe6f93baa2e38217bd175d7b5d6e2b8809e85"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "07",
@@ -4345,8 +4271,7 @@
                   "name": "audyjokazki/michal_zaleski/07.pack",
                   "size": 972649,
                   "sha256": "194c743a552f2e76504f3c72b1225f9975ad9f5df6d661f56cfa714b9fe49b06"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "08",
@@ -4356,8 +4281,7 @@
                   "name": "audyjokazki/michal_zaleski/08.pack",
                   "size": 709322,
                   "sha256": "bc0ec575c2d25852cc6dd9cb6214226462e65ff93b7ed58caf443f74f6a9022c"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "09",
@@ -4367,8 +4291,7 @@
                   "name": "audyjokazki/michal_zaleski/09.pack",
                   "size": 576818,
                   "sha256": "2278dd5a2bd4abda84bae678969b4bb7a5c3acca01be6edecfff3291309cf2c3"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "10",
@@ -4378,8 +4301,7 @@
                   "name": "audyjokazki/michal_zaleski/10.pack",
                   "size": 406465,
                   "sha256": "5472fce65bed24b117f55a25fa2b77a3c576a284fb33e9df7e17eaf01ef2f1f9"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "11",
@@ -4389,8 +4311,7 @@
                   "name": "audyjokazki/michal_zaleski/11.pack",
                   "size": 620035,
                   "sha256": "85d663f3264f8739d678917fb21f6e66376b76a1dfdf90a39e8c8093958247d5"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "12",
@@ -4400,8 +4321,7 @@
                   "name": "audyjokazki/michal_zaleski/12.pack",
                   "size": 294936,
                   "sha256": "f8ec9e3a4bff21625c55ab28ff3fa3597f367c77f48e36c431bf6d9e01927e6b"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "13",
@@ -4411,8 +4331,7 @@
                   "name": "audyjokazki/michal_zaleski/13.pack",
                   "size": 339923,
                   "sha256": "f0c675e191646bb5ebd8a6c604d033df27d6a1b7fb5d456476551400253c2b95"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "14",
@@ -4422,8 +4341,7 @@
                   "name": "audyjokazki/michal_zaleski/14.pack",
                   "size": 237130,
                   "sha256": "091f5ef37cc53a57490c355eb07f359ee3075cbf8fca7843f68b9173d23bc7d7"
-                },
-                "settings": {}
+                }
               }
             ]
           }
@@ -4437,7 +4355,6 @@
             "id": "Sucasnyja",
             "title": "Сучасныя",
             "cover": "cover_kalychanki_sucasnyja",
-            "settings": {},
             "items": [
               {
                 "id": "buraukin",
@@ -4448,8 +4365,7 @@
                   "name": "kalychanki/Sucasnyja/buraukin.pack",
                   "size": 7577888,
                   "sha256": "c0928b60e2518253f329d258e5917686bb217fcbfc1fe6938dc3882c631655a4"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "dancyk",
@@ -4460,8 +4376,7 @@
                   "name": "kalychanki/Sucasnyja/dancyk.pack",
                   "size": 7560761,
                   "sha256": "cfa1623ac0b2b15d978aabd920203b1cd354d9cf03681b76d844c324990f3f2a"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "viecarnica",
@@ -4472,8 +4387,7 @@
                   "name": "kalychanki/Sucasnyja/viecarnica.pack",
                   "size": 2840628,
                   "sha256": "3ccd56c6c4ac1e0b7cbbb8cc6dd35a883263d0557c51d4a0c34cf1b6ad051687"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "dzied-baradzied",
@@ -4484,8 +4398,7 @@
                   "name": "kalychanki/Sucasnyja/dzied-baradzied.pack",
                   "size": 906380,
                   "sha256": "69813260b05a8aabac26cccb43a6cfa157b93f0b0606a528211d9525c65b15fe"
-                },
-                "settings": {}
+                }
               }
             ]
           },
@@ -4494,7 +4407,6 @@
             "title": "Аўтэнтычныя",
             "description": "Архіў Інстытута мастацтвазнаўства, этнаграфіі і фальклору імя К. Крапівы НАН Беларусі. Укладальнікі: Ірына Васільева, Яніна Грыневіч",
             "cover": "cover_kalychanki_narodnyja",
-            "settings": {},
             "items": [
               {
                 "id": "01",
@@ -4505,8 +4417,7 @@
                   "name": "kalychanki/Narodnyja/01.pack",
                   "size": 1061657,
                   "sha256": "e67267ffe0e607bb5df56861f610842891ce73565d1176cf3a1ab193616ddb35"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "02",
@@ -4517,8 +4428,7 @@
                   "name": "kalychanki/Narodnyja/02.pack",
                   "size": 584850,
                   "sha256": "fffb3e75a63643c6b5adcb131d0e60cd9682e8ef1886788a6ff83d1dfa9cf5c7"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "03",
@@ -4529,8 +4439,7 @@
                   "name": "kalychanki/Narodnyja/03.pack",
                   "size": 1839637,
                   "sha256": "cad3a6701172d6c74c6b6169f164b37cc1084a2079a5e91b1eb04348f20bea91"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "04",
@@ -4541,8 +4450,7 @@
                   "name": "kalychanki/Narodnyja/04.pack",
                   "size": 675366,
                   "sha256": "2d4fc94efb8ace640fbca419816adff09aecc8d5e1978a3b1d5012e244eed88d"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "05",
@@ -4553,8 +4461,7 @@
                   "name": "kalychanki/Narodnyja/05.pack",
                   "size": 278742,
                   "sha256": "065a5fdbffd2d073aaeaf5fa2be10a088f085c0dfc30d567e626a482302b0338"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "06",
@@ -4565,8 +4472,7 @@
                   "name": "kalychanki/Narodnyja/06.pack",
                   "size": 2090834,
                   "sha256": "025d0c7ef10af9eb597eccb90c2d775a944820755e5a2702ecbf320b1f78f428"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "07",
@@ -4577,8 +4483,7 @@
                   "name": "kalychanki/Narodnyja/07.pack",
                   "size": 2061756,
                   "sha256": "ec3f5fcbd91a304a1ed6d7268d8f13c4806ada9522a5dfafac79ca6f5ea5d624"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "08",
@@ -4589,8 +4494,7 @@
                   "name": "kalychanki/Narodnyja/08.pack",
                   "size": 486688,
                   "sha256": "d1d260caf8d5728cb50fd267291d37f4e53714ea909a2551bd9425b3b422d43a"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "09",
@@ -4601,8 +4505,7 @@
                   "name": "kalychanki/Narodnyja/09.pack",
                   "size": 423363,
                   "sha256": "166154f405bdc9dea2396e703491b7524c705d1b23025db36049dfc8e721ffb9"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "10",
@@ -4613,8 +4516,7 @@
                   "name": "kalychanki/Narodnyja/10.pack",
                   "size": 1332461,
                   "sha256": "6772090716aa3ec73b463ad0041d5bd67b71677bb1584f9094458de2eb00adf1"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "11",
@@ -4625,8 +4527,7 @@
                   "name": "kalychanki/Narodnyja/11.pack",
                   "size": 610754,
                   "sha256": "dad7743ba8a2fc6c3996978bb341307bb7a1fd9bc40fb1358c3b5448b082326b"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "12",
@@ -4637,8 +4538,7 @@
                   "name": "kalychanki/Narodnyja/12.pack",
                   "size": 309311,
                   "sha256": "0e2501de83cda56715926b61d71d6845056b06c6ee321a57f60c9224c002ff2f"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "24",
@@ -4649,8 +4549,7 @@
                   "name": "kalychanki/Narodnyja/24.pack",
                   "size": 2361459,
                   "sha256": "7b34645d0a67c471890fdc4dd2fdcd7972066bffe62ea3a8c1aec4592c5e4cc0"
-                },
-                "settings": {}
+                }
               }
             ]
           },
@@ -4659,7 +4558,6 @@
             "title": "Беларускія калыханкі 2002",
             "description": "Калыханкі ад Вольгі Паўлоўскай, 2002",
             "cover": "cover_kalychanki_paulouskaja2002",
-            "settings": {},
             "items": [
               {
                 "id": "01",
@@ -4669,8 +4567,7 @@
                   "name": "kalychanki/Paulouskaja2002/01.pack",
                   "size": 2281453,
                   "sha256": "ceccde8aeec83c76cc521786f49bdb24120ffee8e90a1d6b6eb72a8787d76686"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "02",
@@ -4680,8 +4577,7 @@
                   "name": "kalychanki/Paulouskaja2002/02.pack",
                   "size": 1402734,
                   "sha256": "874f4646e6646bc309b7154a0f976522f9ee87dc1435157da2f84bacf5dc5a76"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "03",
@@ -4691,8 +4587,7 @@
                   "name": "kalychanki/Paulouskaja2002/03.pack",
                   "size": 3476187,
                   "sha256": "091ecb7d6a93a02456f00217134d790cc76c4253bed8235a06379b8da4cfee87"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "04",
@@ -4702,8 +4597,7 @@
                   "name": "kalychanki/Paulouskaja2002/04.pack",
                   "size": 2388410,
                   "sha256": "2ec3dca361340aa76604300ab064f595401ac488760f134bb4fcfc0a357a0563"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "05",
@@ -4713,8 +4607,7 @@
                   "name": "kalychanki/Paulouskaja2002/05.pack",
                   "size": 2121752,
                   "sha256": "8a9f32ddc5f87a668a72857cb1f013601fae45a09d38f6d1a2db1550a0c99f0e"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "06",
@@ -4724,8 +4617,7 @@
                   "name": "kalychanki/Paulouskaja2002/06.pack",
                   "size": 1136083,
                   "sha256": "4214b65d891aa6fe2f0e4ec84ee4d30ad21fdd9f216dd43bc81e2373cc49564d"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "07",
@@ -4735,8 +4627,7 @@
                   "name": "kalychanki/Paulouskaja2002/07.pack",
                   "size": 2058933,
                   "sha256": "fa7621c482ffe9bf75c2da5389882918d16329c29c05aa586e4910e8b6f3d300"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "08",
@@ -4746,8 +4637,7 @@
                   "name": "kalychanki/Paulouskaja2002/08.pack",
                   "size": 2211196,
                   "sha256": "4a6aa8531c5c3f3cb4a6f487d33dac79a061ddcbf4691f1b56737f20150a41ee"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "09",
@@ -4757,8 +4647,7 @@
                   "name": "kalychanki/Paulouskaja2002/09.pack",
                   "size": 1770770,
                   "sha256": "dd4c1ac1f48c1ca3f54a4ce66d8b8e873e8e37010242d7633d3c009090b51731"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "10",
@@ -4768,8 +4657,7 @@
                   "name": "kalychanki/Paulouskaja2002/10.pack",
                   "size": 3431774,
                   "sha256": "7ab96b19423474d00b79d2f2e7fb905d532a235d4ef93e0b4388bfc8d781147c"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "11",
@@ -4779,8 +4667,7 @@
                   "name": "kalychanki/Paulouskaja2002/11.pack",
                   "size": 6302808,
                   "sha256": "24c77ee4eca2bc7898f1c83468770493a756a50b79bf692113c6ce0fa7cf825e"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "12",
@@ -4790,8 +4677,7 @@
                   "name": "kalychanki/Paulouskaja2002/12.pack",
                   "size": 1638487,
                   "sha256": "0fa98b8a81354dbcab557f6d54168f0a17cf588356272100d34af2ad3f43a4d5"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "13",
@@ -4801,8 +4687,7 @@
                   "name": "kalychanki/Paulouskaja2002/13.pack",
                   "size": 1024144,
                   "sha256": "5b9d25f97ec909e982f2b971430a0791af5408d14f9c6455479ba96ae7f028f2"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "14",
@@ -4812,8 +4697,7 @@
                   "name": "kalychanki/Paulouskaja2002/14.pack",
                   "size": 1419412,
                   "sha256": "ffe29eab496614115f6627a4966ba9972b0f8274984954878a2ed08b2a98249f"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "15",
@@ -4823,8 +4707,7 @@
                   "name": "kalychanki/Paulouskaja2002/15.pack",
                   "size": 2306750,
                   "sha256": "d759b6900f14718dba42c5906d5d9e33a763597c63e06f277146cb46c35c61f7"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "16",
@@ -4834,8 +4717,7 @@
                   "name": "kalychanki/Paulouskaja2002/16.pack",
                   "size": 3065891,
                   "sha256": "d5865527c9fd0f4bd2ee2cc32295543b997ed49d03bd6812e0f6e09d2ce0a37f"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "17",
@@ -4845,8 +4727,7 @@
                   "name": "kalychanki/Paulouskaja2002/17.pack",
                   "size": 1514896,
                   "sha256": "1e205e6dc7f4e1511e1ddd3213740a950984dc630aeffc15f69fb6668e9a667a"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "18",
@@ -4856,8 +4737,7 @@
                   "name": "kalychanki/Paulouskaja2002/18.pack",
                   "size": 3671953,
                   "sha256": "791cfc9427e7ef9da1b492d25d17cf34776926a6fa4e2b4c79f0e72a1273d65e"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "19",
@@ -4867,8 +4747,7 @@
                   "name": "kalychanki/Paulouskaja2002/19.pack",
                   "size": 1269859,
                   "sha256": "95286800fccb5b4b56f16cea2d57bf97821fa84cd5b0bd50947f47af2d6c1561"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "20",
@@ -4878,8 +4757,7 @@
                   "name": "kalychanki/Paulouskaja2002/20.pack",
                   "size": 4214264,
                   "sha256": "b7c87310f5a012206e30c70036f2b62330228c8033cf1c88e49b6af509be12f7"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "21",
@@ -4889,8 +4767,7 @@
                   "name": "kalychanki/Paulouskaja2002/21.pack",
                   "size": 1759675,
                   "sha256": "7d1d9106ccf987b1296f5fc72ae1b6cbabdbda1c055104cf7ad42363c27fb8ca"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "22",
@@ -4900,8 +4777,7 @@
                   "name": "kalychanki/Paulouskaja2002/22.pack",
                   "size": 2141176,
                   "sha256": "9ce6a6871b14c059ca60eb3a8acdb55a5ec4f6a321ecfe6787b266c050d2f3ce"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "23",
@@ -4911,8 +4787,7 @@
                   "name": "kalychanki/Paulouskaja2002/23.pack",
                   "size": 1876058,
                   "sha256": "9bf059c8a5faa2527321bf3a77018e57634a9c870374b63f6fc848475e7577f9"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "25",
@@ -4922,8 +4797,7 @@
                   "name": "kalychanki/Paulouskaja2002/25.pack",
                   "size": 467745,
                   "sha256": "9876c4f6c9e7ce8a0379aa7585af4d8def104052397d0cb0cec82740ec09d3a2"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "27",
@@ -4933,8 +4807,7 @@
                   "name": "kalychanki/Paulouskaja2002/27.pack",
                   "size": 5781062,
                   "sha256": "17b4210bb8c3e690cd400d7521ccf56481e71c3e6bdedeb5d0dd232f612af18a"
-                },
-                "settings": {}
+                }
               }
             ]
           },
@@ -4943,7 +4816,6 @@
             "title": "Зміцер Вайцюшкевіч, 2007",
             "description": "Сумесны праект Змітра Вайцюшкевіча, WZ-ORKIESTRA і Дзіцячага Фонда ААН UNICEF",
             "cover": "cover_kalychanki_vajciuskievic2007",
-            "settings": {},
             "items": [
               {
                 "id": "01",
@@ -4953,8 +4825,7 @@
                   "name": "kalychanki/Vajciuskievic2007/01.pack",
                   "size": 5260861,
                   "sha256": "ab2e74a15ca661dc1bf75c5f948b77d22a34b25ce3864448b537a0050c735fb7"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "02",
@@ -4964,8 +4835,7 @@
                   "name": "kalychanki/Vajciuskievic2007/02.pack",
                   "size": 3340494,
                   "sha256": "5605173cf6445191efe9e70d102f5a9da0a4d532f8565641df464c0981975244"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "03",
@@ -4975,8 +4845,7 @@
                   "name": "kalychanki/Vajciuskievic2007/03.pack",
                   "size": 6454233,
                   "sha256": "6550cbbe99ac4f981f264ade7cc1323de0d2d137769679c3ed1d8c0d95c74966"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "04",
@@ -4986,8 +4855,7 @@
                   "name": "kalychanki/Vajciuskievic2007/04.pack",
                   "size": 7368526,
                   "sha256": "a221f3aa4694ad7b502a993dbc6ca2e7c17e29153db1f52c09fa7cbde6f7cff4"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "05",
@@ -4997,8 +4865,7 @@
                   "name": "kalychanki/Vajciuskievic2007/05.pack",
                   "size": 6032866,
                   "sha256": "cf5bc7c8de3bf1badb7a733bbb1de77369d3c2bb8a546492b75fe12e717b513d"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "06",
@@ -5008,8 +4875,7 @@
                   "name": "kalychanki/Vajciuskievic2007/06.pack",
                   "size": 5897794,
                   "sha256": "c96d2bec23d4240bfda68cb9081f92bdfd65a67cdb5060c9c46cc296cd4c9af6"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "07",
@@ -5019,8 +4885,7 @@
                   "name": "kalychanki/Vajciuskievic2007/07.pack",
                   "size": 4345000,
                   "sha256": "dc579f86c1513ab1ec1a34b6c10cd298fc1d96ecaa697e5909c77dfe963e2194"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "08",
@@ -5030,8 +4895,7 @@
                   "name": "kalychanki/Vajciuskievic2007/08.pack",
                   "size": 5401981,
                   "sha256": "6ace0da9edc90a90336d411b6fde47d6861a3ad21f14298bd25b45af7e931a36"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "09",
@@ -5041,8 +4905,7 @@
                   "name": "kalychanki/Vajciuskievic2007/09.pack",
                   "size": 3440104,
                   "sha256": "29b0ff92ff38902d56b3ef8ed8a0d21d243a330f7e6a7abc1ec6a5600a47b89d"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "10",
@@ -5052,8 +4915,7 @@
                   "name": "kalychanki/Vajciuskievic2007/10.pack",
                   "size": 4965458,
                   "sha256": "3a34e48e3666e283874dad92595dc623b7e4a37a5dc898a84c2eac6c5054c799"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "11",
@@ -5064,8 +4926,7 @@
                   "name": "kalychanki/Vajciuskievic2007/11.pack",
                   "size": 7955079,
                   "sha256": "b8b27576555023a51ea2c1fa2bd70a0f9033b9f183bdef01b633f683d0517ba7"
-                },
-                "settings": {}
+                }
               }
             ]
           },
@@ -5074,7 +4935,6 @@
             "title": "Праект \"Песенькі для дзетанькі\"",
             "description": "Фальклорныя калыханкі ў выкананні Ганны Даўгаполавай",
             "cover": "cover_kalychanki_dauhapolava",
-            "settings": {},
             "items": [
               {
                 "id": "01",
@@ -5085,8 +4945,7 @@
                   "name": "kalychanki/Dauhapolava/01.pack",
                   "size": 2049379,
                   "sha256": "ddf79c122e43c2be31de732c4b9de3582c302113f6593e8d31283b3ad23fbda4"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "02",
@@ -5097,8 +4956,7 @@
                   "name": "kalychanki/Dauhapolava/02.pack",
                   "size": 1007839,
                   "sha256": "493bb2068e023c764781101ae235521cead27efde86cc828e200314594129b5c"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "03",
@@ -5109,8 +4967,7 @@
                   "name": "kalychanki/Dauhapolava/03.pack",
                   "size": 1389475,
                   "sha256": "cacb59025106db903a677dc6b41e0edbe0ea7eb10ea2b8e4c36036b31e6aa1ae"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "04",
@@ -5121,8 +4978,7 @@
                   "name": "kalychanki/Dauhapolava/04.pack",
                   "size": 801312,
                   "sha256": "442bba220e687686a4c2c68772da1bc2a08f067b8346cada31223a300e56d9a8"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "05",
@@ -5133,8 +4989,7 @@
                   "name": "kalychanki/Dauhapolava/05.pack",
                   "size": 1150860,
                   "sha256": "944ab56f4d6a265f97471a0c6d702cb816d78ca1c866a60996cc51002e8b27a1"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "06",
@@ -5145,8 +5000,7 @@
                   "name": "kalychanki/Dauhapolava/06.pack",
                   "size": 1911475,
                   "sha256": "1af6a7910547a2576000ed1d4f4090ec8f06832006f08e5d8e70504879978006"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "07",
@@ -5157,8 +5011,7 @@
                   "name": "kalychanki/Dauhapolava/07.pack",
                   "size": 1775400,
                   "sha256": "2ad8796427450b2f65c770d33d81ab12e5597ee563bece4211c98f5a8db52a11"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "08",
@@ -5169,8 +5022,7 @@
                   "name": "kalychanki/Dauhapolava/08.pack",
                   "size": 1543968,
                   "sha256": "92434529a221e389fd858f1dc87f1029f617bd9ee3c93d56fe1c70c5b42b0c68"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "09",
@@ -5181,8 +5033,7 @@
                   "name": "kalychanki/Dauhapolava/09.pack",
                   "size": 1159990,
                   "sha256": "95f8f18c20559ed365a5161959586e4a5ab4d544c2348b51f18df8c4e4e159ad"
-                },
-                "settings": {}
+                }
               }
             ]
           }
@@ -5196,7 +5047,6 @@
             "id": "Ahatka-piesni",
             "title": "Dream-band Агатка",
             "cover": "cover_piesienki_ahatka_piesni",
-            "settings": {},
             "items": [
               {
                 "id": "Alezak_i_aresak",
@@ -5208,8 +5058,7 @@
                   "name": "piesienki/Ahatka-piesni/Alezak_i_aresak.pack",
                   "size": 2636586,
                   "sha256": "79c2facc4600da95c34e710abf575ce67fc6d17578081ddbfc67e819a9c0f80c"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Arkiestryk",
@@ -5221,8 +5070,7 @@
                   "name": "piesienki/Ahatka-piesni/Arkiestryk.pack",
                   "size": 19722949,
                   "sha256": "b8bb7387c5b90730e161513d71d21e13d06f4c2e6680a6477d7650ce62772e85"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Vouk",
@@ -5234,8 +5082,7 @@
                   "name": "piesienki/Ahatka-piesni/Vouk.pack",
                   "size": 2756649,
                   "sha256": "2acf33388b4fa3efd04e3b65553798e2997e976425845d7ca7affdbe17240d17"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "HodKarahod",
@@ -5247,8 +5094,7 @@
                   "name": "piesienki/Ahatka-piesni/HodKarahod.pack",
                   "size": 4083113,
                   "sha256": "58307fef50f2501ddf7aeb265e6076247b95ce08aeccd98a26de17b7ef1d3052"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Huki_biez_prynuki",
@@ -5260,8 +5106,7 @@
                   "name": "piesienki/Ahatka-piesni/Huki_biez_prynuki.pack",
                   "size": 4711654,
                   "sha256": "6acfaf30b0dc4d4aed0a4ab2ebabd959a824d3ef02f53c79b5b375d592fdd482"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Zabka",
@@ -5273,8 +5118,7 @@
                   "name": "piesienki/Ahatka-piesni/Zabka.pack",
                   "size": 3825640,
                   "sha256": "96a70b200c8487955883e1d9c5901b7956b681df3b5f9c211e5eb6c8471de526"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Zajac",
@@ -5286,8 +5130,7 @@
                   "name": "piesienki/Ahatka-piesni/Zajac.pack",
                   "size": 4236863,
                   "sha256": "9db2b422983be97304ebc6f67b8da9912682e69b863490bafa4e6766769f6568"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Kavun",
@@ -5299,8 +5142,7 @@
                   "name": "piesienki/Ahatka-piesni/Kavun.pack",
                   "size": 4668741,
                   "sha256": "559f2660d47e3b7c958443e08b7c8d81952218e91604a4e77cf64a169b5028c4"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Kazka_pra_8_sakavika",
@@ -5312,8 +5154,7 @@
                   "name": "piesienki/Ahatka-piesni/Kazka_pra_8_sakavika.pack",
                   "size": 1953238,
                   "sha256": "83ee147ab9116062637766e12f93b8104c1a88c68f59fb80cc53410c7ea28d33"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Karahod",
@@ -5325,8 +5166,7 @@
                   "name": "piesienki/Ahatka-piesni/Karahod.pack",
                   "size": 5304263,
                   "sha256": "a20a830c52abf6d9aa43a8410911c21210c7f36a9ffeacae59218046883071dc"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Lisica",
@@ -5338,8 +5178,7 @@
                   "name": "piesienki/Ahatka-piesni/Lisica.pack",
                   "size": 6256977,
                   "sha256": "40d338797128973517e744e60b66677b21074d5eb26d6d4536cc69f408da5ef1"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Majski_zuk",
@@ -5351,8 +5190,7 @@
                   "name": "piesienki/Ahatka-piesni/Majski_zuk.pack",
                   "size": 5727305,
                   "sha256": "3ece73e18f46a797c829eeb1eab29abcc9f17dd1ca0d947fda901470e4e56594"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Maslenica",
@@ -5364,8 +5202,7 @@
                   "name": "piesienki/Ahatka-piesni/Maslenica.pack",
                   "size": 5524011,
                   "sha256": "cc600ffbb11c57d48f37c58d6a2c9ae9049099aa48dd2e3d606f6362b8365e0a"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Matylok",
@@ -5377,8 +5214,7 @@
                   "name": "piesienki/Ahatka-piesni/Matylok.pack",
                   "size": 5538316,
                   "sha256": "96f77630ca4a8ea521a9bb082a52cd9d8e24758e5b1629f225a2b6da2457ff7b"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Miadzviedz",
@@ -5390,8 +5226,7 @@
                   "name": "piesienki/Ahatka-piesni/Miadzviedz.pack",
                   "size": 3881587,
                   "sha256": "b5f1d069a74152808e866dffb59c787355fd88eecbbcba2d4db0a759b99f7613"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Nocka",
@@ -5403,8 +5238,7 @@
                   "name": "piesienki/Ahatka-piesni/Nocka.pack",
                   "size": 4848114,
                   "sha256": "bca45741981ea5d336567ac3074ec46a1fdd686b8a1a84b529f922be840a1bfe"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Ptusynaja_piesienka",
@@ -5416,8 +5250,7 @@
                   "name": "piesienki/Ahatka-piesni/Ptusynaja_piesienka.pack",
                   "size": 4338338,
                   "sha256": "016a7e60cbb53d259dcbde6daf1526a2582141682905f4f102e81ebbc313db33"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Pustazielle",
@@ -5429,8 +5262,7 @@
                   "name": "piesienki/Ahatka-piesni/Pustazielle.pack",
                   "size": 4796610,
                   "sha256": "84a6f18c44068cd648d9454d5276b344395246354d1c8f55e58d218642e0d627"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Fantan",
@@ -5442,8 +5274,7 @@
                   "name": "piesienki/Ahatka-piesni/Fantan.pack",
                   "size": 4020044,
                   "sha256": "6e0e67f7580869c5528972c11c493fe766225c2704bd501f72881cae3b3f5db0"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Farfor",
@@ -5455,8 +5286,7 @@
                   "name": "piesienki/Ahatka-piesni/Farfor.pack",
                   "size": 753703,
                   "sha256": "64de789c1bd5750aa8293fcf6897def516ca05eae0283d52b0bc650c5df52023"
-                },
-                "settings": {}
+                }
               }
             ]
           },
@@ -5465,7 +5295,6 @@
             "title": "Размінкі. Агатка dream-band",
             "description": "Словы Касі Глухоўскай",
             "cover": "cover_piesienki_ahatka_razminki",
-            "settings": {},
             "items": [
               {
                 "id": "Afrykanskaja",
@@ -5476,8 +5305,7 @@
                   "name": "piesienki/Ahatka-razminki/Afrykanskaja.pack",
                   "size": 3481458,
                   "sha256": "092ac19f914181183fffc46f479709a0f611bf2eb2f713226cea74d839d376e9"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Vosienskaja",
@@ -5488,8 +5316,7 @@
                   "name": "piesienki/Ahatka-razminki/Vosienskaja.pack",
                   "size": 2757131,
                   "sha256": "92315aee87314161c40e3032bb565e6f2393ac6bdc6f26d30588b03a62c837fe"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Liasnaja",
@@ -5500,8 +5327,7 @@
                   "name": "piesienki/Ahatka-razminki/Liasnaja.pack",
                   "size": 3115979,
                   "sha256": "31a7195390e8cedd14a3331843b1abec73c921c3405bf62fd56443429aa4329f"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "HistarycnyZaniatak",
@@ -5512,8 +5338,7 @@
                   "name": "piesienki/Ahatka-razminki/HistarycnyZaniatak.pack",
                   "size": 3645086,
                   "sha256": "5acba4014e15d57d30defe43b58afb0b69e9701de90e05afe3ab35a8dcbccef0"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "RanisniajaZaradka",
@@ -5524,8 +5349,7 @@
                   "name": "piesienki/Ahatka-razminki/RanisniajaZaradka.pack",
                   "size": 2906522,
                   "sha256": "3ca361b6ef23c570e7a68e02003c7b3e71a30f3054a5e3032fff1696cbd39c75"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "Evalucyja",
@@ -5536,8 +5360,7 @@
                   "name": "piesienki/Ahatka-razminki/Evalucyja.pack",
                   "size": 2963827,
                   "sha256": "9d368f5b00a788e0e68f481fd76029db1d1c75fd88528cea6483b006d2fb32b8"
-                },
-                "settings": {}
+                }
               }
             ]
           },
@@ -5546,7 +5369,6 @@
             "title": "Мой сябра анёлак",
             "description": "Супольны праект WZ-Orkiestra і салістаў з шэрагу беларускіх гуртоў на вершы Арцёма Кавалеўскага",
             "cover": "cover_piesienki_vajciuskievic_aniolak",
-            "settings": {},
             "items": [
               {
                 "id": "01",
@@ -5556,8 +5378,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/01.pack",
                   "size": 4178127,
                   "sha256": "b576e88f289fc7ba9954bbcaf90654d470432bc8de4b2f86e3c7d82082650e6b"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "02",
@@ -5567,8 +5388,17 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/02.pack",
                   "size": 3085340,
                   "sha256": "89738f04c91e7e162d1d743170af9c106a64cb5e4ecde41df68356e4ca31af65"
-                },
-                "settings": {}
+                }
+              },
+              {
+                "id": "03",
+                "type": "audio",
+                "title": "Божая кароўка",
+                "file": {
+                  "name": "piesienki/Vajciuskievic-Aniolak/03.pack",
+                  "size": 3376974,
+                  "sha256": "3eccf7127537d1113146c0966e36da28bcaa204df8a61a17ee297665aba9f115"
+                }
               },
               {
                 "id": "04",
@@ -5578,8 +5408,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/04.pack",
                   "size": 3263853,
                   "sha256": "284e8ece482015884035eb2b0589676bcc2c78937e768249bcf04775c3cdb893"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "05",
@@ -5589,8 +5418,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/05.pack",
                   "size": 3609267,
                   "sha256": "a37ea4d4eddafff58a2a9c6b1aeeb164331f88d64797274ffe741b45b41c0dd1"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "06",
@@ -5600,8 +5428,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/06.pack",
                   "size": 3369809,
                   "sha256": "605e67d8097e5592510f6f3f0f6e336e3d01f88e246367d20554abca1a1a8784"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "07",
@@ -5611,8 +5438,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/07.pack",
                   "size": 2800868,
                   "sha256": "455acb0582c6743a8f17e8468a69a3595a11f9720ea1fae1964e9878e2d5c032"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "08",
@@ -5622,8 +5448,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/08.pack",
                   "size": 3734353,
                   "sha256": "66fab302ab9862a4f153104923f791a29aaa1024554235a3d4fd6dcde864c02c"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "09",
@@ -5633,8 +5458,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/09.pack",
                   "size": 2117922,
                   "sha256": "441d8f0aa098c7b938db021b41b08139cceb2a2c155a80dbc9de934ba73afafe"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "10",
@@ -5644,8 +5468,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/10.pack",
                   "size": 3028661,
                   "sha256": "9bb06aa001f4b6fe4ef79b14f451eeb350e211ec3299f33e3e759aec395d50af"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "11",
@@ -5655,8 +5478,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/11.pack",
                   "size": 2185557,
                   "sha256": "2d035370c76a1834b2bb031c452501d11c9bd2bb34d5ace2bb00e673d8a22827"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "12",
@@ -5666,8 +5488,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/12.pack",
                   "size": 2785393,
                   "sha256": "75b6a4e808fb59ca8169c42c2816ee61bed7f2b01dcb0703eafccf2fceb57167"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "13",
@@ -5677,8 +5498,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/13.pack",
                   "size": 4462738,
                   "sha256": "2d22e70e43e508971cf7a825037d73eb2b82616cdbf535ce961bdb89a68c269d"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "14",
@@ -5688,8 +5508,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/14.pack",
                   "size": 4055720,
                   "sha256": "2efb0b6af8f41098a4e8412d878a76bbdabed4a039859d397359185790e114d3"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "15",
@@ -5699,8 +5518,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/15.pack",
                   "size": 2283957,
                   "sha256": "cf26bb61935ba1ad062024e212c80429bccdd16cf3c54a4c5429957332d039e2"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "16",
@@ -5710,8 +5528,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/16.pack",
                   "size": 3428322,
                   "sha256": "29f47edbf366f82dfa2fdde76b9ff22dfab6d686e3a9d4fda4641cf065bf282c"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "17",
@@ -5721,8 +5538,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/17.pack",
                   "size": 2630760,
                   "sha256": "e9e64db9ea2c3605601135da242d832a152e2fd30d0d82fe8d96b448685571fc"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "18",
@@ -5732,8 +5548,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/18.pack",
                   "size": 3667077,
                   "sha256": "0d4aa9bfd2c82ba278b2b4095ba4dccf1307fc99399f9e348cf8fbe0adfdaae8"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "19",
@@ -5743,8 +5558,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/19.pack",
                   "size": 4542137,
                   "sha256": "a685e6e5335979f6e4ec8ce349c4d84ddc64531448daf249453254847c6a4be1"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "20",
@@ -5754,8 +5568,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/20.pack",
                   "size": 4802279,
                   "sha256": "91d175d198572e14dddf961e3a71fb97c2f0d49c41481c351b6860255d6cbbfc"
-                },
-                "settings": {}
+                }
               },
               {
                 "id": "21",
@@ -5765,8 +5578,7 @@
                   "name": "piesienki/Vajciuskievic-Aniolak/21.pack",
                   "size": 4178412,
                   "sha256": "1605e2e8d8d96620b50930273405d99b7823077dc4fbf470d60e655f6622155d"
-                },
-                "settings": {}
+                }
               }
             ]
           }
@@ -5775,7 +5587,6 @@
       {
         "id": "adukacyja",
         "title": "Адукацыя",
-        "settings": {},
         "items": [
           {
             "id": "Chryscijanskaja_azbuka",
@@ -5787,15 +5598,13 @@
               "name": "adukacyja/Chryscijanskaja_azbuka.pack",
               "size": 7364295,
               "sha256": "667c3f9a4a19407f9402dc572ab2168d9e4f26d8ebec0f9768c19670ba80ff62"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "KartkiDomana",
             "title": "Карткі Домана",
             "description": "З праекту \"Умачка\"",
             "cover": "cover_adukacyja_kartkidomana",
-            "settings": {},
             "items": [
               {
                 "id": "d9HhRNkx-wU",
@@ -6086,13 +5895,11 @@
       {
         "id": "multfilmy",
         "title": "Мультфільмы",
-        "settings": {},
         "items": [
           {
             "id": "Histarycnyja",
             "title": "Гістарычныя мультфільмы",
             "cover": "cover_multfilmy_histarycnyja",
-            "settings": {},
             "items": [
               {
                 "id": "oDvx3E2_kOc",
@@ -6135,7 +5942,6 @@
             "id": "Bielarusfilm",
             "title": "Беларусьфільм",
             "cover": "cover_multfilmy_bielarusfilm",
-            "settings": {},
             "items": [
               {
                 "id": "EWL1G7yE1AU",
@@ -6227,7 +6033,6 @@
             "id": "Niescierka",
             "title": "Несцерка",
             "cover": "cover_multfilmy_niescierka",
-            "settings": {},
             "items": [
               {
                 "id": "4w1LF1K6XuI",
@@ -6267,7 +6072,6 @@
             "title": "Аблавушак",
             "description": "Экранізацыя дзіцячых кніг Чэслава Янчарскага пра прыгоды мядзьведзіка Аблавушка, які разам са сваймі сябрамі Парсючком, Трусікамі, Зайцам і сабачкам Кручком трапляе ў разнастайныя сытуацыі. Гэтыя гісторыі ня толькі забаўляюць малых гледачоў, але і вучаць іх добрым паводзінам, сяброўству, цярпімасьці і справядлівасьці - усяму таму, што будзе важным у іхным жыцьці...",
             "cover": "cover_multfilmy_ablavusak",
-            "settings": {},
             "items": [
               {
                 "id": "YP2vVDsHff0",
@@ -6876,7 +6680,6 @@
             "title": "Прыгоды ката Філімона",
             "description": "Мультсэрыял для дзяцей пра прыгоды сымпатычнага ката Філімона, які пазнае сьвет.",
             "cover": "cover_multfilmy_pryhody_kata_filimona",
-            "settings": {},
             "items": [
               {
                 "id": "l5p21an1L04",
@@ -7089,7 +6892,6 @@
             "title": "Пінгвінік Пік-Пок",
             "description": "Галоўны герой – маленькі пінгвін, які стаміўся сядзець на снежнай выспе і пастанаўляе спазнаць свет. Калі на ягоны востраў прылятае самалёт, Пік-Пок хаваецца між скрынямі і ляціць у Еўропу, дзе знаёміцца з пілотам і ягонаю дачкою Касяй. Наперадзе пінгвініка чакаюць галавакружныя прыгоды і захапляльныя падарожжы...",
             "cover": "cover_multfilmy_pinhvinik",
-            "settings": {},
             "items": [
               {
                 "id": "tAFFIMHvbTo",
@@ -7254,7 +7056,6 @@
             "title": "Чатыры бакі казак",
             "description": "Кожны мультфільм -- гэта анімаваная версія казкі адной з шасці культураў: афрыканскай (народу сэрэр), грузінскай, цыганскай, украінскай, ўетнамскай і габрэйскай.",
             "cover": "cover_multfilmy_4_baki_kazak",
-            "settings": {},
             "items": [
               {
                 "id": "V-sBpFSLzAE",
@@ -7304,7 +7105,6 @@
             "id": "Pryhody_Ciuki",
             "title": "Прыгоды Ціўкі",
             "cover": "cover_multfilmy_pryhody_ciuki",
-            "settings": {},
             "items": [
               {
                 "id": "P3iFQu0oK7I",
@@ -7546,7 +7346,6 @@
             "id": "Cacviora_vusej",
             "title": "Чацьвёра вушэй у пералеску",
             "cover": "cover_multfilmy_cacviora_vusej",
-            "settings": {},
             "items": [
               {
                 "id": "8EbZIBK2ypY",
@@ -7632,7 +7431,6 @@
             "id": "Miz_nami_buslami",
             "title": "Між намі, бусламі",
             "cover": "cover_multfilmy_miz_nami_buslami",
-            "settings": {},
             "items": [
               {
                 "id": "4_wFh_j16NI",
@@ -7718,7 +7516,6 @@
             "id": "Polskija_kazki_i_padanni",
             "title": "Польскія казкі і паданьні",
             "cover": "cover_multfilmy_polskija_kazki_i_padanni",
-            "settings": {},
             "items": [
               {
                 "id": "JBidsBKzA-4",
@@ -7871,7 +7668,6 @@
             "title": "Рыцар Пятрусь гербу \"Тры Яблыкі\"",
             "description": "Маленькі рыцар Пятрусь гербу «Тры Яблыкі» і ягоныя сябры – падкухцік Пончык і клоўн Званочак – падарожнічаюць па свеце. Яны шукаюць прыгодаў і чыняць добрыя справы.",
             "cover": "cover_multfilmy_rycar_piatrus",
-            "settings": {},
             "items": [
               {
                 "id": "aAxNTf7q13g",
@@ -8036,7 +7832,6 @@
             "title": "Мядзьведзікі",
             "description": "Аднойчы раньняй вясною добры фатограф знайшоў на лясной паляне трох маленькіх мядзьведзікаў. Іхную маці спалохалі лесарубы, і медзьведзяняты засталіся зусім адны. Цяпер яны будуць жыць у ляснічоўцы, а фатограф стане для іх другой маці. Маляняты шмат падарожнічаюць і хутка спазнаюць навакольны сьвет дзікай прыроды. Але выхаваньне мядзьведзікаў - няпростая справа, таму нашых герояў чакаюць незабыўныя, вясёлыя і займальныя прыгоды.",
             "cover": "cover_multfilmy_miadzviedziki",
-            "settings": {},
             "items": [
               {
                 "id": "5mDxiSNomNI",
@@ -8219,7 +8014,6 @@
             "title": "Мадла і Туп",
             "description": "Галоўныя героі серыялу – баварскі ганчак Мадла, рысяня Туп і вартаўнік Шумаўскага нацыянальнага парку Алеш. Падчас адной з паездак маладыя звяры ўцякаюць з машыны і некалькі месяцаў праводзяць у Шумаўскім лесе адныя. Яны блукаюць вакол рэк, азёраў, скалаў, сустракаюць розных звяроў, шукаюць ежу і пераадольваюць розныя цяжкасці. Урэшце Алешу ўдаецца знайсці сяброў і вярнуць іх дадому.",
             "cover": "cover_multfilmy_madla_i_tup",
-            "settings": {},
             "items": [
               {
                 "id": "bqT75BZuFeM",
@@ -8287,7 +8081,6 @@
             "id": "Apoviedy_taty_Babra",
             "title": "Аповеды таты Бабра",
             "cover": "cover_multfilmy_apoviedy_taty_babra",
-            "settings": {},
             "items": [
               {
                 "id": "8hfBZtaVxq8",
@@ -8452,7 +8245,6 @@
             "title": "Букаландыя",
             "description": "Букаландыя -- гэта горад-краіна, размешчаная... на дрэве. Па тоўстых галінах бягуць вуліцы, абапал якіх -- дамкі, гнёзды і дуплы мясцовых жыхароў. Тота, Вядзёрак, Элізар, Ківак і Зэмбуля занятыя сваймі будзённымі клопатамі. Але ж аднойчы каля незвычайнага дрэва з\u0027яўляецца чужынец. Вялікі і няўклюдны, ён вельмі адрозніваецца ад жыхароў Букаландыі. Спачатку яны ставяцца да яго стрымана, нават з недаверам, але неўзабаве даведваюцца, што чужынец, Бульбэр, шукае сяброў.",
             "cover": "cover_multfilmy_bukalandyja",
-            "settings": {},
             "items": [
               {
                 "id": "W2vF_AhaUtg",
@@ -8479,7 +8271,6 @@
             "title": "Падарожжы Цюхці, поўныя прыгодаў",
             "description": "Падарожжы Цюхці, які паходзіць зь іншай плянэты, і яго сяброўкі жабкі Монікі. Сябры пабываюць у розных кутках сьвету і перажывуць шмат цікавых прыгодаў.",
             "cover": "cover_multfilmy_ciuchcia",
-            "settings": {},
             "items": [
               {
                 "id": "k1z-eLmEYc4",
@@ -8692,7 +8483,6 @@
             "title": "Мядзьведзік Фантазік",
             "description": "Прыгоды блакітнага Мядзьведзіка Фантазіка і вясёлай кампаніі ягоных сяброў: чараўніка Праспэра, дзяўчынкі Загадкі, жабкі Капы-Капы, жучка Веселуна і Юлькі. Дзіцячы мультсэрыял заснаваны на раманах Эвы Карван-Ястжэмбскай «Мядзьведзік Фантазік у Краіне Вечнага Сонца» і «Мядзьведзік Фантазік пазнае таямніцу Крышталю».",
             "cover": "cover_multfilmy_fantazik",
-            "settings": {},
             "items": [
               {
                 "id": "vHSbjgVh0tw",
@@ -8778,7 +8568,6 @@
             "id": "Film_sa_strasnaju_nazvaju",
             "title": "Фільм са страшнаю назваю",
             "cover": "cover_multfilmy_film_sa_strasnaju_nazvaju",
-            "settings": {},
             "items": [
               {
                 "id": "m5um4r4lizA",
@@ -8865,7 +8654,6 @@
             "title": "Экспедыцыя прафесара Губкі",
             "description": "Анімаваная вэрсія аповесьці Станіслава Пагачэўскага (Stanisław Pagaczewski) «Місія прафэсара Губкі» («Misja profesora Gąbki»), працяг мультсэрыялу «Выкраданьне прафэсара Губкі» («Porwanie profesora Gąbki»). Галоўны герой -- вядомы біёляг, які зьбірае зьвесткі для сваіх навуковых працаў.",
             "cover": "cover_multfilmy_hubka",
-            "settings": {},
             "items": [
               {
                 "id": "fnlPFtg6fJw",
@@ -8951,7 +8739,6 @@
             "id": "Kazki_zza_akna",
             "title": "Казкі з-за вакна",
             "cover": "cover_multfilmy_kazki_zza_akna",
-            "settings": {},
             "items": [
               {
                 "id": "uGVYdpcX-z8",
@@ -9007,7 +8794,6 @@
             "id": "Matylda",
             "title": "Матыльда",
             "cover": "cover_multfilmy_matylda",
-            "settings": {},
             "items": [
               {
                 "id": "wmf6xSwVpVk",
@@ -9214,7 +9000,6 @@
             "title": "Маўрыцы і Гаўранэк",
             "description": "Мультыплікацыйны сэрыял паводле кніжкі Зьбігнева Жакевіча «Двое адважных з Плімпляньскага лесу». «Двое адважных» - гэта Маўрыцы і Гаўранэк, сымпатычныя вісусы, лясныя жыхары. Яны часта жартуюць і робяць розныя фокусы лясным зьвярам. Іх выбрыкі падрабязна запісвае лясны летапісец, майстар пяра і чарніліцы - Урбанэк.  less",
             "cover": "cover_multfilmy_maurycy_i_hauranek",
-            "settings": {},
             "items": [
               {
                 "id": "bXO9im2G4Ww",
@@ -9271,7 +9056,6 @@
             "title": "Мікі Моль і Страшны Плашч",
             "description": "У краіне Філабіблоніі, у бібліятэцы чароўных казак, жывуць тры кніжныя молі -- Мікі Моль, Светлік і Мурашыны леў. Нядаўна з імі адбылася незвычайная гісторыя, якая пачалася з таго, што Мікі Моля запрасілі ў суседнюю краіну Каламбургію на спаборніцтва па смехатрыванні. У гэты час знішчальнікі кніг -- Клапотус і Архіцап -- прыбываюць у Філабіблонію. Яны задумалі выкурыць з бібліятэкі кніжных моляў. Раптам з Каламбургіі прыходзіць трывожная вестка: там пры дапамозе газу, які прымушае ўсіх смуткаваць і плакаць, уладу захапіў магістр Грыллётальпа Грыллётальпус.",
             "cover": "cover_multfilmy_miki_mol_i_strasny_plasc",
-            "settings": {},
             "items": [
               {
                 "id": "QhlKTLMIWYo",
@@ -9304,7 +9088,6 @@
             "title": "Пацукі",
             "description": "Далёка на Маравіі, пасярод Валаскага каралеўства, на невялікім сьметніку каля Візавіц жылі два пацукі - Годан і Губэрт. А зь імі - гіпсавы карузьлік Людзьвіг і Эдзік, досьледны пацук з Прагі...",
             "cover": "cover_multfilmy_pacuki",
-            "settings": {},
             "items": [
               {
                 "id": "gFKzP9_8zM4",
@@ -9468,7 +9251,6 @@
             "id": "Sceny_z_zyccia_cmokau",
             "title": "Сцэны з жыцьця цмокаў",
             "cover": "cover_multfilmy_sceny_z_zyccia_cmokau",
-            "settings": {},
             "items": [
               {
                 "id": "YIEmf3SU9Ds",
@@ -9519,7 +9301,6 @@
             "title": "Таямніца шыфру Марабута",
             "description": "Серыял распавядае пра прыгоды двух дэтэктываў - Каэтана Хрумпса і Ката Макавітага, якія пераследуюць небяспечнага злачынцу - хамелеона Супэр.",
             "cover": "cover_multfilmy_tajamnica_syfru_marabuta",
-            "settings": {},
             "items": [
               {
                 "id": "DyD2TL7czwI",
@@ -9586,7 +9367,6 @@
           {
             "id": "Padarozzy_na_navalnicnaj_chmary",
             "title": "Падарожжы на навальнічнай хмары",
-            "settings": {},
             "items": [
               {
                 "id": "bCyWaQZGqqw",
@@ -9684,8 +9464,7 @@
               "name": "dyjafilmy/try-kacianiatki.pack",
               "size": 983811,
               "sha256": "29170f272b8e94b6e3892daf0c97e87faa6fd4c24499d4bd19b64d390afdb917"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "vili",
@@ -9697,8 +9476,7 @@
               "name": "dyjafilmy/vili.pack",
               "size": 53916355,
               "sha256": "101e455b54ab51ee6c61ea0d70b707585f96552d55af6034f6dd8261df68c46a"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "try-parasiatki",
@@ -9710,8 +9488,7 @@
               "name": "dyjafilmy/try-parasiatki.pack",
               "size": 69861038,
               "sha256": "26b6a0113dc3187d99207d42b4c3b5967394843d112f6ebbaec3f5e90583546a"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "sasiska",
@@ -9723,8 +9500,7 @@
               "name": "dyjafilmy/sasiska.pack",
               "size": 57211731,
               "sha256": "98e2e3962d84f59b0b17960e606a745ceacc5ac94cfc4d6af1e96ff774fdc47d"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "karlsan1",
@@ -9736,8 +9512,7 @@
               "name": "dyjafilmy/karlsan1.pack",
               "size": 80023879,
               "sha256": "78898e37f764a0b09b6b2351eeaba09fd3acef2c38bc43866e6a280492624648"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "karlsan2",
@@ -9749,8 +9524,7 @@
               "name": "dyjafilmy/karlsan2.pack",
               "size": 82313205,
               "sha256": "46f39d312d8ee29f43f45607053b1094cf9c5e48bc1d0200342e415f33c442d3"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "NuPacakaj1",
@@ -9762,8 +9536,7 @@
               "name": "dyjafilmy/NuPacakaj1.pack",
               "size": 102569038,
               "sha256": "54fb52d28154e44a6c72f1315ee439d11334e4f732539b48d8cb45013e1eeb6a"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "NuPacakaj2",
@@ -9775,8 +9548,7 @@
               "name": "dyjafilmy/NuPacakaj2.pack",
               "size": 66637700,
               "sha256": "7d08250f3e892dc0497ad251abb4a9c8e2739e829dba9c50679562236da2dc9c"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "NuPacakaj3",
@@ -9788,8 +9560,7 @@
               "name": "dyjafilmy/NuPacakaj3.pack",
               "size": 99285241,
               "sha256": "c275b2a176e0a120e6c417643e13128e82f362170ef4d188ef0b31b3aa184e8f"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "NuPacakaj4",
@@ -9801,8 +9572,7 @@
               "name": "dyjafilmy/NuPacakaj4.pack",
               "size": 80396653,
               "sha256": "531cb9a683b6ef00062e82f03c4d05e8a3b9fa7e08fc9d9c1be4d248355282ab"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "NuPacakaj5",
@@ -9814,8 +9584,7 @@
               "name": "dyjafilmy/NuPacakaj5.pack",
               "size": 84265564,
               "sha256": "b605d922e988c1b0fee61bf8d36dca5168bc4e34ac2fd8182e42149d16c7ee00"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "NuPacakaj6",
@@ -9827,8 +9596,7 @@
               "name": "dyjafilmy/NuPacakaj6.pack",
               "size": 86899545,
               "sha256": "6c48b80ef47c554989974c0199f8ba513092e188944a32b5da33cb793d0e2fcc"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "NuPacakaj7",
@@ -9840,8 +9608,7 @@
               "name": "dyjafilmy/NuPacakaj7.pack",
               "size": 85134455,
               "sha256": "ff6bc86a0d84ff49f22ecab32fcb6b468acf0fcd2a703b17967c86d777028915"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "NuPacakaj8",
@@ -9853,8 +9620,7 @@
               "name": "dyjafilmy/NuPacakaj8.pack",
               "size": 74551651,
               "sha256": "486c15bd2786c0f6049cfa29a46f66162399aff420e8b34bcd643386a18878de"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "kotubotach",
@@ -9866,8 +9632,7 @@
               "name": "dyjafilmy/kotubotach.pack",
               "size": 75417162,
               "sha256": "152bd17e221bcf1c0c1bd310a6bcd308d53ae6c941199174f740925aaa6bdfc8"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "cyrvony-kapturok",
@@ -9879,8 +9644,7 @@
               "name": "dyjafilmy/cyrvony-kapturok.pack",
               "size": 59754303,
               "sha256": "e72fd8c92f3780ab19ae009b367f75561477860d9c7dbcc029b41c1d94da0346"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "ptushka",
@@ -9892,8 +9656,7 @@
               "name": "dyjafilmy/ptushka.pack",
               "size": 2553665,
               "sha256": "256c6df55172a882fe0a4f1d6d3ddfcc331c479b304198d634d6269511f54e4d"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "pryhazunia",
@@ -9905,8 +9668,7 @@
               "name": "dyjafilmy/pryhazunia.pack",
               "size": 2726758,
               "sha256": "eaaca016c68cce25eae87fbc83a44a8445de678151a07f9f2fb146db15611b96"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "cakatucha",
@@ -9918,8 +9680,7 @@
               "name": "dyjafilmy/cakatucha.pack",
               "size": 50614896,
               "sha256": "04b26a74c90bc91652253d96b5db8ad714031f01791ad094c0335ca5883eb3a2"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "maloje_palcanio",
@@ -9931,8 +9692,7 @@
               "name": "dyjafilmy/maloje_palcanio.pack",
               "size": 5492032,
               "sha256": "bfdf1ad2af20023f31e0a06bd6908bef0e0250e07fc235c3a313d1eb7f6765e9"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "myjdadir",
@@ -9944,8 +9704,7 @@
               "name": "dyjafilmy/myjdadir.pack",
               "size": 3955223,
               "sha256": "d52d1507ae364d6051e34a163f0a48fd5470e06702f3f006cab7de3c769cfdfc"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "piarscianacka",
@@ -9957,8 +9716,7 @@
               "name": "dyjafilmy/piarscianacka.pack",
               "size": 67813017,
               "sha256": "40afb19ed4b52831bcea77d52f668340ce094507726e8251f5bd007a1727b2c0"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "pryncesa-na-haroshynie",
@@ -9970,8 +9728,7 @@
               "name": "dyjafilmy/pryncesa-na-haroshynie.pack",
               "size": 28764639,
               "sha256": "43ef0069b8f32a8d2f21aa79f4c74358da70ec178947424be86ded929286ed6a"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "slaniania",
@@ -9983,8 +9740,7 @@
               "name": "dyjafilmy/slaniania.pack",
               "size": 949187,
               "sha256": "a9d4d82ef2c0f5180569a8ac4cebc88b6d09cbddcbc475c7319724f1109f24f3"
-            },
-            "settings": {}
+            }
           },
           {
             "id": "snieznaja-karalieva",
@@ -9996,8 +9752,7 @@
               "name": "dyjafilmy/snieznaja-karalieva.pack",
               "size": 66760420,
               "sha256": "2bb03f1b5edf4bbe06319b31098fc7eb6a1320b768fa1f50c59694488fa272ca"
-            },
-            "settings": {}
+            }
           }
         ]
       }
