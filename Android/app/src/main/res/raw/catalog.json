@@ -235,6 +235,7 @@
       },
       {
         "id": "teksty2",
+        "title": "Тэксты",
         "items": [
           {
             "id": "Ihar_Kuzminic",
@@ -9445,6 +9446,218 @@
                 "type": "youtube",
                 "title": "13 Dehipsatar",
                 "cover": "cover_multfilmy_padarozzy_na_navalnicnaj_chmary_vzd1pkvo57k"
+              }
+            ]
+          },
+          {
+            "id": "Bamse_i_horad_zlodziejau",
+            "title": "Бамсэ і горад злодзеяў",
+            "cover": "cover_multfilmy_bamse_i_horad_zlodziejau",
+            "items": [
+              {
+                "id": "AY11CNZ6h-g",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 01",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ay11cnz6h_g"
+              },
+              {
+                "id": "Y9zMSA-aHZY",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 02",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_y9zmsa_ahzy"
+              },
+              {
+                "id": "flweVUrWu-s",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 03",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_flwevurwu_s"
+              },
+              {
+                "id": "ipYa7Yo93uI",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 04",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ipya7yo93ui"
+              },
+              {
+                "id": "k-PBTefpfnU",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 05",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_k_pbtefpfnu"
+              },
+              {
+                "id": "JYs1LLB9dCg",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 06",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_jys1llb9dcg"
+              },
+              {
+                "id": "FTBJJ8nRMRk",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 07",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ftbjj8nrmrk"
+              },
+              {
+                "id": "cilXIhxItsY",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 09",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_cilxihxitsy"
+              },
+              {
+                "id": "ld1WFgTtkuk",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 10",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ld1wfgttkuk"
+              }
+            ]
+          },
+          {
+            "id": "Mami-Fatal",
+            "title": "Мамі-Фаталь",
+            "cover": "cover_multfilmy_mami_fatal",
+            "items": [
+              {
+                "id": "KMyFAZbPf_8",
+                "type": "youtube",
+                "title": "01 Парсюкус грандыёзус",
+                "cover": "cover_multfilmy_mami_fatal_kmyfazbpf_8"
+              },
+              {
+                "id": "fkJahS2F9Ws",
+                "type": "youtube",
+                "title": "02 Крытык з космасу",
+                "cover": "cover_multfilmy_mami_fatal_fkjahs2f9ws"
+              },
+              {
+                "id": "63IA1gXs0-A",
+                "type": "youtube",
+                "title": "04 Банда капялюшнікаў",
+                "cover": "cover_multfilmy_mami_fatal_63ia1gxs0_a"
+              },
+              {
+                "id": "UyNaalzf4Qw",
+                "type": "youtube",
+                "title": "05 Костка разладу",
+                "cover": "cover_multfilmy_mami_fatal_uynaalzf4qw"
+              },
+              {
+                "id": "QnJOtN6twwc",
+                "type": "youtube",
+                "title": "06 Двайнік Мамі",
+                "cover": "cover_multfilmy_mami_fatal_qnjotn6twwc"
+              },
+              {
+                "id": "tCbkopKV1QA",
+                "type": "youtube",
+                "title": "07 Мушыная работа",
+                "cover": "cover_multfilmy_mami_fatal_tcbkopkv1qa"
+              },
+              {
+                "id": "-tPF_8MDCBc",
+                "type": "youtube",
+                "title": "08 Свістаць усіх назад",
+                "cover": "cover_multfilmy_mami_fatal__tpf_8mdcbc"
+              },
+              {
+                "id": "YuYOLlN7--w",
+                "type": "youtube",
+                "title": "09 Даўным даўно",
+                "cover": "cover_multfilmy_mami_fatal_yuyolln7__w"
+              },
+              {
+                "id": "ErozLJ_wMZE",
+                "type": "youtube",
+                "title": "10 Падземнае каралеўства",
+                "cover": "cover_multfilmy_mami_fatal_erozlj_wmze"
+              },
+              {
+                "id": "DDSs5FHR7OU",
+                "type": "youtube",
+                "title": "11 Мамі-Фу",
+                "cover": "cover_multfilmy_mami_fatal_ddss5fhr7ou"
+              },
+              {
+                "id": "hLIRTr8sdVc",
+                "type": "youtube",
+                "title": "12 Парсюнокіо",
+                "cover": "cover_multfilmy_mami_fatal_hlirtr8sdvc"
+              },
+              {
+                "id": "LwihwyrOFok",
+                "type": "youtube",
+                "title": "13 Неверагодная гісторыя Мамі Фаталь",
+                "cover": "cover_multfilmy_mami_fatal_lwihwyrofok"
+              },
+              {
+                "id": "IjBwRbW4mTQ",
+                "type": "youtube",
+                "title": "14 Свіння ў вострым соўсе",
+                "cover": "cover_multfilmy_mami_fatal_ijbwrbw4mtq"
+              },
+              {
+                "id": "3ZhtSlaAC6w",
+                "type": "youtube",
+                "title": "15 Бістро Фаталь",
+                "cover": "cover_multfilmy_mami_fatal_3zhtslaac6w"
+              },
+              {
+                "id": "2K8ovrIQVVw",
+                "type": "youtube",
+                "title": "16 Італьяна",
+                "cover": "cover_multfilmy_mami_fatal_2k8ovriqvvw"
+              },
+              {
+                "id": "d0k1Wi0DuxE",
+                "type": "youtube",
+                "title": "17 Мары з аўтамату",
+                "cover": "cover_multfilmy_mami_fatal_d0k1wi0duxe"
+              },
+              {
+                "id": "CPTRNLNEGNY",
+                "type": "youtube",
+                "title": "18 Заклінальнік макароны",
+                "cover": "cover_multfilmy_mami_fatal_cptrnlnegny"
+              },
+              {
+                "id": "EiW00ZmPQyE",
+                "type": "youtube",
+                "title": "19 Гарбата з тролем",
+                "cover": "cover_multfilmy_mami_fatal_eiw00zmpqye"
+              },
+              {
+                "id": "ipx3dMHBY_c",
+                "type": "youtube",
+                "title": "21 Памідорны джын",
+                "cover": "cover_multfilmy_mami_fatal_ipx3dmhby_c"
+              },
+              {
+                "id": "gBgEIx5Hh7A",
+                "type": "youtube",
+                "title": "22 Супер сабака супраць ультра парсюка",
+                "cover": "cover_multfilmy_mami_fatal_gbgeix5hh7a"
+              },
+              {
+                "id": "unaAcE1Q3LI",
+                "type": "youtube",
+                "title": "23 Лабараторыя смаку",
+                "cover": "cover_multfilmy_mami_fatal_unaace1q3li"
+              },
+              {
+                "id": "OtqSAnAyRrI",
+                "type": "youtube",
+                "title": "24 Робат кухар",
+                "cover": "cover_multfilmy_mami_fatal_otqsanayrri"
+              },
+              {
+                "id": "SVbxr_TfATo",
+                "type": "youtube",
+                "title": "25 Вялікае мыццё",
+                "cover": "cover_multfilmy_mami_fatal_svbxr_tfato"
+              },
+              {
+                "id": "MT_tbje7UY0",
+                "type": "youtube",
+                "title": "26 Гуляш, але не наш",
+                "cover": "cover_multfilmy_mami_fatal_mt_tbje7uy0"
               }
             ]
           }
