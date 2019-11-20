@@ -4345,6 +4345,214 @@
                 }
               }
             ]
+          },
+          {
+            "id": "kazacka_na_dobry_son",
+            "title": "Казачка на добры сон",
+            "description": "Радыё Мінск. Неўтаймаваны летуценнік Віталь Падарожны распавядзе нашым маленькім слухачам цікавыя казкі на беларускай мове. Гісторыі, у якіх упартасць і мэтанакіраванасць герояў дапамагае ім пераадолець любыя перашкоды, дзе дабрыня і справядлівасць заўсёды перамагаюць. Адчыняйце дзверы ў казку і адпраўляйцеся ў цудоўнае падарожжа!",
+            "cover": "cover_audyjokazki_kazacka_na_dobry_son",
+            "items": [
+              {
+                "id": "01",
+                "type": "audio",
+                "title": "Ганарысты Шар",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/01.pack",
+                  "size": 13326202,
+                  "sha256": "57303996710ef7d203fb6616a543cb8577249dced16d85f7c91b4fc92bdd5a6e"
+                }
+              },
+              {
+                "id": "02",
+                "type": "audio",
+                "title": "Каток I Мышка",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/02.pack",
+                  "size": 8287094,
+                  "sha256": "af7230e0e3122d4a5bd627c4ffeef08912b9f3bc1e0f2812a50bb488bf28b7d5"
+                }
+              },
+              {
+                "id": "03",
+                "type": "audio",
+                "title": "Разумны Казачнiк",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/03.pack",
+                  "size": 10823643,
+                  "sha256": "574b82f1e0610ecad184d97f1e983c8e6f7f0734b79f14aeb8accc07df245245"
+                }
+              },
+              {
+                "id": "04",
+                "type": "audio",
+                "title": "Тры Матылькi",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/04.pack",
+                  "size": 8698905,
+                  "sha256": "75460753b2cfa612eeb8a6d86f70125fbd55b7a857b1612d9ad63da7e41d1f58"
+                }
+              },
+              {
+                "id": "05",
+                "type": "audio",
+                "title": "Тук-Тук",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/05.pack",
+                  "size": 13710482,
+                  "sha256": "f40289883ab2c8a4b646be7e66b25447c817599798818bd4665cf11ab9897cd3"
+                }
+              },
+              {
+                "id": "06",
+                "type": "audio",
+                "title": "Вавёрачка",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/06.pack",
+                  "size": 5996552,
+                  "sha256": "9f4a8ef7b5c8701196684886fb50dea19b12ad7bb8cc5dad8d6d6494e2ae7a38"
+                }
+              },
+              {
+                "id": "07",
+                "type": "audio",
+                "title": "Ягады",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/07.pack",
+                  "size": 7574172,
+                  "sha256": "981f9338abfd3d15e60244ee9ac1f9a8030a8674171518b7915fe207b0c6d932"
+                }
+              },
+              {
+                "id": "08",
+                "type": "audio",
+                "title": "Андрэйкавы Сябры",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/08.pack",
+                  "size": 7236678,
+                  "sha256": "1e915385d9f94bfc81e7e9eca0b6e00f38bc4e55f63753c713cef7d7ecbd4b38"
+                }
+              },
+              {
+                "id": "09",
+                "type": "audio",
+                "title": "Словы На Снезе",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/09.pack",
+                  "size": 6460905,
+                  "sha256": "d497e8bf051e3943f770ca7121af363ef0d5f82fa41e27e8d0dc40534e0f1aea"
+                }
+              },
+              {
+                "id": "10",
+                "type": "audio",
+                "title": "Сарамлiвы Гузiк",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/10.pack",
+                  "size": 12610390,
+                  "sha256": "bca5709e8e41cf28b80d2658e24e1e9317ed097ed84b0b560584d867b64455fc"
+                }
+              },
+              {
+                "id": "11",
+                "type": "audio",
+                "title": "Дожджык",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/11.pack",
+                  "size": 4219999,
+                  "sha256": "50e931741b9caaaab4fdedd584d398b172a6305bb04f40be03a1e72ae2f94c4c"
+                }
+              },
+              {
+                "id": "12",
+                "type": "audio",
+                "title": "Думкi",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/12.pack",
+                  "size": 5516613,
+                  "sha256": "4a6b0372ada2f4c5c81fae79b34da15377787f18da374aef6f130755622476dd"
+                }
+              },
+              {
+                "id": "13",
+                "type": "audio",
+                "title": "Таямнiца",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/13.pack",
+                  "size": 6922360,
+                  "sha256": "8437c2932cd936edc3736b346c4526326efdf90a9a18ad5cf7445fdda56e9fb0"
+                }
+              },
+              {
+                "id": "14",
+                "type": "audio",
+                "title": "Чамучка",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/14.pack",
+                  "size": 8304685,
+                  "sha256": "bbbb2fecd47a859d66f76f6132513745951304e59b9d867c94faac0357529e98"
+                }
+              },
+              {
+                "id": "15",
+                "type": "audio",
+                "title": "Радня",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/15.pack",
+                  "size": 7563247,
+                  "sha256": "9360cee253cf547bed6ca6708a446597463716c3064e021c2ec71185400321f3"
+                }
+              },
+              {
+                "id": "16",
+                "type": "audio",
+                "title": "Словы",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/16.pack",
+                  "size": 3447567,
+                  "sha256": "075e75220dc94ce7d92c9d76f813d1cbf7801ce384b2da580d4de8c1ec2deb36"
+                }
+              },
+              {
+                "id": "17",
+                "type": "audio",
+                "title": "Соты",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/17.pack",
+                  "size": 3560940,
+                  "sha256": "4ca8a3428d9c279ee57f0114af3a4e9da02d5d04ffa33ee48d899940bacb0851"
+                }
+              },
+              {
+                "id": "18",
+                "type": "audio",
+                "title": "Школа",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/18.pack",
+                  "size": 3452692,
+                  "sha256": "c05e5a796d058c7c9c03df8dda48ff148ea3ef66ef42d004bd937bc23cc1e13c"
+                }
+              },
+              {
+                "id": "19",
+                "type": "audio",
+                "title": "Дапамога",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/19.pack",
+                  "size": 3604550,
+                  "sha256": "917bb97f93da74458b7ca690c15bff6b5fcdcac3d8edfb0c1f5bc0b42791796d"
+                }
+              },
+              {
+                "id": "20",
+                "type": "audio",
+                "title": "Месяц",
+                "file": {
+                  "name": "audyjokazki/kazacka_na_dobry_son/20.pack",
+                  "size": 4289061,
+                  "sha256": "f8afc8083493c56c4bba7e8d007d93c90d7868db6fe629055f387b50c0eb60e8"
+                }
+              }
+            ]
           }
         ]
       },
@@ -9368,6 +9576,7 @@
           {
             "id": "Padarozzy_na_navalnicnaj_chmary",
             "title": "Падарожжы на навальнічнай хмары",
+            "cover": "cover_multfilmy_padarozzy_na_navalnicnaj_chmary",
             "items": [
               {
                 "id": "bCyWaQZGqqw",
