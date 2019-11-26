@@ -49,7 +49,7 @@ public class DownloadStarter {
     static void startDownload(final Context activityContext, AnalyticsApplication application,
             final List<Item> items) {
         for (Item item : items) {
-            application.analytics().sendEvent("Download", "Start", item.file.name);
+            application.sendEvent("Download", "Start", item.file.name);
 
             File file = CatalogLoader.getItemDownloaded(item);
             Intent intent = new Intent(activityContext, DownloadService.class);

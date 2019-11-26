@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         bManager.registerReceiver(downloadFinished, intentFilter);
 
         application = (AnalyticsApplication) getApplication();
-        application.analytics();
 
         application.catalog = loadCatalog();
 
@@ -87,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnTexty).setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ItemsListActivity.class);
-                intent.setData(Uri.parse("/teksty"));
+                intent.setData(Uri.parse("/teksty2"));
                 startActivity(intent);
             }
         });
@@ -143,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
                 if (error == null) {
                     Toast.makeText(MainActivity.this, R.string.download_finish, Toast.LENGTH_SHORT).show();
                 } else {
-                    application.analytics().sendEvent("Download", "Error", error);
+                    application.sendEvent("Download", "Error", error);
                     Toast.makeText(MainActivity.this, "Памылка спампоўваньня: " + error, Toast.LENGTH_LONG)
                             .show();
                 }

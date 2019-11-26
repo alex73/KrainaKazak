@@ -4,11 +4,11 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "org.alex73.android.dzietkam"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 28
-        versionCode 30200
-        versionName "3.2"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionCode 30301
+        versionName "3.3.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 	vectorDrawables.useSupportLibrary true
     }
     lintOptions {
@@ -38,10 +38,10 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
     implementation 'com.google.code.gson:gson:2.8.5'
-    implementation 'com.google.android.gms:play-services-analytics:16.0.3'
+    //implementation 'com.google.android.gms:play-services-analytics:17.0.0'
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
@@ -49,5 +49,6 @@ dependencies {
     implementation 'androidx.viewpager:viewpager:1.0.0'
 
     implementation 'com.google.firebase:firebase-core:17.0.0'
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
 }
 apply plugin: 'com.google.gms.google-services'

@@ -5790,6 +5790,43 @@
                 }
               }
             ]
+          },
+          {
+            "id": "gavarun_by",
+            "title": "Gavarun.by",
+            "cover": "cover_piesienki_gavarun_by",
+            "items": [
+              {
+                "id": "zima-zima",
+                "type": "audio",
+                "title": "Ах, зіма-зіма",
+                "file": {
+                  "name": "piesienki/gavarun_by/zima-zima.pack",
+                  "size": 2769397,
+                  "sha256": "e6b997da757ffa107b4ced7f57159c6e86434e5ce7fccebcd85916c13b8e0331"
+                }
+              },
+              {
+                "id": "sniehavik",
+                "type": "audio",
+                "title": "Снегавік",
+                "file": {
+                  "name": "piesienki/gavarun_by/sniehavik.pack",
+                  "size": 3499957,
+                  "sha256": "4af2fdf4a083531e1480f37680fb0ace8b58e46ee75e7b5efe6c66fc3f3d8e1a"
+                }
+              },
+              {
+                "id": "jalinka",
+                "type": "audio",
+                "title": "Ялінка",
+                "file": {
+                  "name": "piesienki/gavarun_by/jalinka.pack",
+                  "size": 4181555,
+                  "sha256": "37e718e04748c3f428fa72495cc160bd2d43142b3b4cfde4e308e204a10bbce5"
+                }
+              }
+            ]
           }
         ]
       },
@@ -6105,6 +6142,742 @@
         "id": "multfilmy",
         "title": "Мультфільмы",
         "items": [
+          {
+            "id": "Papirus",
+            "title": "Папірус",
+            "description": "Малады егіпецкі рыбак і звычайны хлопец Папірус загадкавым чынам абраны багамі абараняць краіну ад злых сіл Сэта — бога вайны і знішчэння. З дапамогай чароўнага мяча і сяброў ён мусіць знайсці змрочную піраміду Омбас і вызваліць заступніка Егіпта — бога святла Гора!\nНеверагодныя прыгоды, выдатная маляваная графіка, узрушальны саўндтрэк і таямнічая атмасфера старадаўняга Егіпта!\nАгучана студыяй Gavarun.by.",
+            "cover": "cover_multfilmy_papirus",
+            "items": [
+              {
+                "id": "53jIvQjiQcU",
+                "type": "youtube",
+                "title": "Папірус - 01 Мумія",
+                "cover": "cover_multfilmy_papirus_53jivqjiqcu"
+              },
+              {
+                "id": "DSH5BYBk3tc",
+                "type": "youtube",
+                "title": "Папірус - 02 Гнеў Бога Месяца",
+                "cover": "cover_multfilmy_papirus_dsh5bybk3tc"
+              },
+              {
+                "id": "Sp8oBy0X5L0",
+                "type": "youtube",
+                "title": "Папірус - 03 Гаспадар кракадзілаў",
+                "cover": "cover_multfilmy_papirus_sp8oby0x5l0"
+              },
+              {
+                "id": "eERt4mrTsNI",
+                "type": "youtube",
+                "title": "Папірус - 04 Помста Рамзэса",
+                "cover": "cover_multfilmy_papirus_eert4mrtsni"
+              },
+              {
+                "id": "9ISi7X0GydU",
+                "type": "youtube",
+                "title": "Папірус - 05 Безаблічны гігант",
+                "cover": "cover_multfilmy_papirus_9isi7x0gydu"
+              },
+              {
+                "id": "FlZA7FeKLuo",
+                "type": "youtube",
+                "title": "Папірус - 06 Пракляты фараон",
+                "cover": "cover_multfilmy_papirus_flza7fekluo"
+              },
+              {
+                "id": "7CGmdVA9Io8",
+                "type": "youtube",
+                "title": "Папірус - 07 Цёмнае сонца Сэта",
+                "cover": "cover_multfilmy_papirus_7cgmdva9io8"
+              },
+              {
+                "id": "xuBLaUBd90A",
+                "type": "youtube",
+                "title": "Папірус - 08 Расліна жыцця",
+                "cover": "cover_multfilmy_papirus_xublaubd90a"
+              },
+              {
+                "id": "HmSoPSkwNiI",
+                "type": "youtube",
+                "title": "Папірус - 09 Лабірынт",
+                "cover": "cover_multfilmy_papirus_hmsopskwnii"
+              },
+              {
+                "id": "eG_uZ6AIJXQ",
+                "type": "youtube",
+                "title": "Папірус - 10 Перамога Баст",
+                "cover": "cover_multfilmy_papirus_eg_uz6aijxq"
+              }
+            ]
+          },
+          {
+            "id": "Chamf",
+            "title": "Хамф",
+            "description": "Яскравы і пазнавальны мультсерыял расказвае пра мілага пухнаціка, якога завуць Хамф. Ён вельмі дапытлівы, пастаянна імкнецца даведацца нешта новае і даследаваць свет вакол сябе.\nХамфа чакае шмат неверагодных дзіцячых прыгод і адкрыццяў у самых звычайных месцах: ва ўласнай кватэры, у сяброўскім пакоі, у парку, у краме, на дзіцячай пляцоўцы і ў кафэ!\nАгучана студыяй Gavarun.by.",
+            "cover": "cover_multfilmy_chamf",
+            "items": [
+              {
+                "id": "a2-NRX3SjJs",
+                "type": "youtube",
+                "title": "01 Хамф і цень",
+                "cover": "cover_multfilmy_chamf_a2_nrx3sjjs"
+              },
+              {
+                "id": "i_4G9OW3hAs",
+                "type": "youtube",
+                "title": "02 Новая сумачка Лун",
+                "cover": "cover_multfilmy_chamf_i_4g9ow3has"
+              },
+              {
+                "id": "AUYS7GE_IHk",
+                "type": "youtube",
+                "title": "03 Калясачка Лун",
+                "cover": "cover_multfilmy_chamf_auys7ge_ihk"
+              },
+              {
+                "id": "n03LEY3vIkM",
+                "type": "youtube",
+                "title": "04 Уолес зашмат прыкідваецца",
+                "cover": "cover_multfilmy_chamf_n03ley3vikm"
+              },
+              {
+                "id": "NoJy3eSOjeY",
+                "type": "youtube",
+                "title": "05 Хамф уздымаецца ўгору",
+                "cover": "cover_multfilmy_chamf_nojy3esojey"
+              },
+              {
+                "id": "DDvqRhkEM4Q",
+                "type": "youtube",
+                "title": "06 Ціхая гульня Уолеса",
+                "cover": "cover_multfilmy_chamf_ddvqrhkem4q"
+              },
+              {
+                "id": "qm0kv-PL2OQ",
+                "type": "youtube",
+                "title": "07 Чырвоныя рукавічкі Хамфа",
+                "cover": "cover_multfilmy_chamf_qm0kv_pl2oq"
+              },
+              {
+                "id": "_a7JLfSGOyY",
+                "type": "youtube",
+                "title": "08 Хамф-вандроўнік",
+                "cover": "cover_multfilmy_chamf__a7jlfsgoyy"
+              },
+              {
+                "id": "kC5uYnYrfXo",
+                "type": "youtube",
+                "title": "09 Рэстаран дзядзькі Гары",
+                "cover": "cover_multfilmy_chamf_kc5uynyrfxo"
+              },
+              {
+                "id": "80WHPHeDj8w",
+                "type": "youtube",
+                "title": "10 Кінатэатр дзядзькі Гары",
+                "cover": "cover_multfilmy_chamf_80whphedj8w"
+              },
+              {
+                "id": "vwkGCk1FqiU",
+                "type": "youtube",
+                "title": "11 Хамф — пухнацік",
+                "cover": "cover_multfilmy_chamf_vwkgck1fqiu"
+              },
+              {
+                "id": "NalA418F85I",
+                "type": "youtube",
+                "title": "12 Вечарына мамы і таты",
+                "cover": "cover_multfilmy_chamf_nala418f85i"
+              },
+              {
+                "id": "w8ETWQ0y6No",
+                "type": "youtube",
+                "title": "13 Хамф малюе",
+                "cover": "cover_multfilmy_chamf_w8etwq0y6no"
+              },
+              {
+                "id": "g0cJGZEwjqM",
+                "type": "youtube",
+                "title": "14 Хамф развешвае бялізну",
+                "cover": "cover_multfilmy_chamf_g0cjgzewjqm"
+              },
+              {
+                "id": "NbK2SOFSxE8",
+                "type": "youtube",
+                "title": "15 Хамф і хованкі",
+                "cover": "cover_multfilmy_chamf_nbk2sofsxe8"
+              },
+              {
+                "id": "igcj_kHeysc",
+                "type": "youtube",
+                "title": "16 Хамф і Жудасцік",
+                "cover": "cover_multfilmy_chamf_igcj_kheysc"
+              },
+              {
+                "id": "zdyvmNV3Gvw",
+                "type": "youtube",
+                "title": "17 Незвычайная галінка Хамфа",
+                "cover": "cover_multfilmy_chamf_zdyvmnv3gvw"
+              },
+              {
+                "id": "n9zTVZzfhMw",
+                "type": "youtube",
+                "title": "18 Хамф і нара ў парку",
+                "cover": "cover_multfilmy_chamf_n9ztvzzfhmw"
+              },
+              {
+                "id": "A0KT8aOvzj0",
+                "type": "youtube",
+                "title": "19 Хамф і шарыкі",
+                "cover": "cover_multfilmy_chamf_a0kt8aovzj0"
+              },
+              {
+                "id": "WJILd4K0qq0",
+                "type": "youtube",
+                "title": "20 Асаблівы кубачак Хамфа",
+                "cover": "cover_multfilmy_chamf_wjild4k0qq0"
+              },
+              {
+                "id": "1gwSJlBQd1g",
+                "type": "youtube",
+                "title": "21 Мячык Хамфа",
+                "cover": "cover_multfilmy_chamf_1gwsjlbqd1g"
+              },
+              {
+                "id": "6wSOnHLsHUM",
+                "type": "youtube",
+                "title": "22 Хамф і казытлівы монстр",
+                "cover": "cover_multfilmy_chamf_6wsonhlshum"
+              },
+              {
+                "id": "gRJT5y5IUTs",
+                "type": "youtube",
+                "title": "23 Хамф і месяц",
+                "cover": "cover_multfilmy_chamf_grjt5y5iuts"
+              },
+              {
+                "id": "sQCL6BIUV7I",
+                "type": "youtube",
+                "title": "24 Хамф і зорачкі",
+                "cover": "cover_multfilmy_chamf_sqcl6biuv7i"
+              },
+              {
+                "id": "epva8Y8A0HY",
+                "type": "youtube",
+                "title": "25 Хамф паскараецца",
+                "cover": "cover_multfilmy_chamf_epva8y8a0hy"
+              },
+              {
+                "id": "eMI1SnH8xB0",
+                "type": "youtube",
+                "title": "26 Новае слова Хамфа",
+                "cover": "cover_multfilmy_chamf_emi1snh8xb0"
+              },
+              {
+                "id": "JRhRSjh1qBM",
+                "type": "youtube",
+                "title": "27 Хамф згубіўся",
+                "cover": "cover_multfilmy_chamf_jrhrsjh1qbm"
+              },
+              {
+                "id": "Tpf_ZQ5Vgbo",
+                "type": "youtube",
+                "title": "28 Гурт дзядзькі Гары",
+                "cover": "cover_multfilmy_chamf_tpf_zq5vgbo"
+              },
+              {
+                "id": "ndRzd5e-hJc",
+                "type": "youtube",
+                "title": "29 Хамф гатуе печыва",
+                "cover": "cover_multfilmy_chamf_ndrzd5e_hjc"
+              },
+              {
+                "id": "ZHpdCpKmJVU",
+                "type": "youtube",
+                "title": "30 Хамф у тумане",
+                "cover": "cover_multfilmy_chamf_zhpdcpkmjvu"
+              },
+              {
+                "id": "Sy43beVJpaw",
+                "type": "youtube",
+                "title": "31 Паціху, Уолес",
+                "cover": "cover_multfilmy_chamf_sy43bevjpaw"
+              },
+              {
+                "id": "rJYyQUQXzgM",
+                "type": "youtube",
+                "title": "32 Хамф і вялікія боцікі",
+                "cover": "cover_multfilmy_chamf_rjyyquqxzgm"
+              },
+              {
+                "id": "e_X1YHKoIig",
+                "type": "youtube",
+                "title": "33 Уолес купаецца",
+                "cover": "cover_multfilmy_chamf_e_x1yhkoiig"
+              },
+              {
+                "id": "3doNNkg_dJc",
+                "type": "youtube",
+                "title": "34 Хамф і мурашкі",
+                "cover": "cover_multfilmy_chamf_3donnkg_djc"
+              },
+              {
+                "id": "teanqm6DUlM",
+                "type": "youtube",
+                "title": "35 Хамф і яго сябры",
+                "cover": "cover_multfilmy_chamf_teanqm6dulm"
+              },
+              {
+                "id": "yNzI2EbEiCg",
+                "type": "youtube",
+                "title": "36 Хамф і пухка",
+                "cover": "cover_multfilmy_chamf_ynzi2ebeicg"
+              },
+              {
+                "id": "ofxUYgP-5Y4",
+                "type": "youtube",
+                "title": "37 Улюбёная кніжка Хамфа",
+                "cover": "cover_multfilmy_chamf_ofxuygp_5y4"
+              },
+              {
+                "id": "h0SuGtPdJmk",
+                "type": "youtube",
+                "title": "38 Хамф рана прачнуўся",
+                "cover": "cover_multfilmy_chamf_h0sugtpdjmk"
+              },
+              {
+                "id": "W6Zhqk1_-UY",
+                "type": "youtube",
+                "title": "39 Хамф і пікнік",
+                "cover": "cover_multfilmy_chamf_w6zhqk1__uy"
+              },
+              {
+                "id": "YdcloUBIqnU",
+                "type": "youtube",
+                "title": "40 Найлепшы сябар Лун",
+                "cover": "cover_multfilmy_chamf_ydcloubiqnu"
+              },
+              {
+                "id": "WpMzDbwGJIU",
+                "type": "youtube",
+                "title": "41 Улюбёная цацка Уолеса",
+                "cover": "cover_multfilmy_chamf_wpmzdbwgjiu"
+              },
+              {
+                "id": "02jDDkMSQ2Y",
+                "type": "youtube",
+                "title": "42 Месца побач з дзядзькам Гары",
+                "cover": "cover_multfilmy_chamf_02jddkmsq2y"
+              },
+              {
+                "id": "-ghAoH_RLm8",
+                "type": "youtube",
+                "title": "43 Балет Лун",
+                "cover": "cover_multfilmy_chamf__ghaoh_rlm8"
+              },
+              {
+                "id": "Zup7iHcsngs",
+                "type": "youtube",
+                "title": "44 Сюрпрызы Хамфа",
+                "cover": "cover_multfilmy_chamf_zup7ihcsngs"
+              },
+              {
+                "id": "m80AMGsRyuw",
+                "type": "youtube",
+                "title": "45 Хамф і клапы",
+                "cover": "cover_multfilmy_chamf_m80amgsryuw"
+              }
+            ]
+          },
+          {
+            "id": "Miki-Maus",
+            "title": "Мікі Маўс",
+            "description": "Мультсерыял «Мікі Маўс» з сезонаў 2013—2016 гадоў. У гэтых серыях адбылося доўгачаканае вяртанне легендарнага мышаняці, якое нарадзілася ў далёкім 1928 годзе. Адметнасць выбраных сезонаў у тым, што яны выкананы ў класічным дыснееўскім стылі пры выкарыстанні сучасных тэхналогій. У выніку атрымаўся вельмі яскравы і эмацыянальны мультфільм з добрым гумарам, павучальны і забаўляльны.\nБесклапотнае мышаня Мікі падарожнічае па свеце і трапляе ў розныя камічныя сітуацыі. Яго паўсюль суправаджаюць сябры: ці не заўжды незадаволены Дональд, гарэза Плута, дзіўнаваты Гуфі і весялушка Міні. Уся кампанія запрашае далучыцца да іх прыгод. Сумаваць не давядзецца!\nАгучана студыяй Gavarun.by.",
+            "cover": "cover_multfilmy_miki_maus",
+            "items": [
+              {
+                "id": "E86bInGI8Gg",
+                "type": "youtube",
+                "title": "Мікі Маўс – Прысмакі для сабакі",
+                "cover": "cover_multfilmy_miki_maus_e86bingi8gg"
+              },
+              {
+                "id": "cG8G1zOKFJc",
+                "type": "youtube",
+                "title": "Мікі Маўс – Пажарная трывога",
+                "cover": "cover_multfilmy_miki_maus_cg8g1zokfjc"
+              },
+              {
+                "id": "ZCmfXDurizk",
+                "type": "youtube",
+                "title": "Мікі Маўс – Бульбалэнд",
+                "cover": "cover_multfilmy_miki_maus_zcmfxdurizk"
+              },
+              {
+                "id": "fUKQXT8WYYs",
+                "type": "youtube",
+                "title": "Мікі Маўс – У чорна-белым",
+                "cover": "cover_multfilmy_miki_maus_fukqxt8wyys"
+              },
+              {
+                "id": "5_sFs5DjAZ8",
+                "type": "youtube",
+                "title": "Мікі Маўс – Вандроўка па Токіа",
+                "cover": "cover_multfilmy_miki_maus_5_sfs5djaz8"
+              },
+              {
+                "id": "jKu74S29iJg",
+                "type": "youtube",
+                "title": "Мікі Маўс – Не абслугоўваецца",
+                "cover": "cover_multfilmy_miki_maus_jku74s29ijg"
+              },
+              {
+                "id": "glU8ytBtiio",
+                "type": "youtube",
+                "title": "Мікі Маўс – Да ўсыпальні",
+                "cover": "cover_multfilmy_miki_maus_glu8ytbtiio"
+              },
+              {
+                "id": "ILfgbqjmthg",
+                "type": "youtube",
+                "title": "Мікі Маўс – Выстаўка сабак",
+                "cover": "cover_multfilmy_miki_maus_ilfgbqjmthg"
+              },
+              {
+                "id": "r4GirjILdLk",
+                "type": "youtube",
+                "title": "Мікі Маўс – За каўняром",
+                "cover": "cover_multfilmy_miki_maus_r4girjildlk"
+              },
+              {
+                "id": "I2NJKl6vTio",
+                "type": "youtube",
+                "title": "Мікі Маўс – Выкрадальнік шкарпэтак",
+                "cover": "cover_multfilmy_miki_maus_i2njkl6vtio"
+              },
+              {
+                "id": "NcL19GyXf_Q",
+                "type": "youtube",
+                "title": "Мікі Маўс – Капітан Дональд",
+                "cover": "cover_multfilmy_miki_maus_ncl19gyxf_q"
+              },
+              {
+                "id": "ZANUkXDpkrc",
+                "type": "youtube",
+                "title": "Мікі Маўс – Прыгоды ў Мумбаі",
+                "cover": "cover_multfilmy_miki_maus_zanukxdpkrc"
+              },
+              {
+                "id": "pvtlG1r8Ecs",
+                "type": "youtube",
+                "title": "Мікі Маўс – У пошуках прахалоды",
+                "cover": "cover_multfilmy_miki_maus_pvtlg1r8ecs"
+              },
+              {
+                "id": "2qBUMHTkb_A",
+                "type": "youtube",
+                "title": "Мікі Маўс – Кінапрагляд",
+                "cover": "cover_multfilmy_miki_maus_2qbumhtkb_a"
+              },
+              {
+                "id": "bdc2-FH6OJ8",
+                "type": "youtube",
+                "title": "Мікі Маўс – Цяжка дыхаць!",
+                "cover": "cover_multfilmy_miki_maus_bdc2_fh6oj8"
+              },
+              {
+                "id": "ia-WL9iJczU",
+                "type": "youtube",
+                "title": "Мікі Маўс – Круасанавы трыумф",
+                "cover": "cover_multfilmy_miki_maus_ia_wl9ijczu"
+              },
+              {
+                "id": "Xqg1YrjYKkk",
+                "type": "youtube",
+                "title": "Мікі Маўс – Суразмоўе",
+                "cover": "cover_multfilmy_miki_maus_xqg1yrjykkk"
+              },
+              {
+                "id": "nNKEr4UKFw8",
+                "type": "youtube",
+                "title": "Мікі Маўс – Паражняком",
+                "cover": "cover_multfilmy_miki_maus_nnker4ukfw8"
+              },
+              {
+                "id": "ZopAGTq3ock",
+                "type": "youtube",
+                "title": "Мікі Маўс – У кацельні",
+                "cover": "cover_multfilmy_miki_maus_zopagtq3ock"
+              },
+              {
+                "id": "m8_tTzTAES0",
+                "type": "youtube",
+                "title": "Мікі Маўс – Перакус у Нью-Ёрку",
+                "cover": "cover_multfilmy_miki_maus_m8_ttztaes0"
+              },
+              {
+                "id": "nrqvRWdGNqg",
+                "type": "youtube",
+                "title": "Мікі Маўс – Футбольны матч",
+                "cover": "cover_multfilmy_miki_maus_nrqvrwdgnqg"
+              },
+              {
+                "id": "4SrFpPC4abU",
+                "type": "youtube",
+                "title": "Мікі Маўс – Праблемы з вушамі",
+                "cover": "cover_multfilmy_miki_maus_4srfppc4abu"
+              },
+              {
+                "id": "6EiBe13TRNU",
+                "type": "youtube",
+                "title": "Мікі Маўс – Трамвайны хаос",
+                "cover": "cover_multfilmy_miki_maus_6eibe13trnu"
+              },
+              {
+                "id": "De3mFNAhetA",
+                "type": "youtube",
+                "title": "Мікі Маўс – Лунацік",
+                "cover": "cover_multfilmy_miki_maus_de3mfnaheta"
+              },
+              {
+                "id": "Hl4lO6m5IyY",
+                "type": "youtube",
+                "title": "Мікі Маўс – Свінні на дарогах",
+                "cover": "cover_multfilmy_miki_maus_hl4lo6m5iyy"
+              }
+            ]
+          },
+          {
+            "id": "Lubimcyki",
+            "title": "Любімчыкі",
+            "description": "Развівальна-забаўляльная стужка, створаная сусветнавядомым брэндам дзіцячых цацак Tiny Love як бонус да іх прадукцыі. Прызначаны для самых маленькіх дзетак (ад трох месяцаў да трох гадоў), ён знаёміць з навакольнымі прадметамі, формамі і колерамі, насычаны песнямі і інтэрактыўнымі элементамі.\nАгучана студыяй Gavarun.by.",
+            "cover": "cover_multfilmy_lubimcyki",
+            "items": [
+              {
+                "id": "otaWBdbohUo",
+                "type": "youtube",
+                "title": "Любімчыкі 1",
+                "cover": "cover_multfilmy_lubimcyki_otawbdbohuo"
+              },
+              {
+                "id": "REEqTfNTdJM",
+                "type": "youtube",
+                "title": "Любімчыкі 2",
+                "cover": "cover_multfilmy_lubimcyki_reeqtfntdjm"
+              }
+            ]
+          },
+          {
+            "id": "Bamse_i_horad_zlodziejau",
+            "title": "Бамсэ і горад злодзеяў",
+            "cover": "cover_multfilmy_bamse_i_horad_zlodziejau",
+            "items": [
+              {
+                "id": "AY11CNZ6h-g",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 01",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ay11cnz6h_g"
+              },
+              {
+                "id": "Y9zMSA-aHZY",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 02",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_y9zmsa_ahzy"
+              },
+              {
+                "id": "flweVUrWu-s",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 03",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_flwevurwu_s"
+              },
+              {
+                "id": "ipYa7Yo93uI",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 04",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ipya7yo93ui"
+              },
+              {
+                "id": "k-PBTefpfnU",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 05",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_k_pbtefpfnu"
+              },
+              {
+                "id": "JYs1LLB9dCg",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 06",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_jys1llb9dcg"
+              },
+              {
+                "id": "FTBJJ8nRMRk",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 07",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ftbjj8nrmrk"
+              },
+              {
+                "id": "cilXIhxItsY",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 09",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_cilxihxitsy"
+              },
+              {
+                "id": "ld1WFgTtkuk",
+                "type": "youtube",
+                "title": "Бамсэ і горад злодзеяў 10",
+                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ld1wfgttkuk"
+              }
+            ]
+          },
+          {
+            "id": "Mami-Fatal",
+            "title": "Мамі-Фаталь",
+            "cover": "cover_multfilmy_mami_fatal",
+            "items": [
+              {
+                "id": "KMyFAZbPf_8",
+                "type": "youtube",
+                "title": "01 Парсюкус грандыёзус",
+                "cover": "cover_multfilmy_mami_fatal_kmyfazbpf_8"
+              },
+              {
+                "id": "fkJahS2F9Ws",
+                "type": "youtube",
+                "title": "02 Крытык з космасу",
+                "cover": "cover_multfilmy_mami_fatal_fkjahs2f9ws"
+              },
+              {
+                "id": "63IA1gXs0-A",
+                "type": "youtube",
+                "title": "04 Банда капялюшнікаў",
+                "cover": "cover_multfilmy_mami_fatal_63ia1gxs0_a"
+              },
+              {
+                "id": "UyNaalzf4Qw",
+                "type": "youtube",
+                "title": "05 Костка разладу",
+                "cover": "cover_multfilmy_mami_fatal_uynaalzf4qw"
+              },
+              {
+                "id": "QnJOtN6twwc",
+                "type": "youtube",
+                "title": "06 Двайнік Мамі",
+                "cover": "cover_multfilmy_mami_fatal_qnjotn6twwc"
+              },
+              {
+                "id": "tCbkopKV1QA",
+                "type": "youtube",
+                "title": "07 Мушыная работа",
+                "cover": "cover_multfilmy_mami_fatal_tcbkopkv1qa"
+              },
+              {
+                "id": "-tPF_8MDCBc",
+                "type": "youtube",
+                "title": "08 Свістаць усіх назад",
+                "cover": "cover_multfilmy_mami_fatal__tpf_8mdcbc"
+              },
+              {
+                "id": "YuYOLlN7--w",
+                "type": "youtube",
+                "title": "09 Даўным даўно",
+                "cover": "cover_multfilmy_mami_fatal_yuyolln7__w"
+              },
+              {
+                "id": "ErozLJ_wMZE",
+                "type": "youtube",
+                "title": "10 Падземнае каралеўства",
+                "cover": "cover_multfilmy_mami_fatal_erozlj_wmze"
+              },
+              {
+                "id": "DDSs5FHR7OU",
+                "type": "youtube",
+                "title": "11 Мамі-Фу",
+                "cover": "cover_multfilmy_mami_fatal_ddss5fhr7ou"
+              },
+              {
+                "id": "hLIRTr8sdVc",
+                "type": "youtube",
+                "title": "12 Парсюнокіо",
+                "cover": "cover_multfilmy_mami_fatal_hlirtr8sdvc"
+              },
+              {
+                "id": "LwihwyrOFok",
+                "type": "youtube",
+                "title": "13 Неверагодная гісторыя Мамі Фаталь",
+                "cover": "cover_multfilmy_mami_fatal_lwihwyrofok"
+              },
+              {
+                "id": "IjBwRbW4mTQ",
+                "type": "youtube",
+                "title": "14 Свіння ў вострым соўсе",
+                "cover": "cover_multfilmy_mami_fatal_ijbwrbw4mtq"
+              },
+              {
+                "id": "3ZhtSlaAC6w",
+                "type": "youtube",
+                "title": "15 Бістро Фаталь",
+                "cover": "cover_multfilmy_mami_fatal_3zhtslaac6w"
+              },
+              {
+                "id": "2K8ovrIQVVw",
+                "type": "youtube",
+                "title": "16 Італьяна",
+                "cover": "cover_multfilmy_mami_fatal_2k8ovriqvvw"
+              },
+              {
+                "id": "d0k1Wi0DuxE",
+                "type": "youtube",
+                "title": "17 Мары з аўтамату",
+                "cover": "cover_multfilmy_mami_fatal_d0k1wi0duxe"
+              },
+              {
+                "id": "CPTRNLNEGNY",
+                "type": "youtube",
+                "title": "18 Заклінальнік макароны",
+                "cover": "cover_multfilmy_mami_fatal_cptrnlnegny"
+              },
+              {
+                "id": "EiW00ZmPQyE",
+                "type": "youtube",
+                "title": "19 Гарбата з тролем",
+                "cover": "cover_multfilmy_mami_fatal_eiw00zmpqye"
+              },
+              {
+                "id": "ipx3dMHBY_c",
+                "type": "youtube",
+                "title": "21 Памідорны джын",
+                "cover": "cover_multfilmy_mami_fatal_ipx3dmhby_c"
+              },
+              {
+                "id": "gBgEIx5Hh7A",
+                "type": "youtube",
+                "title": "22 Супер сабака супраць ультра парсюка",
+                "cover": "cover_multfilmy_mami_fatal_gbgeix5hh7a"
+              },
+              {
+                "id": "unaAcE1Q3LI",
+                "type": "youtube",
+                "title": "23 Лабараторыя смаку",
+                "cover": "cover_multfilmy_mami_fatal_unaace1q3li"
+              },
+              {
+                "id": "OtqSAnAyRrI",
+                "type": "youtube",
+                "title": "24 Робат кухар",
+                "cover": "cover_multfilmy_mami_fatal_otqsanayrri"
+              },
+              {
+                "id": "SVbxr_TfATo",
+                "type": "youtube",
+                "title": "25 Вялікае мыццё",
+                "cover": "cover_multfilmy_mami_fatal_svbxr_tfato"
+              },
+              {
+                "id": "MT_tbje7UY0",
+                "type": "youtube",
+                "title": "26 Гуляш, але не наш",
+                "cover": "cover_multfilmy_mami_fatal_mt_tbje7uy0"
+              }
+            ]
+          },
           {
             "id": "Histarycnyja",
             "title": "Гістарычныя мультфільмы",
@@ -9655,218 +10428,6 @@
                 "type": "youtube",
                 "title": "13 Dehipsatar",
                 "cover": "cover_multfilmy_padarozzy_na_navalnicnaj_chmary_vzd1pkvo57k"
-              }
-            ]
-          },
-          {
-            "id": "Bamse_i_horad_zlodziejau",
-            "title": "Бамсэ і горад злодзеяў",
-            "cover": "cover_multfilmy_bamse_i_horad_zlodziejau",
-            "items": [
-              {
-                "id": "AY11CNZ6h-g",
-                "type": "youtube",
-                "title": "Бамсэ і горад злодзеяў 01",
-                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ay11cnz6h_g"
-              },
-              {
-                "id": "Y9zMSA-aHZY",
-                "type": "youtube",
-                "title": "Бамсэ і горад злодзеяў 02",
-                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_y9zmsa_ahzy"
-              },
-              {
-                "id": "flweVUrWu-s",
-                "type": "youtube",
-                "title": "Бамсэ і горад злодзеяў 03",
-                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_flwevurwu_s"
-              },
-              {
-                "id": "ipYa7Yo93uI",
-                "type": "youtube",
-                "title": "Бамсэ і горад злодзеяў 04",
-                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ipya7yo93ui"
-              },
-              {
-                "id": "k-PBTefpfnU",
-                "type": "youtube",
-                "title": "Бамсэ і горад злодзеяў 05",
-                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_k_pbtefpfnu"
-              },
-              {
-                "id": "JYs1LLB9dCg",
-                "type": "youtube",
-                "title": "Бамсэ і горад злодзеяў 06",
-                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_jys1llb9dcg"
-              },
-              {
-                "id": "FTBJJ8nRMRk",
-                "type": "youtube",
-                "title": "Бамсэ і горад злодзеяў 07",
-                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ftbjj8nrmrk"
-              },
-              {
-                "id": "cilXIhxItsY",
-                "type": "youtube",
-                "title": "Бамсэ і горад злодзеяў 09",
-                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_cilxihxitsy"
-              },
-              {
-                "id": "ld1WFgTtkuk",
-                "type": "youtube",
-                "title": "Бамсэ і горад злодзеяў 10",
-                "cover": "cover_multfilmy_bamse_i_horad_zlodziejau_ld1wfgttkuk"
-              }
-            ]
-          },
-          {
-            "id": "Mami-Fatal",
-            "title": "Мамі-Фаталь",
-            "cover": "cover_multfilmy_mami_fatal",
-            "items": [
-              {
-                "id": "KMyFAZbPf_8",
-                "type": "youtube",
-                "title": "01 Парсюкус грандыёзус",
-                "cover": "cover_multfilmy_mami_fatal_kmyfazbpf_8"
-              },
-              {
-                "id": "fkJahS2F9Ws",
-                "type": "youtube",
-                "title": "02 Крытык з космасу",
-                "cover": "cover_multfilmy_mami_fatal_fkjahs2f9ws"
-              },
-              {
-                "id": "63IA1gXs0-A",
-                "type": "youtube",
-                "title": "04 Банда капялюшнікаў",
-                "cover": "cover_multfilmy_mami_fatal_63ia1gxs0_a"
-              },
-              {
-                "id": "UyNaalzf4Qw",
-                "type": "youtube",
-                "title": "05 Костка разладу",
-                "cover": "cover_multfilmy_mami_fatal_uynaalzf4qw"
-              },
-              {
-                "id": "QnJOtN6twwc",
-                "type": "youtube",
-                "title": "06 Двайнік Мамі",
-                "cover": "cover_multfilmy_mami_fatal_qnjotn6twwc"
-              },
-              {
-                "id": "tCbkopKV1QA",
-                "type": "youtube",
-                "title": "07 Мушыная работа",
-                "cover": "cover_multfilmy_mami_fatal_tcbkopkv1qa"
-              },
-              {
-                "id": "-tPF_8MDCBc",
-                "type": "youtube",
-                "title": "08 Свістаць усіх назад",
-                "cover": "cover_multfilmy_mami_fatal__tpf_8mdcbc"
-              },
-              {
-                "id": "YuYOLlN7--w",
-                "type": "youtube",
-                "title": "09 Даўным даўно",
-                "cover": "cover_multfilmy_mami_fatal_yuyolln7__w"
-              },
-              {
-                "id": "ErozLJ_wMZE",
-                "type": "youtube",
-                "title": "10 Падземнае каралеўства",
-                "cover": "cover_multfilmy_mami_fatal_erozlj_wmze"
-              },
-              {
-                "id": "DDSs5FHR7OU",
-                "type": "youtube",
-                "title": "11 Мамі-Фу",
-                "cover": "cover_multfilmy_mami_fatal_ddss5fhr7ou"
-              },
-              {
-                "id": "hLIRTr8sdVc",
-                "type": "youtube",
-                "title": "12 Парсюнокіо",
-                "cover": "cover_multfilmy_mami_fatal_hlirtr8sdvc"
-              },
-              {
-                "id": "LwihwyrOFok",
-                "type": "youtube",
-                "title": "13 Неверагодная гісторыя Мамі Фаталь",
-                "cover": "cover_multfilmy_mami_fatal_lwihwyrofok"
-              },
-              {
-                "id": "IjBwRbW4mTQ",
-                "type": "youtube",
-                "title": "14 Свіння ў вострым соўсе",
-                "cover": "cover_multfilmy_mami_fatal_ijbwrbw4mtq"
-              },
-              {
-                "id": "3ZhtSlaAC6w",
-                "type": "youtube",
-                "title": "15 Бістро Фаталь",
-                "cover": "cover_multfilmy_mami_fatal_3zhtslaac6w"
-              },
-              {
-                "id": "2K8ovrIQVVw",
-                "type": "youtube",
-                "title": "16 Італьяна",
-                "cover": "cover_multfilmy_mami_fatal_2k8ovriqvvw"
-              },
-              {
-                "id": "d0k1Wi0DuxE",
-                "type": "youtube",
-                "title": "17 Мары з аўтамату",
-                "cover": "cover_multfilmy_mami_fatal_d0k1wi0duxe"
-              },
-              {
-                "id": "CPTRNLNEGNY",
-                "type": "youtube",
-                "title": "18 Заклінальнік макароны",
-                "cover": "cover_multfilmy_mami_fatal_cptrnlnegny"
-              },
-              {
-                "id": "EiW00ZmPQyE",
-                "type": "youtube",
-                "title": "19 Гарбата з тролем",
-                "cover": "cover_multfilmy_mami_fatal_eiw00zmpqye"
-              },
-              {
-                "id": "ipx3dMHBY_c",
-                "type": "youtube",
-                "title": "21 Памідорны джын",
-                "cover": "cover_multfilmy_mami_fatal_ipx3dmhby_c"
-              },
-              {
-                "id": "gBgEIx5Hh7A",
-                "type": "youtube",
-                "title": "22 Супер сабака супраць ультра парсюка",
-                "cover": "cover_multfilmy_mami_fatal_gbgeix5hh7a"
-              },
-              {
-                "id": "unaAcE1Q3LI",
-                "type": "youtube",
-                "title": "23 Лабараторыя смаку",
-                "cover": "cover_multfilmy_mami_fatal_unaace1q3li"
-              },
-              {
-                "id": "OtqSAnAyRrI",
-                "type": "youtube",
-                "title": "24 Робат кухар",
-                "cover": "cover_multfilmy_mami_fatal_otqsanayrri"
-              },
-              {
-                "id": "SVbxr_TfATo",
-                "type": "youtube",
-                "title": "25 Вялікае мыццё",
-                "cover": "cover_multfilmy_mami_fatal_svbxr_tfato"
-              },
-              {
-                "id": "MT_tbje7UY0",
-                "type": "youtube",
-                "title": "26 Гуляш, але не наш",
-                "cover": "cover_multfilmy_mami_fatal_mt_tbje7uy0"
               }
             ]
           }

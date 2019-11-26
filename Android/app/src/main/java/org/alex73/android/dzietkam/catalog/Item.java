@@ -4,8 +4,6 @@ import java.io.File;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.io.FileUtils;
-
 public class Item {
     public String id;
     public String type;
@@ -18,18 +16,6 @@ public class Item {
     public transient Item parent;
     public transient File f, coverFile;
     public transient List<String> settingsOrder;
-
-    public long getSize() {
-        if (f.isDirectory()) {
-            long sz = 0;
-            for (File ff : FileUtils.listFiles(f, null, true)) {
-                sz += ff.length();
-            }
-            return sz;
-        } else {
-            return f.length();
-        }
-    }
 
     public int count(String expectedType) {
         int c = expectedType.equals(type) ? 1 : 0;

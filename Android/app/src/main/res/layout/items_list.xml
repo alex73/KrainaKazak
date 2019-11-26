@@ -39,10 +39,13 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/album_name"
+            android:layout_marginRight="8dp"
             android:layout_marginBottom="12dp"
             android:layout_toLeftOf="@+id/album_download"
             android:layout_toRightOf="@+id/album_cover"
             android:text="details asdghfasgd jfgasdf jasghd jfgasjgh jhasg gjf ghf hd gfdytr uyt jg jhgujyrtut outgy g"
+            android:autoLink="web"
+            android:maxLines="20"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
         <ImageView

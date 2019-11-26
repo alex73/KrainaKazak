@@ -253,7 +253,7 @@ public class PlayService extends Service {
         currentStatus.forwardEnabled = getForwardItemIndex(false) >= 0;
 
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
-        application.analytics().showScreen(currentStatus.item);
+        application.showScreen(currentStatus.item);
 
         File file = CatalogLoader.getItemDownloaded(currentStatus.item);
         try {

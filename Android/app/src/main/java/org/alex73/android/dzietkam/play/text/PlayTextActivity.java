@@ -33,7 +33,7 @@ public class PlayTextActivity extends AppCompatActivity {
         itemPath = getIntent().getData().getPath();
         item = application.catalog.getItem(itemPath);
 
-        application.analytics().showScreen(item);
+        application.showScreen(item);
         CatalogLoader.setItemViewed(this, item, true);
 
         File f = CatalogLoader.getItemDownloaded(item);

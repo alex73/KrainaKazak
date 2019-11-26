@@ -84,7 +84,7 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
         itemPath = getIntent().getData().getPath();
         item = application.catalog.getItem(itemPath);
 
-        application.analytics().showScreen(item);
+        application.showScreen(item);
 
         File f = CatalogLoader.getItemDownloaded(item);
         try {

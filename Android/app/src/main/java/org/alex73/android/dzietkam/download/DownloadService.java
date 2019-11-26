@@ -162,6 +162,7 @@ public class DownloadService extends Service {
         public void run() {
             log.v("Service thread started");
             Process.setThreadPriority(Process.THREAD_PRIORITY_BACKGROUND);
+            boolean wasError = false;
             while (true) {
                 DownloadPart d;
                 synchronized (DownloadService.this) {
@@ -175,6 +176,7 @@ public class DownloadService extends Service {
                     download(d);
                 } catch (Exception ex) {
                     log.e("Error download", ex);
+                    wasError = true;
                     Intent intent = new Intent(ACTION_FINISH_DOWNLOAD);
                     intent.putExtra("error", ex.getMessage());
                     intent.putExtra("filename", d.file);
@@ -184,8 +186,10 @@ public class DownloadService extends Service {
             stopSelf();
             totalSize = 0;
 
-            Intent intent = new Intent(ACTION_FINISH_DOWNLOAD);
-            LocalBroadcastManager.getInstance(DownloadService.this).sendBroadcast(intent);
+            if (!wasError) {
+                Intent intent = new Intent(ACTION_FINISH_DOWNLOAD);
+                LocalBroadcastManager.getInstance(DownloadService.this).sendBroadcast(intent);
+            }
 
             log.v("Service thread finished");
         }
