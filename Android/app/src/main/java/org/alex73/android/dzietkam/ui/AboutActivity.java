@@ -12,6 +12,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -71,8 +72,10 @@ public class AboutActivity extends AppCompatActivity {
                     Intent intent = new Intent(AboutActivity.this, SettingsActivity.class);
                     startActivity(intent);
                     return true;
-                }else {
-                    return false;
+                } else {
+                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    startActivity(browserIntent);
+                    return true;
                 }
             }
         });
