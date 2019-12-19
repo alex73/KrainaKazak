@@ -5825,6 +5825,36 @@
                   "size": 4181555,
                   "sha256": "37e718e04748c3f428fa72495cc160bd2d43142b3b4cfde4e308e204a10bbce5"
                 }
+              },
+              {
+                "id": "brudna_syra",
+                "type": "audio",
+                "title": "Брудна-сыра",
+                "file": {
+                  "name": "piesienki/gavarun_by/brudna_syra.pack",
+                  "size": 2789218,
+                  "sha256": "dd9f382df15a068a33eff6b1a5201b0c02792e355d3ad45c92a180f93a3b6dd4"
+                }
+              },
+              {
+                "id": "kap-kap_dozdzyk",
+                "type": "audio",
+                "title": "Кап-кап дожджык",
+                "file": {
+                  "name": "piesienki/gavarun_by/kap-kap_dozdzyk.pack",
+                  "size": 3860582,
+                  "sha256": "f3d4ca7ec90176cff9b874d739c8ddf384eae40ab89face6b31701e105e65dbb"
+                }
+              },
+              {
+                "id": "lirycnaja",
+                "type": "audio",
+                "title": "Лірычная",
+                "file": {
+                  "name": "piesienki/gavarun_by/lirycnaja.pack",
+                  "size": 4502816,
+                  "sha256": "ae7642436374cc5cb4826d1a3914a4deb0d4c03acfff970645ec1061282de040"
+                }
               }
             ]
           }
@@ -6695,16 +6725,16 @@
             "cover": "cover_multfilmy_lubimcyki",
             "items": [
               {
-                "id": "otaWBdbohUo",
+                "id": "S9uC1Rw_EgQ",
                 "type": "youtube",
                 "title": "Любімчыкі 1",
-                "cover": "cover_multfilmy_lubimcyki_otawbdbohuo"
+                "cover": "cover_multfilmy_lubimcyki_s9uc1rw_egq"
               },
               {
-                "id": "REEqTfNTdJM",
+                "id": "2xnRH4fewxs",
                 "type": "youtube",
                 "title": "Любімчыкі 2",
-                "cover": "cover_multfilmy_lubimcyki_reeqtfntdjm"
+                "cover": "cover_multfilmy_lubimcyki_2xnrh4fewxs"
               }
             ]
           },
