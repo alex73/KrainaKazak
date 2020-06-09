@@ -112,6 +112,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.imageFooter).setOnClickListener(v -> {
+            Intent newIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://dzietkam.knihi.com/"));
+            startActivity(newIntent);
+        });
         findViewById(R.id.btnSettings).setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AboutActivity.class);

@@ -91,12 +91,14 @@
 
     </org.alex73.android.dzietkam.ui.MainGridLayout>
 
-    <ImageView
+    <TextView
         android:id="@+id/imageFooter"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:gravity="center"
         android:adjustViewBounds="true"
-        app:srcCompat="@drawable/main_footer_summer" />
+        android:text="Карыстацеся вэб-версіяй 'Краіны казак' з\nhttps://dzietkam.knihi.com/.\nЯе таксама можна ўсталяваць на кампутар ці тэлефон."/>
 
 </RelativeLayout>
