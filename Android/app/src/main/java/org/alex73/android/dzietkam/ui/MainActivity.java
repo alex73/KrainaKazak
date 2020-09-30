@@ -13,11 +13,13 @@ import android.preference.PreferenceManager;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.AttributeSet;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
 
 import org.alex73.android.dzietkam.CatalogLoader;
+import org.alex73.android.dzietkam.ListFiles;
 import org.alex73.android.dzietkam.Logger;
 import org.alex73.android.dzietkam.R;
 import org.alex73.android.dzietkam.catalog.Catalog;
@@ -86,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnTexty).setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ItemsListActivity.class);
-                intent.setData(Uri.parse("/teksty2"));
+                intent.setData(Uri.parse("/teksty"));
                 startActivity(intent);
             }
         });
@@ -116,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        for (int id : new int[]{R.id.btnKnizki, R.id.btnKalychanki, R.id.btnPiesienki, R.id.btnAudyjokazki, R.id.btnAdukacyja, R.id.btnTexty, R.id.btnMulty, R.id.btnSettings}) {
+        for (int id : new int[]{R.id.btnKnizki, R.id.btnKalychanki, R.id.btnPiesienki, R.id.btnAudyjokazki, R.id.btnAdukacyja, R.id.btnTexty, R.id.btnMulty, R.id.btnDyjafilmy, R.id.btnSettings}) {
             findViewById(id).setFocusable(true);
             findViewById(id).setOnFocusChangeListener(new View.OnFocusChangeListener() {
                 @Override
@@ -150,10 +152,23 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    @Override
+    public boolean dispatchKeyEvent(KeyEvent event) {
+        log.e("key="+event);
+        return super.dispatchKeyEvent(event);
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        log.e("keyDown="+event+" code="+keyCode);
+        return super.onKeyDown(keyCode, event);
+    }
+
     Catalog loadCatalog() {
         try {
             CatalogLoader.initDataRoot(application);
             Catalog c = CatalogLoader.load(getResources());
+            ListFiles.load(getResources(), c.baseUrl);
             c.setupParents();
             return c;
         } catch (Exception ex) {

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.alex73.android.dzietkam.Logger;
+import org.alex73.android.dzietkam.ui.AnalyticsApplication;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -29,7 +30,7 @@ public class DownloadService extends Service {
     public static final String ACTION_ADD_DOWNLOAD = "org.alex73.android.dzietkam.AddDownload";
     public static final String ACTION_FINISH_DOWNLOAD = "org.alex73.android.dzietkam.FinishDownload";
     public static final String EXTRA_NAME = "name";
-    public static final String EXTRA_STORE = "store";
+    public static final String EXTRA_ITEM_PATH = "item_path";
     public static final String EXTRA_SIZE = "size";
 
     public static final String CHANNEL_ID = "KrainaKazarDownloader";
@@ -83,8 +84,8 @@ public class DownloadService extends Service {
             String action = intent.getAction();
 
             if (ACTION_ADD_DOWNLOAD.equals(action)) {
-                addDownload(new DownloadPart(intent.getData(), intent.getStringExtra(EXTRA_NAME),
-                        intent.getStringExtra(EXTRA_STORE), intent.getLongExtra(EXTRA_SIZE, 0)));
+                addDownload(new DownloadPart(intent.getStringExtra(EXTRA_ITEM_PATH), intent.getStringExtra(EXTRA_NAME),
+                        intent.getLongExtra(EXTRA_SIZE, 0)));
                 return START_REDELIVER_INTENT;
             } else if (ACTION_CLOSE.equals(action)) {
                 stop();
@@ -118,7 +119,7 @@ public class DownloadService extends Service {
     }
 
     void addDownload(DownloadPart download) {
-        log.i("Add download " + download.uri);
+        log.i("Add download " + download.path);
         synchronized (DownloadService.this) {
             forceStop = false;
             totalSize += download.size;
@@ -135,26 +136,31 @@ public class DownloadService extends Service {
     }
 
     void download(final DownloadPart download) throws Exception {
-        log.i("Download start: " + download.uri + " to " + download.file);
-        new File(download.file).getParentFile().mkdirs();
+        log.i("Download start: " + download.path);
 
-        new Downloader(download) {
-            @Override
-            protected boolean needToStop() {
-                return forceStop;
-            }
-
-            @Override
-            protected void downloaded(long count) {
-                downloadedSize += count;
-                int newPercent = Math.round(100f * downloadedSize / totalSize);
-                if (currentPercent != newPercent) {
-                    currentPercent = newPercent;
-                    mNotificationManager.notify(NOTIFICATION_ID, NotificationBuilder
-                            .createDownloadNotification(DownloadService.this, download.name, currentPercent));
+        try {
+            AnalyticsApplication application = (AnalyticsApplication) getApplication();
+            new Downloader(download, application.catalog) {
+                @Override
+                protected boolean needToStop() {
+                    return forceStop;
                 }
-            }
-        }.process();
+
+                @Override
+                protected void downloaded(long count) {
+                    downloadedSize += count;
+                    int newPercent = Math.round(100f * downloadedSize / totalSize);
+                    if (currentPercent != newPercent) {
+                        currentPercent = newPercent;
+                        mNotificationManager.notify(NOTIFICATION_ID, NotificationBuilder
+                                .createDownloadNotification(DownloadService.this, download.name, currentPercent));
+                    }
+                }
+            }.process();
+        } catch(Exception ex) {
+            log.e("Error download", ex);
+            throw ex;
+        }
     }
 
     class DownloadThread extends Thread {
@@ -179,7 +185,8 @@ public class DownloadService extends Service {
                     wasError = true;
                     Intent intent = new Intent(ACTION_FINISH_DOWNLOAD);
                     intent.putExtra("error", ex.getMessage());
-                    intent.putExtra("filename", d.file);
+                    intent.putExtra("path", d.path);
+                    intent.putExtra("name", d.name);
                     LocalBroadcastManager.getInstance(DownloadService.this).sendBroadcast(intent);
                 }
             }

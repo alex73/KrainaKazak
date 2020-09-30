@@ -1,6 +1,7 @@
 package org.alex73.android.dzietkam.playbook;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.Map;
@@ -13,7 +14,6 @@ import org.alex73.android.dzietkam.catalog.Catalog;
 import org.alex73.android.dzietkam.catalog.Item;
 import org.alex73.android.dzietkam.ui.AnalyticsApplication;
 import org.alex73.android.dzietkam.util.EmptyFragmentStatePagerAdapter;
-import org.alex73.android.dzietkam.util.PackFileWrapper;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -61,8 +61,6 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
     int pagesCount;
 
     BookLoader pl;
-    PackFileWrapper packFile;
-    PackFileWrapper.FileObjectDataSource packFileDataSource;
     Map<String,Integer> fontSizeCache;
 
     @SuppressLint("NewApi")
@@ -86,13 +84,7 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
 
         application.showScreen(item);
 
-        File f = CatalogLoader.getItemDownloaded(item);
-        try {
-            packFile = new PackFileWrapper(f);
-        } catch (Exception ex) {
-            log.e("Error read pack file", ex);
-        }
-        pl = new BookLoader(packFile);
+        pl = new BookLoader(item);
         fontSizeCache = Collections.synchronizedMap(new TreeMap<>());
 
         buttons = findViewById(R.id.pauseLayer);
@@ -125,23 +117,22 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
     protected void onStart() {
         log.v(">> onStart");
         super.onStart();
-        askQuestion(this, packFile.getSettings().getString("question"),
-                packFile.getSettings().getString("answer"), new Runnable() {
-                    @Override
-                    public void run() {
-                        setupPlayer();
+        Runnable run =  () -> {
+            setupPlayer();
 
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                flipper.setAdapter(new PlayPagesAdapter(getSupportFragmentManager()));
-                                pageChangeListener.onPageSelected(flipper.getCurrentItem());
-                            }
-                        });
+            runOnUiThread(() -> {
+                flipper.setAdapter(new PlayPagesAdapter(getSupportFragmentManager()));
+                pageChangeListener.onPageSelected(flipper.getCurrentItem());
+            });
 
-                        CatalogLoader.setItemViewed(PlayBookActivity.this, item, true);
-                    }
-                });
+            CatalogLoader.setItemViewed(PlayBookActivity.this, item, true);
+        };
+        if (item.settings != null) {
+            askQuestion(this, item.settings.get("question"),
+                    item.settings.get("answer"), run);
+        } else {
+            run.run();
+        }
         log.v("<< onStart");
     }
 
@@ -152,10 +143,6 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
         if (mMediaPlayer != null) {
             mMediaPlayer.release();
             mMediaPlayer = null;
-        }
-        if (packFileDataSource != null) {
-            packFileDataSource.close();
-            packFileDataSource = null;
         }
         flipper.setAdapter(new EmptyFragmentStatePagerAdapter(getSupportFragmentManager()));
         System.gc();
@@ -355,19 +342,17 @@ public class PlayBookActivity extends AppCompatActivity {// FragmentActivity {
         public void onPageSelected(int index) {
             log.v(">> onPageSelected " + index);
             mMediaPlayer.reset();
-            if (packFileDataSource != null) {
-                packFileDataSource.close();
-            }
             playerPaused = false;
             if (!manualMode) {
                 try {
-                    packFileDataSource = pl.getAudioFile(index + 1);
-                    if (packFileDataSource != null) {
-                        packFileDataSource.apply(mMediaPlayer);
+                    File f = pl.getAudioFile(index + 1);
+                    if (f != null) {
+                        try (FileInputStream is = new FileInputStream(f)) {
+                            mMediaPlayer.setDataSource(is.getFD());
+                        }
                         mMediaPlayer.prepareAsync();
                     }
-                } catch (IOException ex) {
-                }
+                } catch(IOException ex) {}
                 hideNavigationBar();
             }
         }

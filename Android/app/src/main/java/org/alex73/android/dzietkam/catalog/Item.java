@@ -1,6 +1,5 @@
 package org.alex73.android.dzietkam.catalog;
 
-import java.io.File;
 import java.util.List;
 import java.util.Map;
 
@@ -10,11 +9,10 @@ public class Item {
     public String title;
     public String description;
     public String cover;
-    public FileInfo file;
+    public Integer length; // seconds
     public Map<String, String> settings;
     public List<Item> items; // TODO
     public transient Item parent;
-    public transient File f, coverFile;
     public transient List<String> settingsOrder;
 
     public int count(String expectedType) {
@@ -25,5 +23,21 @@ public class Item {
             }
         }
         return c;
+    }
+
+    public String getPath() {
+        String path = "";
+        Item it = this;
+        while (it != null) {
+            if (!it.id.isEmpty()) {
+                path = "/" + it.id + path;
+            }
+            it = it.parent;
+        }
+        return path;
+    }
+
+    public String getCoverDrawableName() {
+        return "cover" + getPath().replace('/', '_').replace('.', '_').replace('-', '_').toLowerCase();
     }
 }

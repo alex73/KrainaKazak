@@ -2,6 +2,8 @@ package org.alex73.android.dzietkam.playbook;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -9,14 +11,17 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
 
+import org.alex73.android.dzietkam.CatalogLoader;
+import org.alex73.android.dzietkam.ListFiles;
 import org.alex73.android.dzietkam.Logger;
 import org.alex73.android.dzietkam.R;
 import org.alex73.android.dzietkam.catalog.Catalog;
+import org.alex73.android.dzietkam.catalog.Item;
 import org.alex73.android.dzietkam.imagecache.Dimension;
 import org.alex73.android.dzietkam.imagecache.ImageCalc;
 import org.alex73.android.dzietkam.imagecache.Rectangle;
 import org.alex73.android.dzietkam.playbook.textpagesstore.Texts;
-import org.alex73.android.dzietkam.util.PackFileWrapper;
+import org.alex73.android.dzietkam.util.IO;
 
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
@@ -32,23 +37,26 @@ import com.google.gson.Gson;
 public class BookLoader {
 
     private final Logger log = new Logger(getClass());
-    private final PackFileWrapper file;
+    private final Item item;
 
+    private final Map<String, File> files = new TreeMap<>();
     private final Map<Integer, BookPage> pages = new TreeMap<>();
     private final Map<Integer, Dimension> pageSizes = Collections
             .synchronizedMap(new TreeMap<Integer, Dimension>());
 
-    public BookLoader(PackFileWrapper file) {
-        this.file = file;
+    public BookLoader(Item item) {
+        this.item = item;
 
-        for (String f : file.list()) {
-            int p = f.indexOf('.');
+        for (String f : ListFiles.list(item).keySet()) {
+            String fn = f.substring(f.lastIndexOf('/')+1);
+            files.put(fn, new File(CatalogLoader.getDataRoot(), f));
+            int p = fn.indexOf('.');
             if (p < 0) {
                 continue;
             }
             int pn;
             try {
-                pn = Integer.parseInt(f.substring(0, p));
+                pn = Integer.parseInt(fn.substring(0, p));
             } catch (NumberFormatException ex) {
                 continue;
             }
@@ -57,14 +65,14 @@ public class BookLoader {
                 page = new BookPage();
                 pages.put(pn, page);
             }
-            if (f.endsWith(".mp3")) {
-                page.audio = f;
-            } else if (f.endsWith(".ogg")) {
-                page.audio = f;
-            } else if (f.endsWith(".jpg")) {
-                page.jpg = f;
-            } else if (f.endsWith(".png")) {
-                page.png = f;
+            if (fn.endsWith(".mp3")) {
+                page.audio = fn;
+            } else if (fn.endsWith(".ogg")) {
+                page.audio = fn;
+            } else if (fn.endsWith(".jpg")) {
+                page.jpg = fn;
+            } else if (fn.endsWith(".png")) {
+                page.png = fn;
             }
         }
     }
@@ -79,8 +87,17 @@ public class BookLoader {
     }
 
     public Dimension getCropCenterMin() {
-        int w = file.getSettings().getInt("cropCenterMinWidth", -1);
-        int h = file.getSettings().getInt("cropCenterMinHeight", -1);
+        int w,h;
+        try {
+            w = Integer.parseInt(item.settings.get("cropCenterMinWidth"));
+        } catch (Exception ex) {
+            w = -1;
+        }
+        try {
+            h = Integer.parseInt(item.settings.get("cropCenterMinHeight"));
+        } catch (Exception ex) {
+            h = -1;
+        }
         return w < 0 || h < 0 ? null : new Dimension(w, h);
     }
 
@@ -90,7 +107,7 @@ public class BookLoader {
 
         BookPage page = pages.get(pageNum);
 
-        if (!file.isFileExist(page.jpg)) {
+        if (!files.containsKey(page.jpg)) {
             return null;
         }
 
@@ -112,7 +129,7 @@ public class BookLoader {
                 paint.setFilterBitmap(true);
                 paint.setDither(true);
 
-                Bitmap bmp = loadBitmap(file, page.jpg);
+                Bitmap bmp = loadBitmap(files.get(page.jpg));
                 int scale = Math.round(1.0f * fullImageSize.width / bmp.getWidth());
                 Dimension imageSize = new Dimension(bmp.getWidth(), bmp.getHeight());
                 outputRect = new Rectangle();
@@ -126,8 +143,8 @@ public class BookLoader {
                 bmp.recycle();
                 bmp = null;
 
-                if (file.isFileExist(page.png)) {
-                    bmp = loadBitmap(file, page.png);
+                if (files.containsKey(page.png)) {
+                    bmp = loadBitmap(files.get(page.png));
                     scale = Math.round(1.0f * fullImageSize.width / bmp.getWidth());
                     imageSize = new Dimension(bmp.getWidth(), bmp.getHeight());
                     outputRect = new Rectangle();
@@ -197,19 +214,19 @@ public class BookLoader {
         if (size == null) {
             BookPage page = pages.get(pageNum);
 
-            if (!file.isFileExist(page.jpg)) {
+            if (!files.containsKey(page.jpg)) {
                 return null;
             }
-            size = loadBitmapSize(file, page.jpg);
+            size = loadBitmapSize(files.get(page.jpg));
             pageSizes.put(pageNum, size);
         }
         return size;
     }
 
-    static Dimension loadBitmapSize(PackFileWrapper pack, String fileName) throws IOException {
+    static Dimension loadBitmapSize(File file) throws IOException {
         Options opts = new Options();
         opts.inJustDecodeBounds = true;
-        InputStream in2 = new BufferedInputStream(pack.createStream(fileName));
+        InputStream in2 = new BufferedInputStream(new FileInputStream(file));
         try {
             BitmapFactory.decodeStream(in2, null, opts);
         } finally {
@@ -218,9 +235,9 @@ public class BookLoader {
         return new Dimension(opts.outWidth, opts.outHeight);
     }
 
-    public static Bitmap loadBitmap(PackFileWrapper pack, String fileName) throws IOException {
+    public static Bitmap loadBitmap(File file) throws IOException {
         for (int i = 1; i <= 10; i++) {
-            InputStream in2 = new BufferedInputStream(pack.createStream(fileName));
+            InputStream in2 = new BufferedInputStream(new FileInputStream(file));
             try {
                 BitmapFactory.Options opts = new BitmapFactory.Options();
                 opts.inSampleSize = i;
@@ -251,38 +268,21 @@ public class BookLoader {
         return null;
     }
 
-    public static Bitmap loadBitmapo(PackFileWrapper pack, String fileName, Rectangle imageRect)
-            throws IOException {
-        InputStream in2 = new BufferedInputStream(pack.createStream(fileName));
-        try {
-            if (imageRect != null) {
-                BitmapRegionDecoder decoder = BitmapRegionDecoder.newInstance(in2, false);
-                try {
-                    Bitmap bmp = decoder.decodeRegion(imageRect.getRect(), null);
-                    bmp.setDensity(0);
-                    return bmp;
-                } finally {
-                    decoder.recycle();
-                }
-            } else {
-                return BitmapFactory.decodeStream(in2);
-            }
-        } finally {
-            in2.close();
-        }
-    }
-
-    public PackFileWrapper.FileObjectDataSource getAudioFile(int pageNum) throws IOException {
+    public File getAudioFile(int pageNum) throws IOException {
         BookPage page = pages.get(pageNum);
-        return file.createDataSource(page.audio);
+        if (page.audio == null) {
+            return null;
+        }
+        return files.get(page.audio);
     }
 
     public Texts getTextPages() {
-        if (!file.isFileExist("pages.json")) {
+        if (!files.containsKey("pages.json")) {
             return null;
         }
-        try (BufferedReader rd = new BufferedReader(new InputStreamReader(file.createStream("pages.json"), "UTF-8"))) {
-            return new Gson().fromJson(rd, Texts.class);
+        try {
+            String s = IO.readText(files.get("pages.json"));
+            return new Gson().fromJson(s, Texts.class);
         } catch (Exception ex) {
             log.e("Error load page", ex);
             return null;

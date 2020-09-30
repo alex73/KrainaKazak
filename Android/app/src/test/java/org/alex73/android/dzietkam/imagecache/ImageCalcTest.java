@@ -1,8 +1,8 @@
 package org.alex73.android.dzietkam.imagecache;
 
-import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class ImageCalcTest {
     @Test

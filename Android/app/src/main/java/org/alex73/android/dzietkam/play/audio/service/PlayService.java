@@ -19,16 +19,19 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
 import org.alex73.android.dzietkam.CatalogLoader;
+import org.alex73.android.dzietkam.ListFiles;
 import org.alex73.android.dzietkam.Logger;
 import org.alex73.android.dzietkam.catalog.Catalog;
 import org.alex73.android.dzietkam.catalog.Item;
 import org.alex73.android.dzietkam.download.NotificationBuilder;
 import org.alex73.android.dzietkam.playbook.BookLoader;
 import org.alex73.android.dzietkam.ui.AnalyticsApplication;
-import org.alex73.android.dzietkam.util.PackFileWrapper;
+import org.alex73.android.dzietkam.util.IO;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Map;
 
 public class PlayService extends Service {
     public static final String ACTION_START = "start";
@@ -48,9 +51,7 @@ public class PlayService extends Service {
 
     private static final Logger log = new Logger(PlayService.class);
 
-    PackFileWrapper songFile;
     protected static final PlayStatus currentStatus = new PlayStatus();
-    private PackFileWrapper.FileObjectDataSource currentDataSource;
     private NotificationManager mNotificationManager;
 
     @Override
@@ -152,10 +153,6 @@ public class PlayService extends Service {
         if (p!=null) {
             p.release();
         }
-        if (currentDataSource != null) {
-            currentDataSource.close();
-            currentDataSource = null;
-        }
 
         super.onDestroy();
     }
@@ -206,14 +203,14 @@ public class PlayService extends Service {
     int getBackwardItemIndex(boolean allowFromEnd) {
         int nextItemIndex = -1;
         for (int i = currentStatus.itemIndex - 1; i >= 0; i--) {
-            if (CatalogLoader.isItemDownloaded(currentStatus.item.parent.items.get(i).file)) {
+            if (CatalogLoader.isItemDownloaded(currentStatus.item.parent.items.get(i))) {
                 nextItemIndex = i;
                 break;
             }
         }
         if (nextItemIndex < 0 && allowFromEnd) {
             for (int i = currentStatus.item.parent.items.size() - 1; i > currentStatus.itemIndex; i--) {
-                if (CatalogLoader.isItemDownloaded(currentStatus.item.parent.items.get(i).file)) {
+                if (CatalogLoader.isItemDownloaded(currentStatus.item.parent.items.get(i))) {
                     nextItemIndex = i;
                     break;
                 }
@@ -225,14 +222,14 @@ public class PlayService extends Service {
     int getForwardItemIndex(boolean allowFromStart) {
         int nextItemIndex = -1;
         for (int i = currentStatus.itemIndex + 1; i < currentStatus.item.parent.items.size(); i++) {
-            if (CatalogLoader.isItemDownloaded(currentStatus.item.parent.items.get(i).file)) {
+            if (CatalogLoader.isItemDownloaded(currentStatus.item.parent.items.get(i))) {
                 nextItemIndex = i;
                 break;
             }
         }
         if (nextItemIndex < 0 && allowFromStart) {
             for (int i = 0; i < currentStatus.itemIndex; i++) {
-                if (CatalogLoader.isItemDownloaded(currentStatus.item.parent.items.get(i).file)) {
+                if (CatalogLoader.isItemDownloaded(currentStatus.item.parent.items.get(i))) {
                     nextItemIndex = i;
                     break;
                 }
@@ -255,21 +252,22 @@ public class PlayService extends Service {
         AnalyticsApplication application = (AnalyticsApplication) getApplication();
         application.showScreen(currentStatus.item);
 
-        File file = CatalogLoader.getItemDownloaded(currentStatus.item);
         try {
-            songFile = new PackFileWrapper(file);
             getCover(currentStatus.item);
-            currentStatus.text = songFile.readText("text.txt");
-            String name = songFile.getOneFileNameByExtension("ogg", "mp3");
-            if (name == null) {
-                name = "file";
+            File text = new File(CatalogLoader.getDataRoot(), currentStatus.item.getPath()+".txt");
+            if (text.exists()) {
+                currentStatus.text = IO.readText(text);
             }
-            if (currentDataSource != null) {
-                currentDataSource.close();
-                currentDataSource = null;
+            Map<String, Long> files = ListFiles.list(currentStatus.item);
+            File f = null;
+            for(String fn:files.keySet()) {
+                if (fn.endsWith(".ogg") || fn.endsWith(".mp3") || fn.endsWith(".opus")) {
+                    f = new File(CatalogLoader.getDataRoot(), fn);
+                }
             }
-            currentDataSource = songFile.createDataSource(name);
-            currentDataSource.apply(currentStatus.player);
+            try (FileInputStream is = new FileInputStream(f)) {
+                currentStatus.player.setDataSource(is.getFD());
+            }
             currentStatus.player.prepare();//TODO
             currentStatus.duration = currentStatus.player.getDuration();
         } catch (Exception ex) {
@@ -285,36 +283,24 @@ public class PlayService extends Service {
     }
 
     private void getCover(Item item) throws IOException {
-        if (songFile.isFileExist("cover.jpg")) {
-            currentStatus.cover = BookLoader.loadBitmap(songFile, "cover.jpg");
-        } else if (songFile.isFileExist("cover.png")) {
-            currentStatus.cover = BookLoader.loadBitmap(songFile, "cover.png");
+        if (item.cover != null && !item.cover.endsWith(".svg")) {
+            File coverFile = new File(CatalogLoader.getDataRoot(), item.getPath() + "/"+item.cover).getCanonicalFile();
+            if (coverFile.exists()) {
+                currentStatus.cover = BookLoader.loadBitmap(coverFile);
+                return;
+            }
+        }
+        int resourceId = this.getResources().getIdentifier(item.getCoverDrawableName().replaceAll("^cover_", "orig_"), "drawable", getPackageName());
+        if (resourceId!=0) {
+            currentStatus.cover = BookLoader.loadBitmap(getResources(), resourceId);
         } else {
-            String cover = item.cover;
-            if (cover == null) {
-                cover = item.parent.cover;
-            }
-            if (cover != null) {
-                int resourceId = this.getResources().getIdentifier(
-                        cover.replaceAll("^cover_", "orig_"), "drawable", getPackageName());
-                if (resourceId == 0) {
-                    resourceId = this.getResources().getIdentifier(cover, "drawable", getPackageName());
-                }
-                currentStatus.cover = BookLoader.loadBitmap(getResources(), resourceId);
-            } else {
-                currentStatus.cover = new ColorDrawable();
-            }
+            getCover(item.parent);
         }
     }
 
     private void stopAll() {
         if (currentStatus.player.isPlaying()) {
             currentStatus.player.stop();
-        }
-        if (currentDataSource != null) {
-            currentDataSource.close();
-            ;
-            currentDataSource = null;
         }
         stopForeground(true);
         stopSelf();

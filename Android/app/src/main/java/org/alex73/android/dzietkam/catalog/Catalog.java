@@ -31,7 +31,7 @@ public class Catalog {
     public static String getPath(Item item) {
         String p = item.id;
         Item it = item.parent;
-        while (it != null) {
+        while (it != null && it.id != null) {
             p = it.id + '/' + p;
             it = it.parent;
         }

@@ -1,8 +1,11 @@
 package org.alex73.android.dzietkam.ui;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.TimeZone;
 
 import org.alex73.android.dzietkam.CatalogLoader;
 import org.alex73.android.dzietkam.Logger;
@@ -32,6 +35,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+
+import androidx.annotation.Nullable;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -41,6 +46,7 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import android.text.TextPaint;
 import android.text.TextUtils;
 import android.text.method.LinkMovementMethod;
+import android.transition.Visibility;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -88,7 +94,7 @@ public class ItemsListActivity extends AppCompatActivity {
         if (item.cover != null) {
             ((TextView) findViewById(R.id.album_name)).setText(item.title);
             ((TextView) findViewById(R.id.album_details)).setText(item.description);
-            int coverId = ItemsListActivity.this.getResources().getIdentifier(item.cover, "drawable",
+            int coverId = ItemsListActivity.this.getResources().getIdentifier(item.getCoverDrawableName(), "drawable",
                     getPackageName());
             ((ImageView) findViewById(R.id.album_cover)).setImageResource(coverId);
             findViewById(R.id.album_download).setOnClickListener(mDownloadAll);
@@ -141,13 +147,7 @@ public class ItemsListActivity extends AppCompatActivity {
     }
 
     void setAlbumDownload() {
-        boolean allDownloaded = CatalogLoader.isItemDownloaded(item.file);
-        for (Item it : item.items) {
-            if (!CatalogLoader.isItemDownloaded(it.file)) {
-                allDownloaded = false;
-                break;
-            }
-        }
+        boolean allDownloaded = CatalogLoader.isItemDownloaded(item);
         findViewById(R.id.album_download).setVisibility(allDownloaded ? View.GONE : View.VISIBLE);
     }
 
@@ -161,10 +161,8 @@ public class ItemsListActivity extends AppCompatActivity {
 
     public void recyclerViewListClicked(View v, int position) {
         Item it = item.items.get(position);
-            if (!CatalogLoader.isItemDownloaded(it.file)) {
-                List<Item> items = new ArrayList<>();
-                items.add(it);
-                DownloadStarter.start(ItemsListActivity.this, getApplicationContext(), application, items);
+            if (it.type != null && !CatalogLoader.isItemDownloaded(it)) {
+                DownloadStarter.start(ItemsListActivity.this, getApplicationContext(), application, it);
                 return;
             }
         startPlay(it);
@@ -173,20 +171,7 @@ public class ItemsListActivity extends AppCompatActivity {
     OnClickListener mDownloadAll = new OnClickListener() {
         @Override
         public void onClick(View v) {
-            List<Item> items = new ArrayList<>();
-            if (item.file != null) {
-                items.add(item);
-            } else {
-                for (Item it : item.items) {
-                    if (CatalogLoader.isItemDownloaded(it.file)) {
-                        continue;
-                    }
-                    items.add(it);
-                }
-            }
-            if (!items.isEmpty()) {
-                DownloadStarter.start(ItemsListActivity.this, getApplicationContext(), application, items);
-            }
+            DownloadStarter.start(ItemsListActivity.this, getApplicationContext(), application, item);
         }
     };
 
@@ -251,6 +236,15 @@ public class ItemsListActivity extends AppCompatActivity {
     public class RVAdapter extends RecyclerView.Adapter<ItemViewHolder> {
         List<Item> items;
         private boolean focused;
+        ThreadLocal<SimpleDateFormat> lengthFormat = new ThreadLocal<SimpleDateFormat>() {
+            @Nullable
+            @Override
+            protected SimpleDateFormat initialValue() {
+                SimpleDateFormat r = new SimpleDateFormat("HH:mm:ss");
+                r.setTimeZone(TimeZone.getTimeZone("UTC"));
+                return r;
+            }
+        };
 
         RVAdapter(List<Item> items) {
             this.items = items;
@@ -273,10 +267,18 @@ public class ItemsListActivity extends AppCompatActivity {
         public void onBindViewHolder(ItemViewHolder itemViewHolder, int i) {
             itemViewHolder.title.setText(items.get(i).title);
             itemViewHolder.details.setText(items.get(i).description);
+
+            if (items.get(i).length!=null) {
+                String length = lengthFormat.get().format(new Date(items.get(i).length.longValue()*1000L));
+                itemViewHolder.length.setText(length);
+                itemViewHolder.length.setVisibility(View.VISIBLE);
+            } else {
+                itemViewHolder.length.setVisibility(View.GONE);
+            }
 // TODO download mark itemViewHolder.downloadMark.setVisibility(View.GONE);
 
             int coverId = 0;
-            String cover = items.get(i).cover;
+            String cover = items.get(i).getCoverDrawableName();
             if (cover != null) {
                 coverId = ItemsListActivity.this.getResources().getIdentifier(cover, "drawable",
                         getPackageName());
@@ -289,7 +291,7 @@ public class ItemsListActivity extends AppCompatActivity {
 
             final Item item = items.get(i);
             itemViewHolder.downloadMark
-                    .setVisibility(CatalogLoader.isItemDownloaded(item.file) ? View.GONE : View.VISIBLE);
+                    .setVisibility(item.type == null || CatalogLoader.isItemDownloaded(item) ? View.GONE : View.VISIBLE);
             itemViewHolder.viewedMark.setVisibility(CatalogLoader.isItemViewed(ItemsListActivity.this, item) ? View.VISIBLE : View.GONE);
             itemViewHolder.itemView.setOnFocusChangeListener(new View.OnFocusChangeListener() {
                 @Override
@@ -322,6 +324,7 @@ public class ItemsListActivity extends AppCompatActivity {
     public class ItemViewHolder extends RecyclerView.ViewHolder {
         TextView title;
         TextView details;
+        TextView length;
         ImageView cover;
         ImageView downloadMark;
         ImageView viewedMark;
@@ -330,6 +333,7 @@ public class ItemsListActivity extends AppCompatActivity {
             super(itemView);
             title = (TextView) itemView.findViewById(R.id.item_name);
             details = (TextView) itemView.findViewById(R.id.item_details);
+            length = (TextView) itemView.findViewById(R.id.item_length);
             cover = (ImageView) itemView.findViewById(R.id.item_cover);
             downloadMark = (ImageView) itemView.findViewById(R.id.item_download_mark);
             viewedMark = (ImageView) itemView.findViewById(R.id.item_viewed_mark);
@@ -429,18 +433,7 @@ public class ItemsListActivity extends AppCompatActivity {
     };
 
     void swipeRight(Item item ) {
-        File f = CatalogLoader.getItemDownloaded(item);
-        if (f!=null) {
-            f.delete();
-        }
-        if (item.items!=null) {
-            for (Item it : item.items) {
-                f = CatalogLoader.getItemDownloaded(it);
-                if (f != null) {
-                    f.delete();
-                }
-            }
-        }
+        CatalogLoader.removeDownloaded(item);
         Toast.makeText(ItemsListActivity.this, "Выдалена", Toast.LENGTH_SHORT).show();
         list.getAdapter().notifyDataSetChanged();
     }

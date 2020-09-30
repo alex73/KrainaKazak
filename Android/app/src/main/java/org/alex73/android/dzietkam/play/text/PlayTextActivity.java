@@ -2,6 +2,9 @@ package org.alex73.android.dzietkam.play.text;
 
 import java.io.File;
 import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 import org.alex73.android.dzietkam.CatalogLoader;
 import org.alex73.android.dzietkam.Logger;
@@ -9,7 +12,7 @@ import org.alex73.android.dzietkam.R;
 import org.alex73.android.dzietkam.catalog.Catalog;
 import org.alex73.android.dzietkam.catalog.Item;
 import org.alex73.android.dzietkam.ui.AnalyticsApplication;
-import org.alex73.android.dzietkam.util.PackFileWrapper;
+import org.alex73.android.dzietkam.util.IO;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,7 +24,6 @@ public class PlayTextActivity extends AppCompatActivity {
     AnalyticsApplication application;
     private String itemPath;
     private Item item;
-    PackFileWrapper packFile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,14 +38,10 @@ public class PlayTextActivity extends AppCompatActivity {
         application.showScreen(item);
         CatalogLoader.setItemViewed(this, item, true);
 
-        File f = CatalogLoader.getItemDownloaded(item);
-        String fn = item.file.name.startsWith("#") ? item.file.name.substring(1):item.file.name;
+        File fn = new File(CatalogLoader.getDataRoot(), item.getPath()+".text");
         String html = "";
         try {
-            packFile = new PackFileWrapper(f);
-
-            html = text2html(item.title, item.description, packFile.readText(fn+".text"));
-                //html = packFile.readText(fn + ".html");
+            html = text2html(item.title, item.description, IO.readText(fn));
             html = URLEncoder.encode(html, "UTF-8").replaceAll("\\+", " ");
         } catch (Exception ex) {
             log.e("Error read pack file", ex);

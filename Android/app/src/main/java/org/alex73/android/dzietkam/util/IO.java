@@ -1,6 +1,8 @@
 package org.alex73.android.dzietkam.util;
 
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -18,5 +20,10 @@ public class IO {
             r.append(buffer,0,len);
         }
         return r.toString();
+    }
+    public static String readText(File file) throws IOException {
+        try (FileInputStream is = new FileInputStream(file)) {
+            return read(is, "UTF-8");
+        }
     }
 }

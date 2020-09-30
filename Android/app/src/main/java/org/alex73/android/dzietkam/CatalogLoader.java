@@ -7,9 +7,9 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 import org.alex73.android.dzietkam.catalog.Catalog;
-import org.alex73.android.dzietkam.catalog.FileInfo;
 import org.alex73.android.dzietkam.catalog.Item;
 
 import com.google.gson.Gson;
@@ -99,29 +99,29 @@ public class CatalogLoader {
         }
     }
 
-    public static boolean isItemDownloaded(FileInfo fi) {
-        if (fi == null) {
-            return true;
+    public static long getNotExistSize(Item it) {
+        Map<String, Long> files = ListFiles.list(it);
+        long r = 0;
+        for(Map.Entry<String,Long> en:files.entrySet()) {
+            File f = new File(dataRoot, en.getKey());
+            if (f.exists()) {
+               long delta = en.getValue()-f.length();
+               r+=delta>=0?delta:en.getValue();
+            } else {
+                r+=en.getValue();
+            }
         }
-
-        if (fi == null) {
-            return true;
-        }
-        if (fi.name.startsWith("#")) {
-            return true;
-        }
-        File file = new File(dataRoot, fi.name);
-        return file.exists() && file.length() == fi.size;
+        return r;
     }
 
-    public static File getItemDownloaded(Item item) {
-        if (item.file == null) {
-            return null;
+    public static boolean isItemDownloaded(Item it) {
+        return getNotExistSize(it)==0;
+    }
+    public static void removeDownloaded(Item it) {
+        Map<String, Long> files = ListFiles.list(it);
+        for(String fn:files.keySet()) {
+            new File(dataRoot, fn).delete();
         }
-        if (item.file.name.startsWith("#")) {
-            item = item.parent;
-        }
-        return new File(dataRoot, item.file.name);
     }
 
     public static boolean isItemViewed(Context context, Item item) {
@@ -135,5 +135,20 @@ public class CatalogLoader {
         SharedPreferences.Editor editor= pref.edit();
         editor.putBoolean(key, value);
         editor.commit();
+    }
+
+    public static File getOneFileNameByExtension(String path, String... extensions) {
+        File dir = new File(getDataRoot(), path);
+        File[] ls = dir.listFiles();
+        if (ls != null) {
+            for (String ext : extensions) {
+                for (File f : ls) {
+                    if (f.isFile() && f.getName().endsWith("." + ext)) {
+                        return f;
+                    }
+                }
+            }
+        }
+        return null;
     }
 }

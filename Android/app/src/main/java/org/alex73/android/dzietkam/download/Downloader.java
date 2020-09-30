@@ -7,20 +7,26 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.alex73.android.dzietkam.CatalogLoader;
+import org.alex73.android.dzietkam.ListFiles;
 import org.alex73.android.dzietkam.Logger;
+import org.alex73.android.dzietkam.catalog.Catalog;
 
 public abstract class Downloader {
     private final static Pattern RE_CONTENT_RANGE = Pattern.compile("bytes ([0-9]+)\\-([0-9]+)/([0-9]+)");
 
     private final Logger log = new Logger(getClass());
 
+    private final Catalog catalog;
     private final DownloadPart d;
 
-    public Downloader(DownloadPart download) {
+    public Downloader(DownloadPart download, Catalog catalog) {
         this.d = download;
+        this.catalog = catalog;
     }
 
     abstract protected boolean needToStop();
@@ -28,21 +34,26 @@ public abstract class Downloader {
     abstract protected void downloaded(long count);
 
     public void process() throws Exception {
-        log.i("Request download " + d.uri);
-        HttpURLConnection connection = (HttpURLConnection) new URL(d.uri.toString()).openConnection();
+        Map<String, Long> files = ListFiles.list(catalog.getItem(d.path));
+        for(String path: files.keySet()) {
+            if (needToStop()) {
+                return;
+            }
+            process1(path);
+        }
+    }
+    private void process1(String path) throws Exception {
+        log.i("Request download " + catalog.baseUrl + path);
+        HttpURLConnection connection = (HttpURLConnection) new URL(catalog.baseUrl + path).openConnection();
         try {
-            File fout = new File(d.file);
+            File fout = new File(CatalogLoader.getDataRoot(), path);
             File dir = fout.getParentFile();
             if (!dir.isDirectory() && !dir.mkdirs()) {
                 throw new IOException("Error create parent dir");
             }
 
-            long exist = fout.exists() ? fout.length() : -1;
-            if (exist == d.size) {
-                return; // finish
-            }
-            if (exist > 0) {
-                connection.setRequestProperty("Range", "bytes=" + exist + "-");
+            if (fout.exists()) {
+                return;
             }
 
             boolean append;
@@ -53,14 +64,14 @@ public abstract class Downloader {
 
             switch (connection.getResponseCode()) {
             case HttpURLConnection.HTTP_OK:
-                if (Long.parseLong(contentLengthStr) != d.size) {
+                /*if (Long.parseLong(contentLengthStr) != d.size) {
                     log.e("Wrong Content-Length : " + contentLengthStr);
                     throw new Exception();
-                }
+                }*/
                 append = false;
-                log.v("Download from start");
+               // log.v("Download from start");
                 break;
-            case HttpURLConnection.HTTP_PARTIAL:
+          /*  case HttpURLConnection.HTTP_PARTIAL:
                 if (Long.parseLong(contentLengthStr) != d.size - exist) {
                     log.e("Wrong Content-Length : " + contentLengthStr);
                     throw new Exception("Несупадзеньне файла ў каталозе і на сэрверы");
@@ -85,7 +96,7 @@ public abstract class Downloader {
                 }
                 append = true;
                 log.v("Download from " + exist);
-                break;
+                break;*/
             default:
                 log.e("Wrong status : " + connection.getResponseCode() + " "
                         + connection.getResponseMessage());
@@ -93,11 +104,12 @@ public abstract class Downloader {
                         + connection.getResponseMessage());
             }
 
-            downloaded(append ? exist : 0);
+            downloaded(0);
 
             InputStream input = connection.getInputStream();
             try {
-                OutputStream output = new FileOutputStream(fout, append); // TODO error handling
+                File ftemp=new File(fout.getPath()+".temp");
+                OutputStream output = new FileOutputStream(ftemp, append); // TODO error handling
                 try {
                     int count;
                     byte[] buffer = new byte[64 * 1024];
@@ -114,6 +126,7 @@ public abstract class Downloader {
                     } catch (IOException ex) {
                     }
                 }
+                ftemp.renameTo(fout);
             } finally {
                 try {
                     input.close();
@@ -123,5 +136,6 @@ public abstract class Downloader {
         } finally {
             connection.disconnect();
         }
+        log.i("Download finished: " + catalog.baseUrl + path);
     }
 }
