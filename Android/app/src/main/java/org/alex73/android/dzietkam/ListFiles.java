@@ -63,6 +63,17 @@ public class ListFiles {
             default:
                 throw new RuntimeException("Unknown type: " + it.type);
         }
+        addCover(it, r);
+        if (it.parent != null) {
+            addCover(it.parent, r);
+            if (it.parent.parent != null) {
+                addCover(it.parent.parent, r);
+            }
+        }
+        return r;
+    }
+
+    private static void addCover(Item it, Map<String, Long> r) {
         if (it.cover != null) {
             String coverPath = it.getPath()+'/'+it.cover;
             coverPath = coverPath.replaceAll("/[^/]+/\\.\\./", "/").replaceAll("/{2,}", "/");
@@ -72,16 +83,6 @@ public class ListFiles {
             }
             r.put(coverPath, sz);
         }
-        if (it.parent != null && it.parent.cover != null) {
-            String coverPath = it.parent.getPath()+'/'+it.parent.cover;
-            coverPath = coverPath.replaceAll("/[^/]+/\\.\\./", "/").replaceAll("/{2,}", "/");
-            Long sz = files.get(coverPath);
-            if (sz==null) {
-                throw new RuntimeException("No cover: "+coverPath);
-            }
-            r.put(coverPath, sz);
-        }
-        return r;
     }
 
     private static Map<String, Long> listAudio(String id) {

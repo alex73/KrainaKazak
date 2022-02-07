@@ -272,6 +272,7 @@ public class PlayService extends Service {
             currentStatus.duration = currentStatus.player.getDuration();
         } catch (Exception ex) {
             log.e("MediaPlayer error start song: " + ex.getMessage(), ex);
+            application.crash(ex);
             return;
         }
 
@@ -290,7 +291,8 @@ public class PlayService extends Service {
                 return;
             }
         }
-        int resourceId = this.getResources().getIdentifier(item.getCoverDrawableName().replaceAll("^cover_", "orig_"), "drawable", getPackageName());
+        String coverResourceName = item.getCoverDrawableName().replaceAll("^cover_", "orig_");
+        int resourceId = this.getResources().getIdentifier(coverResourceName, "drawable", getPackageName());
         if (resourceId!=0) {
             currentStatus.cover = BookLoader.loadBitmap(getResources(), resourceId);
         } else {

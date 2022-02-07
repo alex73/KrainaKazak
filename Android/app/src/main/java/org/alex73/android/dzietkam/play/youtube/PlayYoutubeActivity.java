@@ -1,6 +1,8 @@
 package org.alex73.android.dzietkam.play.youtube;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Base64;
 import android.widget.Toast;
@@ -11,6 +13,7 @@ import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
 import org.alex73.android.dzietkam.CatalogLoader;
+import org.alex73.android.dzietkam.Logger;
 import org.alex73.android.dzietkam.R;
 import org.alex73.android.dzietkam.catalog.Item;
 import org.alex73.android.dzietkam.ui.AnalyticsApplication;
@@ -19,6 +22,8 @@ import org.alex73.android.dzietkam.ui.AnalyticsApplication;
 public class PlayYoutubeActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
     public static final String YOUTUBE_API_KEY_ENCODED = "QUl6YVN5Q3JHbS1KSE56cnJxSHMxZWdNTU4wVFA2WmpfLXBPa3ZZ";
     private static final int RECOVERY_REQUEST = 1;
+
+    private final Logger log = new Logger(getClass());
 
     private String itemPath;
     private Item item;
@@ -62,7 +67,18 @@ public class PlayYoutubeActivity extends YouTubeBaseActivity implements YouTubeP
                     PlayYoutubeActivity.this.finish();
                 }
 
-                public void onError(YouTubePlayer.ErrorReason var1) {
+                public void onError(YouTubePlayer.ErrorReason reason) {
+                    log.e("YouTube initialization error: " + reason);
+                    Toast.makeText(PlayYoutubeActivity.this, "Налады відэа недазваляюць бачыць яго ў Краіне казак. Зараз мы паспрабуем адчыніць яго на youtube...", Toast.LENGTH_LONG).show();
+                    PlayYoutubeActivity.this.finish();
+
+                    try {
+                        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:" + item.id));
+                        startActivity(appIntent);
+                    } catch (ActivityNotFoundException ex) {
+                        Intent webIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=" + item.id));
+                        startActivity(webIntent);
+                    }
                 }
             });
             player.loadVideo(item.id);
