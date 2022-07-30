@@ -1,8 +1,8 @@
 {
-  "baseUrl": "https://dzietkam.knihi.com/v3/",
+  "baseUrl": "https://dzietkam.knihi.com/v4/",
   "items": {
     "id": "",
-    "length": 227881,
+    "length": 225566,
     "items": [
       {
         "id": "knizki",
@@ -13,7 +13,7 @@
             "type": "book",
             "title": "З рога ўсяго многа",
             "description": "4+",
-            "cover": "cover.jpg",
+            "cover": "cover.webp",
             "settings": {
               "cropCenterMinHeight": "1536",
               "cropCenterMinWidth": "2048"
@@ -24,21 +24,21 @@
             "type": "book",
             "title": "Сабачая грамата",
             "description": "4+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "StrasnyZvier",
             "type": "book",
             "title": "Страшны звер",
             "description": "4+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "Siniaja_svita_naleva_pasyta",
             "type": "book",
             "title": "Сіняя світа налева пашыта",
             "description": "4+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "gavarun_by",
@@ -108,7 +108,7 @@
             "type": "book",
             "title": "Азбука для маленькіх",
             "description": "Азбука складзеная з вершаў: Р. Барадуліна, В. Віткі, В. Шніпа, А. Бадака, С. Сокалава-Воюша, Ул. Мазго, Ул. Мацьвеенкі, Н. Гілевіча, А. Вольскага.",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "Puchnaty_patrul",
@@ -159,84 +159,84 @@
             "type": "book",
             "title": "Твой сябар нос",
             "description": "3+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "JasinyZabauki",
             "type": "book",
             "title": "Ясіны забаўкі",
             "description": "3+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "MiMoBelarus",
             "type": "book",
             "title": "Мі і Мо ў Беларусі",
             "description": "5+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "MiMoUkraine",
             "type": "book",
             "title": "Мі і Мо ва Украіне",
             "description": "5+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "Molli1",
             "type": "book",
             "title": "Шкляная кароўка Моллі",
             "description": "2+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "Molli2",
             "type": "book",
             "title": "Моллі і кароўкі, якія згубіліся",
             "description": "2+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "Molli3",
             "type": "book",
             "title": "Моллі на вакацыях",
             "description": "2+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "Molli4",
             "type": "book",
             "title": "Моллі робіцца знакамітай",
             "description": "2+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "MalecaKacier",
             "type": "book",
             "title": "Малеча Кацер супраць піратаў",
             "description": "3+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "Ciahnicok_na_ramoncie",
             "type": "book",
             "title": "Цягнічок на рамонце",
             "description": "3+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "Alina_i_Palina",
             "type": "book",
             "title": "Аліна і Паліна выбіраюць хатнюю жывёлу",
             "description": "4+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "CyrvonyKapturok",
             "type": "book",
             "title": "Чырвоны Каптурок, 21-е стагоддзе",
             "description": "4+",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "Kosmas",
@@ -250,7 +250,7 @@
             "type": "book",
             "title": "Адкуль бяруцца дзеці",
             "description": "5+",
-            "cover": "cover.jpg",
+            "cover": "cover.webp",
             "settings": {
               "question": "Год першага выдання Скарыны",
               "answer": "1517"
@@ -334,7 +334,7 @@
             "id": "Kazki1957b",
             "title": "Беларускія народныя казкі",
             "description": "Беларускія казкі. Мюнхен, 1957",
-            "cover": "cover.png",
+            "cover": "cover.webp",
             "items": [
               {
                 "id": "Ab_durniu_i_zalatym_ptachu",
@@ -2550,7 +2550,7 @@
           {
             "id": "Hrym",
             "title": "Казкі братоў Грым",
-            "cover": "cover.jpg",
+            "cover": "cover.webp",
             "items": [
               {
                 "id": "Bremienskija_muzyki",
@@ -2594,14 +2594,14 @@
       {
         "id": "audyjokazki",
         "title": "Аўдыёказкі",
-        "length": 212318,
+        "length": 210240,
         "items": [
           {
             "id": "vituska_dzin-dzilin",
             "title": "Дзінь-дзілінь: пара гуляць у казкі",
             "description": "12 казак аўтарства Сяргея Вітушкі",
-            "cover": "cover.jpg",
-            "length": 5730,
+            "cover": "cover.webp",
+            "length": 5732,
             "items": [
               {
                 "id": "01",
@@ -2614,7 +2614,7 @@
                 "type": "audio",
                 "title": "Залатое яечка",
                 "description": "Алег Хаменка",
-                "cover": "../02.cover.jpg",
+                "cover": "../02.cover.webp",
                 "length": 373
               },
               {
@@ -2622,7 +2622,7 @@
                 "type": "audio",
                 "title": "Вадзіца жывая-мёртвая",
                 "description": "Ганна Хітрык",
-                "cover": "../03.cover.jpg",
+                "cover": "../03.cover.webp",
                 "length": 296
               },
               {
@@ -2630,7 +2630,7 @@
                 "type": "audio",
                 "title": "Як дзед-мароз новае сьвята прыдумаў",
                 "description": "Лявон Вольскі",
-                "cover": "../04.cover.jpg",
+                "cover": "../04.cover.webp",
                 "length": 286
               },
               {
@@ -2638,7 +2638,7 @@
                 "type": "audio",
                 "title": "Казка на Дзень гораду",
                 "description": "Адам Глёбус",
-                "cover": "../05.cover.jpg",
+                "cover": "../05.cover.webp",
                 "length": 252
               },
               {
@@ -2646,7 +2646,7 @@
                 "type": "audio",
                 "title": "Казачка на вербную нядзельку",
                 "description": "Зьміцер Вайцюшкевіч",
-                "cover": "../06.cover.jpg",
+                "cover": "../06.cover.webp",
                 "length": 329
               },
               {
@@ -2654,7 +2654,7 @@
                 "type": "audio",
                 "title": "Казачка на Дзень Сьвятога Валянціна",
                 "description": "Тамара Лісіцкая",
-                "cover": "../07.cover.jpg",
+                "cover": "../07.cover.webp",
                 "length": 530
               },
               {
@@ -2662,7 +2662,7 @@
                 "type": "audio",
                 "title": "Вільнюсь",
                 "description": "Андрэй Хадановіч",
-                "cover": "../08.cover.jpg",
+                "cover": "../08.cover.webp",
                 "length": 456
               },
               {
@@ -2670,23 +2670,23 @@
                 "type": "audio",
                 "title": "Казачка пра Цмока Базылішка",
                 "description": "Алесь Камоцкі",
-                "cover": "../09.cover.jpg",
-                "length": 684
+                "cover": "../09.cover.webp",
+                "length": 685
               },
               {
                 "id": "10",
                 "type": "audio",
                 "title": "На Купальле",
                 "description": "Стэфан Эрыксан",
-                "cover": "../10.cover.jpg",
-                "length": 433
+                "cover": "../10.cover.webp",
+                "length": 434
               },
               {
                 "id": "11",
                 "type": "audio",
                 "title": "Казка пра Герб",
                 "description": "Уладзімер Арлоў",
-                "cover": "../11.cover.jpg",
+                "cover": "../11.cover.webp",
                 "length": 900
               },
               {
@@ -2694,7 +2694,7 @@
                 "type": "audio",
                 "title": "Казка пра Гімн",
                 "description": "Зінаіда Бандарэнка",
-                "cover": "../12.cover.jpg",
+                "cover": "../12.cover.webp",
                 "length": 774
               },
               {
@@ -2702,7 +2702,7 @@
                 "type": "audio",
                 "title": "Казка пра Сьцяг",
                 "description": "Сяргей Сокалаў-Воюш",
-                "cover": "../13.cover.jpg",
+                "cover": "../13.cover.webp",
                 "length": 163
               },
               {
@@ -2718,7 +2718,7 @@
             "title": "Казачка на добры сон",
             "description": "Віталь Краўчанка",
             "cover": "cover.svg",
-            "length": 5396,
+            "length": 5398,
             "items": [
               {
                 "id": "01",
@@ -2749,13 +2749,13 @@
                 "id": "05",
                 "type": "audio",
                 "title": "Прыцемкі",
-                "length": 463
+                "length": 464
               },
               {
                 "id": "06",
                 "type": "audio",
                 "title": "Чайнік",
-                "length": 551
+                "length": 552
               },
               {
                 "id": "07",
@@ -2797,42 +2797,42 @@
             "id": "alena_masla",
             "title": "Казкі ад Алены Масла",
             "cover": "cover.svg",
-            "length": 5327,
+            "length": 3368,
             "items": [
               {
                 "id": "01",
                 "type": "audio",
                 "title": "Воблачка",
-                "cover": "../01.cover.jpg",
-                "length": 808
+                "cover": "../01.cover.webp",
+                "length": 404
               },
               {
                 "id": "02",
                 "type": "audio",
                 "title": "Музыка крыштальнага саду",
-                "cover": "../02.cover.jpg",
+                "cover": "../02.cover.webp",
                 "length": 680
               },
               {
                 "id": "03",
                 "type": "audio",
                 "title": "Нядбайная гаспадыня",
-                "cover": "../03.cover.jpg",
+                "cover": "../03.cover.webp",
                 "length": 730
               },
               {
                 "id": "04",
                 "type": "audio",
                 "title": "Сапраўдны правіцель",
-                "cover": "../04.cover.jpg",
-                "length": 2186
+                "cover": "../04.cover.webp",
+                "length": 1093
               },
               {
                 "id": "05",
                 "type": "audio",
                 "title": "Цудадзейныя лекі",
-                "cover": "../05.cover.jpg",
-                "length": 923
+                "cover": "../05.cover.webp",
+                "length": 461
               }
             ]
           },
@@ -2889,8 +2889,8 @@
           {
             "id": "michal_zaleski",
             "title": "Казкі ад Міхала Залескага",
-            "cover": "cover.png",
-            "length": 1664,
+            "cover": "cover.webp",
+            "length": 1666,
             "items": [
               {
                 "id": "01",
@@ -2950,7 +2950,7 @@
                 "id": "10",
                 "type": "audio",
                 "title": "Каза-калядоўшчыца",
-                "length": 50
+                "length": 51
               },
               {
                 "id": "11",
@@ -2962,7 +2962,7 @@
                 "id": "12",
                 "type": "audio",
                 "title": "Цецярук",
-                "length": 36
+                "length": 37
               },
               {
                 "id": "13",
@@ -2982,7 +2982,7 @@
             "id": "Ranica_z_knizkaj",
             "title": "Раніца з кніжкай",
             "cover": "cover.jpg",
-            "length": 35892,
+            "length": 35879,
             "items": [
               {
                 "id": "Aulasienka_Hienadz.Sniehavik.1999",
@@ -3000,7 +3000,7 @@
                 "id": "Bienziaruk_Rascislau.Jak_prydumali_hulniu",
                 "type": "audio",
                 "title": "Расьціслаў Бензярук. Як прыдумалі гульню",
-                "length": 379
+                "length": 378
               },
               {
                 "id": "Buslinnaja_siamja",
@@ -3084,7 +3084,7 @@
                 "id": "Kazki_narodau_Rasiei",
                 "type": "audio",
                 "title": "Казкі народаў Расеі",
-                "length": 2520
+                "length": 2519
               },
               {
                 "id": "Kirochi_Hrazio.Hihanckaja_carapacha",
@@ -3102,13 +3102,13 @@
                 "id": "Litouskaja_narodnaja_kazka.Vielikan_Ruscikajs",
                 "type": "audio",
                 "title": "Літоўская народная казка. Велікан Русьцікайс",
-                "length": 463
+                "length": 462
               },
               {
                 "id": "Masla_Alena.Kanapa",
                 "type": "audio",
                 "title": "Алена Масла. Канапа",
-                "length": 790
+                "length": 789
               },
               {
                 "id": "Nahajskaja_narodnaja_kazka.Dva_tavarysy",
@@ -3126,13 +3126,13 @@
                 "id": "Niamieckaja_narodnaja_kazka.Dva_braty_i_vielikan",
                 "type": "audio",
                 "title": "Нямецкая народная казка. Два браты і велікан",
-                "length": 659
+                "length": 658
               },
               {
                 "id": "Niuchskaja_narodnaja_kazka.Chlopiec_i_tyhar",
                 "type": "audio",
                 "title": "Ніўхская народная казка. Хлопец і тыгар",
-                "length": 520
+                "length": 519
               },
               {
                 "id": "Oster_Ryhor.Kazki",
@@ -3144,19 +3144,19 @@
                 "id": "Pryhody_kacianiaci_i_soniejka",
                 "type": "audio",
                 "title": "Прыгоды кацяняці і сонейка",
-                "length": 338
+                "length": 337
               },
               {
                 "id": "Pryhody_lisicki-siastrycki_i_vauka-panibrata",
                 "type": "audio",
                 "title": "Прыгоды лісічкі-сястрычкі і ваўка-панібрата",
-                "length": 757
+                "length": 756
               },
               {
                 "id": "Sachraj_Illa.Carounaja_jalina",
                 "type": "audio",
                 "title": "Ільля Шахрай. Чароўная яліна",
-                "length": 1042
+                "length": 1041
               },
               {
                 "id": "Syrko_Vasil.Kazki",
@@ -3174,7 +3174,7 @@
                 "id": "Uparty_vusascik",
                 "type": "audio",
                 "title": "Упарты вушасьцік",
-                "length": 340
+                "length": 339
               },
               {
                 "id": "Volski_Vital.Cudaunaja_dudka_1",
@@ -3186,13 +3186,13 @@
                 "id": "Volski_Vital.Cudaunaja_dudka_2",
                 "type": "audio",
                 "title": "Віталь Вольскі. Цудаўная дудка 2",
-                "length": 1506
+                "length": 1505
               },
               {
                 "id": "Zahadki_chitraha_vozyka",
                 "type": "audio",
                 "title": "Загадкі хітрага вожыка",
-                "length": 377
+                "length": 376
               },
               {
                 "id": "Zajkina_chatka",
@@ -3216,7 +3216,7 @@
                 "id": "Zumar_Taisa.Kazki",
                 "type": "audio",
                 "title": "Таіса Жумар. Казкі",
-                "length": 1451
+                "length": 1450
               }
             ]
           },
@@ -3404,140 +3404,140 @@
             "id": "kazki_unicef",
             "title": "Народныя казкі для дзетак",
             "description": "Ініцыятыва ЮНІСЕФ у Беларусі",
-            "cover": "cover.png",
+            "cover": "cover.webp",
             "length": 12518,
             "items": [
               {
                 "id": "01_Ab_karalevichu_charauniku",
                 "type": "audio",
                 "title": "Аб каралевічу-чараўніку",
-                "cover": "../01_Ab_karalevichu_charauniku.cover.jpg",
+                "cover": "../01_Ab_karalevichu_charauniku.cover.webp",
                 "length": 769
               },
               {
                 "id": "02_Ab_vedzme_jak_syna_zhanila",
                 "type": "audio",
                 "title": "Аб ведзьме, якая cына жаніла",
-                "cover": "../02_Ab_vedzme_jak_syna_zhanila.cover.jpg",
-                "length": 631
+                "cover": "../02_Ab_vedzme_jak_syna_zhanila.cover.webp",
+                "length": 632
               },
               {
                 "id": "03_Asciarozhny_paslanec",
                 "type": "audio",
                 "title": "Асцярожны пасланец",
-                "cover": "../03_Asciarozhny_paslanec.cover.jpg",
+                "cover": "../03_Asciarozhny_paslanec.cover.webp",
                 "length": 555
               },
               {
                 "id": "04_Byk_i_vauki",
                 "type": "audio",
                 "title": "Бык і ваўкі",
-                "cover": "../04_Byk_i_vauki.cover.jpg",
+                "cover": "../04_Byk_i_vauki.cover.webp",
                 "length": 242
               },
               {
                 "id": "05_Durnyja_ludzi",
                 "type": "audio",
                 "title": "Дурныя людзі",
-                "cover": "../05_Durnyja_ludzi.cover.jpg",
+                "cover": "../05_Durnyja_ludzi.cover.webp",
                 "length": 564
               },
               {
                 "id": "06_Ilja_i_Piatro",
                 "type": "audio",
                 "title": "Ілля і Пятро",
-                "cover": "../06_Ilja_i_Piatro.cover.jpg",
+                "cover": "../06_Ilja_i_Piatro.cover.webp",
                 "length": 414
               },
               {
                 "id": "07_Ivan_Ivanavich_carevich",
                 "type": "audio",
                 "title": "Іван Іванавіч царэвіч",
-                "cover": "../07_Ivan_Ivanavich_carevich.cover.jpg",
+                "cover": "../07_Ivan_Ivanavich_carevich.cover.webp",
                 "length": 2116
               },
               {
                 "id": "08_Ivan_Prakrasny_i_kniaz_Ladymiar",
                 "type": "audio",
                 "title": "Іван Прыўкрасны і князь Ладымір",
-                "cover": "../08_Ivan_Prakrasny_i_kniaz_Ladymiar.cover.jpg",
+                "cover": "../08_Ivan_Prakrasny_i_kniaz_Ladymiar.cover.webp",
                 "length": 417
               },
               {
                 "id": "09_Kaval_i_adnavokaje_gora",
                 "type": "audio",
                 "title": "Каваль і аднавокае гора",
-                "cover": "../09_Kaval_i_adnavokaje_gora.cover.jpg",
+                "cover": "../09_Kaval_i_adnavokaje_gora.cover.webp",
                 "length": 617
               },
               {
                 "id": "10_Kaza_u_arexax",
                 "type": "audio",
                 "title": "Каза ў арэхах",
-                "cover": "../10_Kaza_u_arexax.cover.jpg",
-                "length": 392
+                "cover": "../10_Kaza_u_arexax.cover.webp",
+                "length": 391
               },
               {
                 "id": "11_Kot_i_duran",
                 "type": "audio",
                 "title": "Кот і дурань",
-                "cover": "../11_Kot_i_duran.cover.jpg",
+                "cover": "../11_Kot_i_duran.cover.webp",
                 "length": 458
               },
               {
                 "id": "12_Mal_malyshok",
                 "type": "audio",
                 "title": "Мал-Малышок",
-                "cover": "../12_Mal_malyshok.cover.jpg",
+                "cover": "../12_Mal_malyshok.cover.webp",
                 "length": 2736
               },
               {
                 "id": "13_Padcharyca_i_chort",
                 "type": "audio",
                 "title": "Падчарыца і чорт",
-                "cover": "../13_Padcharyca_i_chort.cover.jpg",
+                "cover": "../13_Padcharyca_i_chort.cover.webp",
                 "length": 376
               },
               {
                 "id": "14_Siastra-biazruchka",
                 "type": "audio",
                 "title": "Сястра-бязручка",
-                "cover": "../14_Siastra-biazruchka.cover.jpg",
+                "cover": "../14_Siastra-biazruchka.cover.webp",
                 "length": 551
               },
               {
                 "id": "15_Sviny_kazhushok",
                 "type": "audio",
                 "title": "Свіны кажушок",
-                "cover": "../15_Sviny_kazhushok.cover.jpg",
+                "cover": "../15_Sviny_kazhushok.cover.webp",
                 "length": 527
               },
               {
                 "id": "16_Synok_z_kulachok",
                 "type": "audio",
                 "title": "Сынок з кулачок",
-                "cover": "../16_Synok_z_kulachok.cover.jpg",
+                "cover": "../16_Synok_z_kulachok.cover.webp",
                 "length": 264
               },
               {
                 "id": "17_Vouk_zmitrok_kabyla_i_baran",
                 "type": "audio",
                 "title": "Воўк, змітрок, кабыла і баран",
-                "cover": "../17_Vouk_zmitrok_kabyla_i_baran.cover.jpg",
+                "cover": "../17_Vouk_zmitrok_kabyla_i_baran.cover.webp",
                 "length": 179
               },
               {
                 "id": "18_Z_roga_usiago_mnoga",
                 "type": "audio",
                 "title": "З рога ўсяго многа",
-                "cover": "../18_Z_roga_usiago_mnoga.cover.jpg",
+                "cover": "../18_Z_roga_usiago_mnoga.cover.webp",
                 "length": 440
               },
               {
                 "id": "19_Zajkina_hatka",
                 "type": "audio",
                 "title": "Зайкiна хатка",
-                "cover": "../19_Zajkina_hatka.cover.jpg",
+                "cover": "../19_Zajkina_hatka.cover.webp",
                 "length": 270
               }
             ]
@@ -3546,15 +3546,15 @@
             "id": "velcom",
             "title": "Падказкі",
             "description": "Гэта фантастычныя аповеды, што перадаваліся з пакалення ў пакаленне ў розных кутках нашай краіны і былі запісаныя даследчыкамі фальклору падчас этнаграфічных экспедыцый. Адчуць унікальнасць гэтага збору народнай спадчыны і мілагучнасць беларускай мовы дапамогуць галасы знакамітых дыктараў і акцёраў – Зінаіды Бандарэнка, Фамы Варанецкага, Людмілы Цімафеевай, Аляксандра Дамарацкага і Марыі Захарэвіч. Праект А1 і Onliner.",
-            "cover": "cover.png",
-            "length": 1788,
+            "cover": "cover.webp",
+            "length": 1789,
             "items": [
               {
                 "id": "228e5046c4bb3368870984f1ce",
                 "type": "audio",
                 "title": "Зайчыкава хатка",
                 "description": "Казка пра тое, як зайчык пабудаваў сабе ў лесе прыгожую хатку, а каза-дзераза захацела ў ёй жыць, ды не змагла. Запісана са слоў Марыі Міхновіч у вёсцы Альхоўка Астравецкага раёна.\nЧытае Марыя Захарэвіч.",
-                "cover": "../228e5046c4bb3368870984f1ce.cover.png",
+                "cover": "../228e5046c4bb3368870984f1ce.cover.webp",
                 "length": 445
               },
               {
@@ -3562,7 +3562,7 @@
                 "type": "audio",
                 "title": "Пра змея",
                 "description": "Казка пра тое, як адзін бедны дурань перамог змея, вызваліў з палону дзяўчат ды разбагацеў. Запісана са слоў Лідзіі Цыбульскай з вёсцы Магільна.\nЧытае Аляксандр Дамарацкі.",
-                "cover": "../1c3cf54bfbae541ba10ef4ba55.cover.png",
+                "cover": "../1c3cf54bfbae541ba10ef4ba55.cover.webp",
                 "length": 470
               },
               {
@@ -3570,15 +3570,15 @@
                 "type": "audio",
                 "title": "Пра верабейчыка і былінку",
                 "description": "Казка пра тое, як верабейчык хацеў, каб былінка пакалыхала яго, але давялося гайдацца самому. Запісана са слоў Ганны Курмысы ў вёсцы Смаляніца Пружанскага раёна.\nЧытае Людміла Цімафеева.",
-                "cover": "../151bf844f797c5e4c2a7300126.cover.jpg",
-                "length": 135
+                "cover": "../151bf844f797c5e4c2a7300126.cover.webp",
+                "length": 136
               },
               {
                 "id": "b169984e1a84c2f35cf88692c5",
                 "type": "audio",
                 "title": "Як пан з мужыком адзін аднаму хлусілі",
                 "description": "Казка пра тое, як мужык з панам пайшлі ў заклад – хто зманіць так, каб другi не паверыў і аддаў за гэта ўсе свае грошы. Запісана са слоў Станіслава Бітэля з вёскі Няровы Валожынскага раёна.\nЧытае Фама Варанецкі.",
-                "cover": "../b169984e1a84c2f35cf88692c5.cover.jpg",
+                "cover": "../b169984e1a84c2f35cf88692c5.cover.webp",
                 "length": 251
               },
               {
@@ -3586,7 +3586,7 @@
                 "type": "audio",
                 "title": "Спевы ваўка",
                 "description": "Казка пра тое, як воўк дзеду Каляду спяваў ды ажно бабку накалядаваў. Казку запісалі са слоў Лідзіі Цыбульскай з вёскі Магільна Уздзенскага раёна. Яе манера апавядання мае статус нематэрыяльнай гісторыка-культурнай каштоўнасці Беларусі.\nЧытае Зінаіда Бандарэнка.",
-                "cover": "../ed85d14f9d8d78cba854b8e3e1.cover.png",
+                "cover": "../ed85d14f9d8d78cba854b8e3e1.cover.webp",
                 "length": 487
               }
             ]
@@ -3595,8 +3595,8 @@
             "id": "kazki_chamienka",
             "title": "Беларускія народныя казкі",
             "description": "Анталогія найлепшых беларускіх казак, запісаных Алегам Хаменкам. Казкі зробленыя ў старадаўняй манеры — менавіта не ролевыя, а так, як распавядалі раней расказчыкі.",
-            "cover": "cover.jpg",
-            "length": 24088,
+            "cover": "cover.webp",
+            "length": 24083,
             "items": [
               {
                 "id": "1_01.Byk_i_vauki",
@@ -3656,7 +3656,7 @@
                 "id": "1_10.Kaza_Darota",
                 "type": "audio",
                 "title": "Каза Дарота",
-                "length": 894
+                "length": 893
               },
               {
                 "id": "2_01.Husak_miadzviedz_vouk_lisica_i_kabaniec",
@@ -3674,7 +3674,7 @@
                 "id": "2_03.Kozy",
                 "type": "audio",
                 "title": "Козы",
-                "length": 582
+                "length": 581
               },
               {
                 "id": "2_04.Kot_lisa_i_vouk",
@@ -3716,7 +3716,7 @@
                 "id": "2_10.Lisicka-siastrycka_i_vouk",
                 "type": "audio",
                 "title": "Лісічка-сястрычка і воўк",
-                "length": 253
+                "length": 252
               },
               {
                 "id": "2_11.Lisicka-siastrycka_zajac_vouk_i_miadzviedz",
@@ -3746,7 +3746,7 @@
                 "id": "3_04.Muzyk_miadzviedz_i_lisa",
                 "type": "audio",
                 "title": "Мужык, мядзведзь і ліса",
-                "length": 570
+                "length": 569
               },
               {
                 "id": "3_05.Miadzviedz_na_lipavaj_nazie",
@@ -3770,7 +3770,7 @@
                 "id": "3_08.Sabaka_vouk_baran_i_kot",
                 "type": "audio",
                 "title": "Сабака, воўк, баран і кот",
-                "length": 502
+                "length": 501
               },
               {
                 "id": "3_09.Sabaka_i_vouk",
@@ -3904,13 +3904,13 @@
             "id": "kazacka_na_dobry_son",
             "title": "Казачка на добры сон",
             "description": "Неўтаймаваны летуценнік Віталь Падарожны распавядзе нашым маленькім слухачам цікавыя казкі, гісторыі, у якіх упартасць і мэтанакіраванасць герояў дапамагае ім пераадолець любыя перашкоды, дзе дабрыня і справядлівасць заўсёды перамагаюць. Адчыняйце дзверы ў казку і адпраўляйцеся ў цудоўнае падарожжа!",
-            "cover": "cover.jpg",
-            "length": 79817,
+            "cover": "cover.webp",
+            "length": 79714,
             "items": [
               {
                 "id": "Historyji",
                 "title": "Гісторыі",
-                "length": 22233,
+                "length": 22222,
                 "items": [
                   {
                     "id": "01.Hanarysty_sar",
@@ -4036,13 +4036,13 @@
                     "id": "Alioska",
                     "type": "audio",
                     "title": "Алёшка",
-                    "length": 201
+                    "length": 200
                   },
                   {
                     "id": "Apaviadannie_daroslaha_calavieka",
                     "type": "audio",
                     "title": "Апавяданьне дарослага чалавека",
-                    "length": 232
+                    "length": 231
                   },
                   {
                     "id": "Asablivy",
@@ -4096,7 +4096,7 @@
                     "id": "Carouny_posud_1",
                     "type": "audio",
                     "title": "Чароўны посуд 1",
-                    "length": 264
+                    "length": 263
                   },
                   {
                     "id": "Carouny_posud_2",
@@ -4114,7 +4114,7 @@
                     "id": "Chto_chitrejsy",
                     "type": "audio",
                     "title": "Хто хітрэйшы",
-                    "length": 202
+                    "length": 201
                   },
                   {
                     "id": "Chvalki",
@@ -4186,13 +4186,13 @@
                     "id": "Hans_Daubieska_1",
                     "type": "audio",
                     "title": "Ганс Даўбешка 1",
-                    "length": 301
+                    "length": 300
                   },
                   {
                     "id": "Hans_Daubieska_2",
                     "type": "audio",
                     "title": "Ганс Даўбешка 2",
-                    "length": 312
+                    "length": 311
                   },
                   {
                     "id": "Harscok",
@@ -4240,7 +4240,7 @@
                     "id": "Ideja",
                     "type": "audio",
                     "title": "Ідэя",
-                    "length": 78
+                    "length": 77
                   },
                   {
                     "id": "Jablyk",
@@ -4318,7 +4318,7 @@
                     "id": "Liasnaja_pryhazunnia_1",
                     "type": "audio",
                     "title": "Лясная прыгажуньня 1",
-                    "length": 233
+                    "length": 232
                   },
                   {
                     "id": "Liasnaja_pryhazunnia_2",
@@ -4528,13 +4528,13 @@
                     "id": "Smiasynka",
                     "type": "audio",
                     "title": "Сьмяшынка",
-                    "length": 133
+                    "length": 132
                   },
                   {
                     "id": "Smielaja_kozacka",
                     "type": "audio",
                     "title": "Сьмелая козачка",
-                    "length": 337
+                    "length": 336
                   },
                   {
                     "id": "Sny",
@@ -4660,7 +4660,7 @@
                     "id": "Zoracka",
                     "type": "audio",
                     "title": "Зорачка",
-                    "length": 290
+                    "length": 289
                   },
                   {
                     "id": "Zucok",
@@ -4673,13 +4673,13 @@
               {
                 "id": "Kazki",
                 "title": "Казкі",
-                "length": 18154,
+                "length": 18130,
                 "items": [
                   {
                     "id": "Babulka",
                     "type": "audio",
                     "title": "Бабулька",
-                    "length": 294
+                    "length": 293
                   },
                   {
                     "id": "Barodka",
@@ -4703,13 +4703,13 @@
                     "id": "Buraja_karova",
                     "type": "audio",
                     "title": "Бурая карова",
-                    "length": 179
+                    "length": 178
                   },
                   {
                     "id": "Camu_placa_biarozka",
                     "type": "audio",
                     "title": "Чаму плача бярозка",
-                    "length": 297
+                    "length": 296
                   },
                   {
                     "id": "Chatka",
@@ -4733,7 +4733,7 @@
                     "id": "Durny_miadzviedz",
                     "type": "audio",
                     "title": "Дурны мядзьведзь",
-                    "length": 188
+                    "length": 187
                   },
                   {
                     "id": "Dziadzka",
@@ -4745,13 +4745,13 @@
                     "id": "Dziciacaje_pustamouje",
                     "type": "audio",
                     "title": "Дзіцячае пустамоўе",
-                    "length": 373
+                    "length": 372
                   },
                   {
                     "id": "Dzvie_dziaucynki",
                     "type": "audio",
                     "title": "Дзьве дзяўчынкі",
-                    "length": 241
+                    "length": 240
                   },
                   {
                     "id": "Harsok_kasy",
@@ -4775,7 +4775,7 @@
                     "id": "Holy_karol_2",
                     "type": "audio",
                     "title": "Голы кароль 2",
-                    "length": 224
+                    "length": 223
                   },
                   {
                     "id": "Hosci",
@@ -4787,7 +4787,7 @@
                     "id": "Jak_katavali_kamiennuju_plitu",
                     "type": "audio",
                     "title": "Як катавалі каменную пліту",
-                    "length": 279
+                    "length": 278
                   },
                   {
                     "id": "Kalvinski_post",
@@ -4835,31 +4835,31 @@
                     "id": "Kot,_myska_dy_cvirkun_1",
                     "type": "audio",
                     "title": "Кот, мышка ды цьвіркун 1",
-                    "length": 278
+                    "length": 277
                   },
                   {
                     "id": "Kot,_myska_dy_cvirkun_2",
                     "type": "audio",
                     "title": "Кот, мышка ды цьвіркун 2",
-                    "length": 242
+                    "length": 241
                   },
                   {
                     "id": "Kot_i_maupacki",
                     "type": "audio",
                     "title": "Кот і маўпачкі",
-                    "length": 252
+                    "length": 251
                   },
                   {
                     "id": "Kukareku_1",
                     "type": "audio",
                     "title": "Кукарэку 1",
-                    "length": 296
+                    "length": 295
                   },
                   {
                     "id": "Kukareku_2",
                     "type": "audio",
                     "title": "Кукарэку 2",
-                    "length": 216
+                    "length": 215
                   },
                   {
                     "id": "Laska",
@@ -4871,19 +4871,19 @@
                     "id": "Lios_lopuchu_1",
                     "type": "audio",
                     "title": "Лёс лопуху 1",
-                    "length": 373
+                    "length": 372
                   },
                   {
                     "id": "Lios_lopuchu_2",
                     "type": "audio",
                     "title": "Лёс лопуху 2",
-                    "length": 299
+                    "length": 298
                   },
                   {
                     "id": "Lis_i_koska",
                     "type": "audio",
                     "title": "Ліс і кошка",
-                    "length": 140
+                    "length": 139
                   },
                   {
                     "id": "Lisa_i_pievien",
@@ -4949,13 +4949,13 @@
                     "id": "Pastuska_i_kaminar_2",
                     "type": "audio",
                     "title": "Пастушка і камінар 2",
-                    "length": 346
+                    "length": 345
                   },
                   {
                     "id": "Pastuska_i_kaminar_3",
                     "type": "audio",
                     "title": "Пастушка і камінар 3",
-                    "length": 323
+                    "length": 322
                   },
                   {
                     "id": "Pierachitryu",
@@ -4973,7 +4973,7 @@
                     "id": "Pievien,_byk_i_asiol",
                     "type": "audio",
                     "title": "Певень, бык і асёл",
-                    "length": 253
+                    "length": 252
                   },
                   {
                     "id": "Pievien",
@@ -4985,7 +4985,7 @@
                     "id": "Pievien_i_kuracka",
                     "type": "audio",
                     "title": "Певень і курачка",
-                    "length": 274
+                    "length": 273
                   },
                   {
                     "id": "Pisar",
@@ -5033,7 +5033,7 @@
                     "id": "Skvapnyja_bahaciei",
                     "type": "audio",
                     "title": "Сквапныя багацеі",
-                    "length": 295
+                    "length": 294
                   },
                   {
                     "id": "Sluha",
@@ -5051,7 +5051,7 @@
                     "id": "Svinnia-skarbonka_1",
                     "type": "audio",
                     "title": "Свіньня-скарбонка 1",
-                    "length": 295
+                    "length": 294
                   },
                   {
                     "id": "Svinnia-skarbonka_2",
@@ -5075,7 +5075,7 @@
                     "id": "Try_braty",
                     "type": "audio",
                     "title": "Тры браты",
-                    "length": 205
+                    "length": 204
                   },
                   {
                     "id": "Udziacny_zajac",
@@ -5087,7 +5087,7 @@
                     "id": "Unucka_hultajka",
                     "type": "audio",
                     "title": "Унучка гультайка",
-                    "length": 121
+                    "length": 120
                   },
                   {
                     "id": "Uratavausia",
@@ -5148,12 +5148,12 @@
               {
                 "id": "Kazki_narodau_svietu",
                 "title": "Казкі народаў свету",
-                "length": 17158,
+                "length": 17119,
                 "items": [
                   {
                     "id": "Afhanskija_kazki",
                     "title": "Афганскія казкі",
-                    "length": 755,
+                    "length": 752,
                     "items": [
                       {
                         "id": "Jak_zniac_calavieka_z_dreva",
@@ -5165,13 +5165,13 @@
                         "id": "Padzisach_i_Ali_Muchamied",
                         "type": "audio",
                         "title": "Падзішах і Алі Мухамед",
-                        "length": 119
+                        "length": 118
                       },
                       {
                         "id": "Padzisach_i_kaval",
                         "type": "audio",
                         "title": "Падзішах і каваль",
-                        "length": 151
+                        "length": 150
                       },
                       {
                         "id": "Paet_i_hrosy",
@@ -5183,33 +5183,33 @@
                         "id": "Vialiki_sakal",
                         "type": "audio",
                         "title": "Вялікі шакал",
-                        "length": 181
+                        "length": 180
                       }
                     ]
                   },
                   {
                     "id": "Armianskija_kazki",
                     "title": "Армянскія казкі",
-                    "length": 334,
+                    "length": 332,
                     "items": [
                       {
                         "id": "Muzyk_i_zonka_1",
                         "type": "audio",
                         "title": "Мужык і жонка 1",
-                        "length": 158
+                        "length": 157
                       },
                       {
                         "id": "Muzyk_i_zonka_2",
                         "type": "audio",
                         "title": "Мужык і жонка 2",
-                        "length": 176
+                        "length": 175
                       }
                     ]
                   },
                   {
                     "id": "Balharskija_kazki",
                     "title": "Балгарскія казкі",
-                    "length": 557,
+                    "length": 556,
                     "items": [
                       {
                         "id": "Prahny_kacmar",
@@ -5221,7 +5221,7 @@
                         "id": "Zajzdrasc",
                         "type": "audio",
                         "title": "Зайздрасьць",
-                        "length": 256
+                        "length": 255
                       }
                     ]
                   },
@@ -5241,7 +5241,7 @@
                   {
                     "id": "Bielaruskija_kazki",
                     "title": "Беларускія казкі",
-                    "length": 1815,
+                    "length": 1813,
                     "items": [
                       {
                         "id": "Cieslia",
@@ -5253,7 +5253,7 @@
                         "id": "Cort_pierarabiu",
                         "type": "audio",
                         "title": "Чорт перарабіў",
-                        "length": 245
+                        "length": 244
                       },
                       {
                         "id": "Cud",
@@ -5265,7 +5265,7 @@
                         "id": "Scodraja_i_skupaja_zancyna",
                         "type": "audio",
                         "title": "Шчодрая і скупая жанчына",
-                        "length": 215
+                        "length": 214
                       },
                       {
                         "id": "Susiedzkaja_sprava",
@@ -5284,39 +5284,39 @@
                   {
                     "id": "Carnahorskija_kazki",
                     "title": "Чарнагорскія казкі",
-                    "length": 288,
+                    "length": 287,
                     "items": [
                       {
                         "id": "Carouny_lies",
                         "type": "audio",
                         "title": "Чароўны лес",
-                        "length": 288
+                        "length": 287
                       }
                     ]
                   },
                   {
                     "id": "Cesskija_kazki",
                     "title": "Чэшскія казкі",
-                    "length": 172,
+                    "length": 171,
                     "items": [
                       {
                         "id": "Camu_sabaki_nienavidziac_kosak,_a_koski_mysej",
                         "type": "audio",
                         "title": "Чаму сабакі ненавідзяць кошак, а кошкі мышэй",
-                        "length": 172
+                        "length": 171
                       }
                     ]
                   },
                   {
                     "id": "Charvackija_kazki",
                     "title": "Харвацкія казкі",
-                    "length": 382,
+                    "length": 381,
                     "items": [
                       {
                         "id": "Padkavanaja_viedzma",
                         "type": "audio",
                         "title": "Падкаваная ведзьма",
-                        "length": 382
+                        "length": 381
                       }
                     ]
                   },
@@ -5336,7 +5336,7 @@
                   {
                     "id": "Italjanskija_kazki",
                     "title": "Італьянскія казкі",
-                    "length": 1061,
+                    "length": 1059,
                     "items": [
                       {
                         "id": "Carouny_piarscionak_1",
@@ -5348,7 +5348,7 @@
                         "id": "Carouny_piarscionak_2",
                         "type": "audio",
                         "title": "Чароўны пярсьцёнак 2",
-                        "length": 302
+                        "length": 301
                       },
                       {
                         "id": "Carouny_piarscionak_3",
@@ -5360,7 +5360,7 @@
                         "id": "Carouny_piarscionak_4",
                         "type": "audio",
                         "title": "Чароўны пярсьцёнак 4",
-                        "length": 240
+                        "length": 239
                       }
                     ]
                   },
@@ -5380,7 +5380,7 @@
                   {
                     "id": "Kazki_narodau_Akijanii",
                     "title": "Казкі народаў Акіяніі",
-                    "length": 9410,
+                    "length": 9385,
                     "items": [
                       {
                         "id": "Ad_caho_u_kazuara_halava_siniaja",
@@ -5398,7 +5398,7 @@
                         "id": "Adkul_uzialisia_ptuski,_zviary_i_ryby",
                         "type": "audio",
                         "title": "Адкуль узяліся птушкі, зьвяры і рыбы",
-                        "length": 151
+                        "length": 150
                       },
                       {
                         "id": "Adkul_uziausia_cyrvony_pyl",
@@ -5422,37 +5422,37 @@
                         "id": "Braty_Uinzarnin_2",
                         "type": "audio",
                         "title": "Браты Ўінзарнін 2",
-                        "length": 278
+                        "length": 277
                       },
                       {
                         "id": "Busiel_i_krumkac_1",
                         "type": "audio",
                         "title": "Бусел і крумкач 1",
-                        "length": 256
+                        "length": 255
                       },
                       {
                         "id": "Busiel_i_krumkac_2",
                         "type": "audio",
                         "title": "Бусел і крумкач 2",
-                        "length": 186
+                        "length": 185
                       },
                       {
                         "id": "Camu_pliamiony_havorac_na_roznych_movach",
                         "type": "audio",
                         "title": "Чаму плямёны гавораць на розных мовах",
-                        "length": 257
+                        "length": 256
                       },
                       {
                         "id": "Carounaje_dreva",
                         "type": "audio",
                         "title": "Чароўнае дрэва",
-                        "length": 165
+                        "length": 164
                       },
                       {
                         "id": "Chovi_1",
                         "type": "audio",
                         "title": "Хові 1",
-                        "length": 171
+                        "length": 170
                       },
                       {
                         "id": "Chovi_2",
@@ -5464,13 +5464,13 @@
                         "id": "Dziaucynka_i_zmiaja",
                         "type": "audio",
                         "title": "Дзяўчынка і зьмяя",
-                        "length": 220
+                        "length": 219
                       },
                       {
                         "id": "Jak_buhaj_siabrou_rybaj_castavau_1",
                         "type": "audio",
                         "title": "Як бугай сяброў рыбай частаваў 1",
-                        "length": 182
+                        "length": 181
                       },
                       {
                         "id": "Jak_buhaj_siabrou_rybaj_castavau_2",
@@ -5506,13 +5506,13 @@
                         "id": "Jak_dzieci_pieratvarylisia_u_zorki_2",
                         "type": "audio",
                         "title": "Як дзеці ператварыліся ў зоркі 2",
-                        "length": 229
+                        "length": 228
                       },
                       {
                         "id": "Jak_kazuar_i_krakadzil_pasvarylisia",
                         "type": "audio",
                         "title": "Як казуар і кракадзіл пасварыліся",
-                        "length": 213
+                        "length": 212
                       },
                       {
                         "id": "Jak_u_australijcau_zjaviusia_bumeranh",
@@ -5524,19 +5524,19 @@
                         "id": "Jak_zaba_usiu_vadu_vypila",
                         "type": "audio",
                         "title": "Як жаба ўсю ваду выпіла",
-                        "length": 134
+                        "length": 133
                       },
                       {
                         "id": "Jak_zjavilasia_skala_Nimbula",
                         "type": "audio",
                         "title": "Як з\u0027явілася скала Німбула",
-                        "length": 230
+                        "length": 229
                       },
                       {
                         "id": "Jak_zjaviusia_ahon_1",
                         "type": "audio",
                         "title": "Як з\u0027явіўся агонь 1",
-                        "length": 250
+                        "length": 249
                       },
                       {
                         "id": "Jak_zjaviusia_ahon_2",
@@ -5548,13 +5548,13 @@
                         "id": "Jak_zjaviusia_na_niebie_miesiac",
                         "type": "audio",
                         "title": "Як з\u0027явіўся на небе месяц",
-                        "length": 193
+                        "length": 192
                       },
                       {
                         "id": "Jak_zychary_praliva_zdabyli_ahon_1",
                         "type": "audio",
                         "title": "Як жыхары праліва здабылі агонь 1",
-                        "length": 156
+                        "length": 155
                       },
                       {
                         "id": "Jak_zychary_praliva_zdabyli_ahon_2",
@@ -5572,19 +5572,19 @@
                         "id": "Mliecny_sliach_2",
                         "type": "audio",
                         "title": "Млечны шлях 2",
-                        "length": 227
+                        "length": 226
                       },
                       {
                         "id": "Pliejady_i_suzorji_Aryjona",
                         "type": "audio",
                         "title": "Плеяды і сузор\u0027і Арыёна",
-                        "length": 150
+                        "length": 149
                       },
                       {
                         "id": "Pra_toje_jak_zmiaja_atrutu_nabyla",
                         "type": "audio",
                         "title": "Пра тое як зьмяя атруту набыла",
-                        "length": 165
+                        "length": 164
                       },
                       {
                         "id": "Prahnyja_hanarliucy_1",
@@ -5608,25 +5608,25 @@
                         "id": "Sabaka_i_kienhuru_2",
                         "type": "audio",
                         "title": "Сабака і кенгуру 2",
-                        "length": 206
+                        "length": 205
                       },
                       {
                         "id": "Siamiora_sliapych_bratou_1",
                         "type": "audio",
                         "title": "Сямёра сьляпых братоў 1",
-                        "length": 198
+                        "length": 197
                       },
                       {
                         "id": "Siamiora_sliapych_bratou_2",
                         "type": "audio",
                         "title": "Сямёра сьляпых братоў 2",
-                        "length": 226
+                        "length": 225
                       },
                       {
                         "id": "Strasnaje_dreva",
                         "type": "audio",
                         "title": "Страшнае дрэва",
-                        "length": 109
+                        "length": 108
                       },
                       {
                         "id": "Taranaki_i_Raumachora",
@@ -5638,13 +5638,13 @@
                         "id": "U_hasciach_u_sonca,_miesiaca_i_zmroka_1",
                         "type": "audio",
                         "title": "У гасьцях у сонца, месяца і змрока 1",
-                        "length": 180
+                        "length": 179
                       },
                       {
                         "id": "U_hasciach_u_sonca,_miesiaca_i_zmroka_2",
                         "type": "audio",
                         "title": "У гасьцях у сонца, месяца і змрока 2",
-                        "length": 237
+                        "length": 236
                       },
                       {
                         "id": "U_hasciach_u_sonca,_miesiaca_i_zmroka_3",
@@ -5675,13 +5675,13 @@
                   {
                     "id": "Partuhalskija_kazki",
                     "title": "Партугальскія казкі",
-                    "length": 163,
+                    "length": 162,
                     "items": [
                       {
                         "id": "Zjeu_savu",
                         "type": "audio",
                         "title": "З\u0027еў саву",
-                        "length": 163
+                        "length": 162
                       }
                     ]
                   },
@@ -5898,7 +5898,7 @@
               {
                 "id": "Pryhody_chamiacka_Toski",
                 "title": "Прыгоды хамячка Тошкі",
-                "length": 2874,
+                "length": 2866,
                 "items": [
                   {
                     "id": "Pryhody_chamiacka_Toski_01.Toska_na_voli",
@@ -5910,25 +5910,25 @@
                     "id": "Pryhody_chamiacka_Toski_02.Znajomstva_z_konikam",
                     "type": "audio",
                     "title": "2. Знаёмства з конікам",
-                    "length": 283
+                    "length": 282
                   },
                   {
                     "id": "Pryhody_chamiacka_Toski_03.Sustreca_z_vaukom",
                     "type": "audio",
                     "title": "3. Сустрэча з ваўком",
-                    "length": 233
+                    "length": 232
                   },
                   {
                     "id": "Pryhody_chamiacka_Toski_04.Druznyja_murasy",
                     "type": "audio",
                     "title": "4. Дружныя мурашы",
-                    "length": 120
+                    "length": 119
                   },
                   {
                     "id": "Pryhody_chamiacka_Toski_05.U_posukach_harosavaha_pola",
                     "type": "audio",
                     "title": "5. У пошуках гарошавага поля",
-                    "length": 315
+                    "length": 314
                   },
                   {
                     "id": "Pryhody_chamiacka_Toski_06.Halasy_vauka_i_lisy",
@@ -5946,32 +5946,32 @@
                     "id": "Pryhody_chamiacka_Toski_08.Norka",
                     "type": "audio",
                     "title": "8. Норка",
-                    "length": 253
+                    "length": 252
                   },
                   {
                     "id": "Pryhody_chamiacka_Toski_09.Posuk_siabrou",
                     "type": "audio",
                     "title": "9. Пошук сяброў",
-                    "length": 271
+                    "length": 270
                   },
                   {
                     "id": "Pryhody_chamiacka_Toski_10.Toska_prymaje_hasciej",
                     "type": "audio",
                     "title": "10. Тошка прымае гасьцей",
-                    "length": 272
+                    "length": 271
                   },
                   {
                     "id": "Pryhody_chamiacka_Toski_11.Miralubivy_Toska",
                     "type": "audio",
                     "title": "11. Міралюбівы Тошка",
-                    "length": 334
+                    "length": 333
                   }
                 ]
               },
               {
                 "id": "Pryhody_chlopcyka_Dzianiski",
                 "title": "Прыгоды хлопчыка Дзяніскі",
-                "length": 2504,
+                "length": 2500,
                 "items": [
                   {
                     "id": "Pryhody_chlopcyka_Dzianiski_1.Jon_zyvy_i_sviecicca",
@@ -5983,7 +5983,7 @@
                     "id": "Pryhody_chlopcyka_Dzianiski_2.Zacaravanaja_litara",
                     "type": "audio",
                     "title": "2. Зачараваная літара",
-                    "length": 255
+                    "length": 254
                   },
                   {
                     "id": "Pryhody_chlopcyka_Dzianiski_3.Treba_miec_pacuccio_humaru_1",
@@ -6013,26 +6013,26 @@
                     "id": "Pryhody_chlopcyka_Dzianiski_7.Dymka_i_Anton",
                     "type": "audio",
                     "title": "7. Дымка і Антон",
-                    "length": 294
+                    "length": 293
                   },
                   {
                     "id": "Pryhody_chlopcyka_Dzianiski_8.Lichoje_nikoli_nia_utojecca_1",
                     "type": "audio",
                     "title": "8. Ліхое ніколі ня ўтоецца 1",
-                    "length": 270
+                    "length": 269
                   },
                   {
                     "id": "Pryhody_chlopcyka_Dzianiski_9.Lichoje_nikoli_nia_utojecca_2",
                     "type": "audio",
                     "title": "9. Ліхое ніколі ня ўтоецца 2",
-                    "length": 211
+                    "length": 210
                   }
                 ]
               },
               {
                 "id": "Pryhody_syldburhierau",
                 "title": "Прыгоды шыльдбургераў",
-                "length": 7078,
+                "length": 7061,
                 "items": [
                   {
                     "id": "Pryhody_syldburhierau_01.Adkul_pajsli_syldburhiery",
@@ -6044,7 +6044,7 @@
                     "id": "Pryhody_syldburhierau_02.Jak_zonki_syldburhierau_vyrasyli_svaich_muzou_iznou_zajmiec",
                     "type": "audio",
                     "title": "2. Як жонкі шыльдбургераў вырашылі сваіх мужоў ізноў займець",
-                    "length": 290
+                    "length": 289
                   },
                   {
                     "id": "Pryhody_syldburhierau_03.Jak_syldburhiery_dadomu_viartalisia",
@@ -6062,7 +6062,7 @@
                     "id": "Pryhody_syldburhierau_05.Jak_syldburhiery_vyrasyli_pabudavac_novuju_ratusu",
                     "type": "audio",
                     "title": "5. Як шыльдбургеры вырашылі пабудаваць новую ратушу",
-                    "length": 173
+                    "length": 172
                   },
                   {
                     "id": "Pryhody_syldburhierau_06.Jak_syldburhiery_da_novaj_ratusy_biarviony_ciahali",
@@ -6080,43 +6080,43 @@
                     "id": "Pryhody_syldburhierau_08.Jak_syldburhiery_zdahadalisia_caho_u_ratusy_ciomna",
                     "type": "audio",
                     "title": "8. Як шыльдбургеры здагадаліся чаго ў ратушы цёмна",
-                    "length": 321
+                    "length": 320
                   },
                   {
                     "id": "Pryhody_syldburhierau_09.Jak_syldburhiery_u_svajoj_ratusy_palaty_budavali",
                     "type": "audio",
                     "title": "9. Як шыльдбургеры ў сваёй ратушы палаты будавалі",
-                    "length": 302
+                    "length": 301
                   },
                   {
                     "id": "Pryhody_syldburhierau_10.Jak_syldburhiery_sol_siejali",
                     "type": "audio",
                     "title": "10. Як шыльдбургеры соль сеялі",
-                    "length": 278
+                    "length": 277
                   },
                   {
                     "id": "Pryhody_syldburhierau_11.Jak_nacalnik_salavoj_varty_svaju_klatvu_strymau",
                     "type": "audio",
                     "title": "11. Як начальнік салявой варты сваю клятву стрымаў",
-                    "length": 221
+                    "length": 220
                   },
                   {
                     "id": "Pryhody_syldburhierau_12.Jak_pad_horadam_Sylda_sol_u_poli_vyrasla",
                     "type": "audio",
                     "title": "12. Як пад горадам Шыльда соль у полі вырасла",
-                    "length": 195
+                    "length": 194
                   },
                   {
                     "id": "Pryhody_syldburhierau_13.Jakoje_zadannie_imperatar_dau_syldburhieram",
                     "type": "audio",
                     "title": "13. Якое заданьне імпэратар даў шыльдбургерам",
-                    "length": 369
+                    "length": 368
                   },
                   {
                     "id": "Pryhody_syldburhierau_14.Jak_svinapas_halavoj_horadu_zrabiusia",
                     "type": "audio",
                     "title": "14. Як сьвінапас галавой гораду зрабіўся",
-                    "length": 301
+                    "length": 300
                   },
                   {
                     "id": "Pryhody_syldburhierau_15.Jak_syldburhiery_prydumali_imperatara_sustrakac",
@@ -6134,13 +6134,13 @@
                     "id": "Pryhody_syldburhierau_17.Jaki_padarunak_syldburhiery_imperataru_padniesli",
                     "type": "audio",
                     "title": "17. Які падарунак шыльдбургеры імпэратару паднесьлі",
-                    "length": 263
+                    "length": 262
                   },
                   {
                     "id": "Pryhody_syldburhierau_18.Jak_syldburhiery_da_imperatara_na_sniadanak_chadzili",
                     "type": "audio",
                     "title": "18. Як шыльдбургеры да імпэратара на сьняданак хадзілі",
-                    "length": 209
+                    "length": 208
                   },
                   {
                     "id": "Pryhody_syldburhierau_19.Jak_syldburhiery_zahadki_imperatara_adhadvali",
@@ -6152,7 +6152,7 @@
                     "id": "Pryhody_syldburhierau_20.Jak_syldburhiery_padavali_prasennie_da_imperatara",
                     "type": "audio",
                     "title": "20. Як шыльдбургеры падавалі прашэньне да імпэратара",
-                    "length": 262
+                    "length": 261
                   },
                   {
                     "id": "Pryhody_syldburhierau_21.Jak_dva_syldburhiery_damami_abmianialisia",
@@ -6176,7 +6176,7 @@
                     "id": "Pryhody_syldburhierau_24.Jak_adzin_syldburhier_ratavau_honar_horada_Sylda_i_straciu_svaju_kabylu",
                     "type": "audio",
                     "title": "24. Як адзін шыльдбургер ратаваў гонар горада Шыльда і страціў сваю кабылу",
-                    "length": 203
+                    "length": 202
                   },
                   {
                     "id": "Pryhody_syldburhierau_25.Jak_sylburhiery_zvany_chavali",
@@ -6188,13 +6188,13 @@
                     "id": "Pryhody_syldburhierau_26.Jak_adzin_syldburhier_svajho_kania_abmianiau",
                     "type": "audio",
                     "title": "26. Як адзін шыльдбургер свайго каня абмяняў",
-                    "length": 161
+                    "length": 160
                   },
                   {
                     "id": "Pryhody_syldburhierau_27.Jak_u_horad_Sylda_rak_zajsou_i_jak_syldburhiery_jaho_pakarali",
                     "type": "audio",
                     "title": "27. Як у горад Шыльда рак зайшоў і як шыльдбургеры яго пакаралі",
-                    "length": 294
+                    "length": 293
                   },
                   {
                     "id": "Pryhody_syldburhierau_28.Jak_adzin_syldburhier_svajho_syna_u_skolu_addavau",
@@ -6206,13 +6206,13 @@
                     "id": "Pryhody_syldburhierau_29.Jak_syldburhiery_strasnaha_zviera_myskadava_nabyli",
                     "type": "audio",
                     "title": "29. Як шыльдбургеры страшнага зьвера мышкадава набылі",
-                    "length": 243
+                    "length": 242
                   },
                   {
                     "id": "Pryhody_syldburhierau_30.Jak_syldburhiery_z_myskadavam_zmahalisia_i_jakoj_biady_jany_narabili",
                     "type": "audio",
                     "title": "30. Як шыльдбургеры з мышкадавам змагаліся і якой бяды яны нарабілі",
-                    "length": 283
+                    "length": 282
                   }
                 ]
               },
@@ -6520,7 +6520,7 @@
             "id": "lehiendy_i_padanni.manajeu",
             "title": "Легенды і паданні",
             "description": "Беларускія легенды і паданні, прысвечаныя нашым гарадам, знакамітым асобам і культавым месцам. Чытае Віктар Манаеў.",
-            "cover": "cover.jpg",
+            "cover": "cover.webp",
             "length": 4474,
             "items": [
               {
@@ -6667,7 +6667,7 @@
             "id": "lehiendy_i_padanni.mininfarm",
             "title": "Легенды і паданні",
             "cover": "cover.jpg",
-            "length": 6537,
+            "length": 6534,
             "items": [
               {
                 "id": "Ab_Vouhi_Dniapry_i_Sazy_i_backi_ich_Nivisnom",
@@ -6721,7 +6721,7 @@
                 "id": "Asilki",
                 "type": "audio",
                 "title": "Асілкі",
-                "length": 284
+                "length": 283
               },
               {
                 "id": "Bitva_pad_Lasnoj",
@@ -6775,7 +6775,7 @@
                 "id": "Jak_pjanica_u_raj_papau",
                 "type": "audio",
                 "title": "Як п’яніца ў рай папаў",
-                "length": 183
+                "length": 182
               },
               {
                 "id": "Jak_uznikli_Klimavicy",
@@ -6841,13 +6841,13 @@
                 "id": "Pierunova_hara",
                 "type": "audio",
                 "title": "Перунова гара",
-                "length": 89
+                "length": 90
               },
               {
                 "id": "Platon-kazak",
                 "type": "audio",
                 "title": "Платон-казак",
-                "length": 281
+                "length": 280
               },
               {
                 "id": "Pra_Davyd-haradok",
@@ -6877,7 +6877,7 @@
                 "id": "Pra_skarb",
                 "type": "audio",
                 "title": "Пра скарб",
-                "length": 51
+                "length": 50
               },
               {
                 "id": "Pra_vajnu_sa_sviedami",
@@ -6926,7 +6926,7 @@
           {
             "id": "jechau_kazacnik_baj",
             "title": "Ехаў казачнік Бай",
-            "cover": "cover.jpg",
+            "cover": "cover.webp",
             "length": 1973,
             "items": [
               {
@@ -6989,8 +6989,8 @@
             "id": "adcynicie_kazlaniatki",
             "title": "Адчыніце, казьляняткі",
             "description": "Аўдыёспэктакль створаны паводле казкі \"Воўк і сямёра кязьлянятаў\".",
-            "cover": "cover.jpg",
-            "length": 2651,
+            "cover": "cover.webp",
+            "length": 2649,
             "items": [
               {
                 "id": "01",
@@ -7002,7 +7002,7 @@
                 "id": "02",
                 "type": "audio",
                 "title": "Частка 2",
-                "length": 384
+                "length": 383
               },
               {
                 "id": "03",
@@ -7026,7 +7026,7 @@
                 "id": "06",
                 "type": "audio",
                 "title": "Частка 6",
-                "length": 333
+                "length": 332
               },
               {
                 "id": "07",
@@ -7040,7 +7040,7 @@
             "id": "dymok_ad_ausianaj_kasy",
             "title": "Дымок ад аўсянай кашы",
             "description": "Аўдыёпастаноўка па казцы Зьмітра Якутовіча",
-            "cover": "cover.png",
+            "cover": "cover.webp",
             "length": 1717,
             "items": [
               {
@@ -7073,7 +7073,7 @@
             "id": "dzied_i_zorau",
             "title": "Дзед і жораў",
             "description": "На поле старога селяніна стаў прылятаць Жораў і таптаць гарох. Дзед злавіў птушку, але не пакараў, бо пашкадаваў яе. Так пачалося іх незвычайнае сяброўства. За сваю дабрыню дзед быў шчодра ўзнагароджаны спагадай незвычайнага Жорава і падарункамі, якія зрабілі шчасьлівым ня толькі старога, але і ўсіх вяскоўцаў.",
-            "cover": "cover.png",
+            "cover": "cover.webp",
             "length": 2181,
             "items": [
               {
@@ -7119,20 +7119,20 @@
       {
         "id": "kalychanki",
         "title": "Калыханкі",
-        "length": 7180,
+        "length": 7173,
         "items": [
           {
             "id": "Sucasnyja",
             "title": "Сучасныя",
             "cover": "cover.jpg",
-            "length": 626,
+            "length": 627,
             "items": [
               {
                 "id": "buraukin",
                 "type": "audio",
                 "title": "Калыханка на словы Бураўкіна",
-                "cover": "../buraukin.cover.jpg",
-                "length": 199
+                "cover": "../buraukin.cover.webp",
+                "length": 200
               },
               {
                 "id": "dancyk",
@@ -7162,14 +7162,14 @@
             "title": "Аўтэнтычныя",
             "description": "Архіў Інстытута мастацтвазнаўства, этнаграфіі і фальклору імя К. Крапівы НАН Беларусі. Укладальнікі: Ірына Васільева, Яніна Грыневіч",
             "cover": "cover.jpg",
-            "length": 635,
+            "length": 631,
             "items": [
               {
                 "id": "01",
                 "type": "audio",
                 "title": "Люлі-люлі-люлі, прыляцелі куры",
                 "description": "2003 г., Віцебская вобл., Полацкі р-н, в. Тумілавічы",
-                "length": 38
+                "length": 37
               },
               {
                 "id": "02",
@@ -7183,7 +7183,7 @@
                 "type": "audio",
                 "title": "Ай, люлі-люлі-люлі",
                 "description": "1977 г., Мінская вобл., Салігорскі р-н, в. Хорастава, спявае Яўгенія Фёдараўна Чачура",
-                "length": 60
+                "length": 59
               },
               {
                 "id": "04",
@@ -7218,14 +7218,14 @@
                 "type": "audio",
                 "title": "Люлі-люлі-люлі, спаць",
                 "description": "1971 г., Віцебская вобл., Пастаўскі р-н, в. Груздава, спявае Ядвіга Максімаўна Альфер",
-                "length": 24
+                "length": 23
               },
               {
                 "id": "09",
                 "type": "audio",
                 "title": "Люлі-люлі-люлі, усе куры паснулі",
                 "description": "1971 г., Віцебская вобл., Пастаўскі р-н, в. Груздава, спявае Ядвіга Максімаўна Альфер",
-                "length": 21
+                "length": 20
               },
               {
                 "id": "10",
@@ -7262,7 +7262,7 @@
             "title": "Беларускія калыханкі 2002",
             "description": "Калыханкі ад Вольгі Паўлоўскай, 2002",
             "cover": "cover.jpg",
-            "length": 1900,
+            "length": 1899,
             "items": [
               {
                 "id": "01",
@@ -7328,7 +7328,7 @@
                 "id": "11",
                 "type": "audio",
                 "title": "А й сон з дромай",
-                "length": 197
+                "length": 196
               },
               {
                 "id": "12",
@@ -7496,70 +7496,70 @@
             "id": "Dauhapolava",
             "title": "Праект \"Песенькі для дзетанькі\"",
             "description": "Фальклорныя калыханкі ў выкананні Ганны Даўгаполавай",
-            "cover": "cover.jpg",
-            "length": 359,
+            "cover": "cover.webp",
+            "length": 356,
             "items": [
               {
                 "id": "01",
                 "type": "audio",
                 "title": "Баю-баю-баю, не лажыся з краю",
-                "cover": "../01.cover.jpg",
-                "length": 34
+                "cover": "../01.cover.webp",
+                "length": 33
               },
               {
                 "id": "02",
                 "type": "audio",
                 "title": "Баю-баю-баю, не лажыся з краю",
-                "cover": "../02.cover.jpg",
+                "cover": "../02.cover.webp",
                 "length": 42
               },
               {
                 "id": "03",
                 "type": "audio",
                 "title": "Люлі-люлі-люлі, спаць, а я буду калыхаць",
-                "cover": "../03.cover.jpg",
+                "cover": "../03.cover.webp",
                 "length": 35
               },
               {
                 "id": "04",
                 "type": "audio",
                 "title": "А ты, коцік, не хадзі да малюльку не будзі",
-                "cover": "../04.cover.jpg",
+                "cover": "../04.cover.webp",
                 "length": 21
               },
               {
                 "id": "05",
                 "type": "audio",
                 "title": "Люлі-люлі-люлі, прыляцелі куры",
-                "cover": "../05.cover.jpg",
-                "length": 41
+                "cover": "../05.cover.webp",
+                "length": 40
               },
               {
                 "id": "06",
                 "type": "audio",
                 "title": "Пайшоў коцік у лясок, знайшоў коцік паясок",
-                "cover": "../06.cover.jpg",
+                "cover": "../06.cover.webp",
                 "length": 24
               },
               {
                 "id": "07",
                 "type": "audio",
                 "title": "Люлі-люлі, цэлы дом спіць",
-                "cover": "../07.cover.jpg",
-                "length": 79
+                "cover": "../07.cover.webp",
+                "length": 78
               },
               {
                 "id": "08",
                 "type": "audio",
                 "title": "Спі, сыночак міленькі, галубочак сівенькі",
-                "cover": "../08.cover.jpg",
+                "cover": "../08.cover.webp",
                 "length": 42
               },
               {
                 "id": "09",
                 "type": "audio",
                 "title": "Спі, дачушка мілая, галубачка сізая",
-                "cover": "../09.cover.jpg",
+                "cover": "../09.cover.webp",
                 "length": 41
               }
             ]
@@ -7682,13 +7682,13 @@
       {
         "id": "piesienki",
         "title": "Песенькі",
-        "length": 8383,
+        "length": 8153,
         "items": [
           {
             "id": "Ahatka-piesni",
             "title": "Dream-band Агатка",
             "cover": "cover.jpg",
-            "length": 3437,
+            "length": 3205,
             "items": [
               {
                 "id": "Alezak_i_aresak",
@@ -7760,7 +7760,7 @@
                 "title": "Казка пра 8 сакавіка",
                 "description": "Па сцэнарыю Наталлі Мігіц, Вольгі Шынкаровай, Таццяны Шклярэўскай",
                 "cover": "../Kazka_pra_8_sakavika.cover.svg",
-                "length": 463
+                "length": 231
               },
               {
                 "id": "Karahod",
@@ -7856,49 +7856,49 @@
             "id": "Ahatka-razminki",
             "title": "Размінкі. Агатка dream-band",
             "description": "Словы Касі Глухоўскай",
-            "cover": "cover.jpg",
+            "cover": "cover.webp",
             "length": 479,
             "items": [
               {
                 "id": "Afrykanskaja",
                 "type": "audio",
                 "title": "Афрыканская",
-                "cover": "../Afrykanskaja.cover.jpg",
+                "cover": "../Afrykanskaja.cover.webp",
                 "length": 91
               },
               {
                 "id": "Vosienskaja",
                 "type": "audio",
                 "title": "Восеньская",
-                "cover": "../Vosienskaja.cover.jpg",
+                "cover": "../Vosienskaja.cover.webp",
                 "length": 71
               },
               {
                 "id": "Liasnaja",
                 "type": "audio",
                 "title": "Лясная",
-                "cover": "../Liasnaja.cover.jpg",
+                "cover": "../Liasnaja.cover.webp",
                 "length": 73
               },
               {
                 "id": "HistarycnyZaniatak",
                 "type": "audio",
                 "title": "На гістарычны занятак",
-                "cover": "../HistarycnyZaniatak.cover.jpg",
+                "cover": "../HistarycnyZaniatak.cover.webp",
                 "length": 96
               },
               {
                 "id": "RanisniajaZaradka",
                 "type": "audio",
                 "title": "Ранішняя зарадка",
-                "cover": "../RanisniajaZaradka.cover.jpg",
+                "cover": "../RanisniajaZaradka.cover.webp",
                 "length": 69
               },
               {
                 "id": "Evalucyja",
                 "type": "audio",
                 "title": "Эвалюцыя",
-                "cover": "../Evalucyja.cover.jpg",
+                "cover": "../Evalucyja.cover.webp",
                 "length": 79
               }
             ]
@@ -7908,13 +7908,13 @@
             "title": "Мой сябра анёлак",
             "description": "Супольны праект WZ-Orkiestra і салістаў з шэрагу беларускіх гуртоў на вершы Арцёма Кавалеўскага",
             "cover": "cover.jpg",
-            "length": 2968,
+            "length": 2970,
             "items": [
               {
                 "id": "01",
                 "type": "audio",
                 "title": "Анёлак-ахоўнік",
-                "length": 173
+                "length": 174
               },
               {
                 "id": "02",
@@ -8034,7 +8034,7 @@
                 "id": "21",
                 "type": "audio",
                 "title": "Хто з анёлкам пасябруе",
-                "length": 173
+                "length": 174
               }
             ]
           },
@@ -8167,7 +8167,7 @@
             "type": "book",
             "title": "Азбука для маленькіх",
             "description": "Азбука складзеная з вершаў: Р. Барадуліна, В. Віткі, В. Шніпа, А. Бадака, С. Сокалава-Воюша, Ул. Мазго, Ул. Мацьвеенкі, Н. Гілевіча, А. Вольскага.",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "Pryhody_Havaruna",
@@ -8206,295 +8206,295 @@
             "type": "book",
             "title": "Беларуская хрысціянская азбука",
             "description": "Чытанка ў дасціпнай форме, з вершамі і малюнкамі пазнаёміць маленькіх чытачоў з літарамі",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "KartkiDomana",
             "title": "Карткі Домана",
             "description": "З праекту \"Умачка\"",
-            "cover": "cover.jpg",
+            "cover": "cover.webp",
             "items": [
               {
                 "id": "d9HhRNkx-wU",
                 "type": "youtube",
                 "title": "Як кажуць жывёлы (гукі жывёл) 1",
-                "cover": "../d9HhRNkx-wU.cover.jpg"
+                "cover": "../d9HhRNkx-wU.cover.webp"
               },
               {
                 "id": "GuGjVBKE3ZE",
                 "type": "youtube",
                 "title": "Як кажуць жывёлы (гукі жывёл) 2",
-                "cover": "../GuGjVBKE3ZE.cover.jpg"
+                "cover": "../GuGjVBKE3ZE.cover.webp"
               },
               {
                 "id": "L3ZBvTf8SSU",
                 "type": "youtube",
                 "title": "Колеры",
-                "cover": "../L3ZBvTf8SSU.cover.jpg"
+                "cover": "../L3ZBvTf8SSU.cover.webp"
               },
               {
                 "id": "W6gqjTpwgbM",
                 "type": "youtube",
                 "title": "Геаметрычныя Фігуры",
-                "cover": "../W6gqjTpwgbM.cover.jpg"
+                "cover": "../W6gqjTpwgbM.cover.webp"
               },
               {
                 "id": "oESGRzfllOM",
                 "type": "youtube",
                 "title": "Посуд",
-                "cover": "../oESGRzfllOM.cover.jpg"
+                "cover": "../oESGRzfllOM.cover.webp"
               },
               {
                 "id": "YgN6aOsf1dE",
                 "type": "youtube",
                 "title": "Ежа і напоі 1",
-                "cover": "../YgN6aOsf1dE.cover.jpg"
+                "cover": "../YgN6aOsf1dE.cover.webp"
               },
               {
                 "id": "KnNgSayY558",
                 "type": "youtube",
                 "title": "Ежа і напоі 2",
-                "cover": "../KnNgSayY558.cover.jpg"
+                "cover": "../KnNgSayY558.cover.webp"
               },
               {
                 "id": "kdtsBJ9G1TY",
                 "type": "youtube",
                 "title": "Адзенне 1",
-                "cover": "../kdtsBJ9G1TY.cover.jpg"
+                "cover": "../kdtsBJ9G1TY.cover.webp"
               },
               {
                 "id": "PI7uHEYqNAk",
                 "type": "youtube",
                 "title": "Адзенне 2",
-                "cover": "../PI7uHEYqNAk.cover.jpg"
+                "cover": "../PI7uHEYqNAk.cover.webp"
               },
               {
                 "id": "4IWTUq7PrzU",
                 "type": "youtube",
                 "title": "Часткі цела",
-                "cover": "../4IWTUq7PrzU.cover.jpg"
+                "cover": "../4IWTUq7PrzU.cover.webp"
               },
               {
                 "id": "i-l14sEvX4s",
                 "type": "youtube",
                 "title": "Прадметы ваннага пакоя",
-                "cover": "../i-l14sEvX4s.cover.jpg"
+                "cover": "../i-l14sEvX4s.cover.webp"
               },
               {
                 "id": "T-TeOpvftpI",
                 "type": "youtube",
                 "title": "Цацкі 1",
-                "cover": "../T-TeOpvftpI.cover.jpg"
+                "cover": "../T-TeOpvftpI.cover.webp"
               },
               {
                 "id": "1vgyR-fYtXo",
                 "type": "youtube",
                 "title": "На вуліцы",
-                "cover": "../1vgyR-fYtXo.cover.jpg"
+                "cover": "../1vgyR-fYtXo.cover.webp"
               },
               {
                 "id": "JgHdQeibqx4",
                 "type": "youtube",
                 "title": "Жывёлы і птушкі",
-                "cover": "../JgHdQeibqx4.cover.jpg"
+                "cover": "../JgHdQeibqx4.cover.webp"
               },
               {
                 "id": "dcWYWwncN9M",
                 "type": "youtube",
                 "title": "Хатнія жывёлы і птушкі",
-                "cover": "../dcWYWwncN9M.cover.jpg"
+                "cover": "../dcWYWwncN9M.cover.webp"
               },
               {
                 "id": "UzQYWebtbFI",
                 "type": "youtube",
                 "title": "Лясныя жывёлы",
-                "cover": "../UzQYWebtbFI.cover.jpg"
+                "cover": "../UzQYWebtbFI.cover.webp"
               },
               {
                 "id": "5qaUqsJEUsI",
                 "type": "youtube",
                 "title": "З\u0027явы прыроды",
-                "cover": "../5qaUqsJEUsI.cover.jpg"
+                "cover": "../5qaUqsJEUsI.cover.webp"
               },
               {
                 "id": "N5tCnasUu7M",
                 "type": "youtube",
                 "title": "Прырода",
-                "cover": "../N5tCnasUu7M.cover.jpg"
+                "cover": "../N5tCnasUu7M.cover.webp"
               },
               {
                 "id": "8pT8FEpRJVI",
                 "type": "youtube",
                 "title": "Насельнікі вады",
-                "cover": "../8pT8FEpRJVI.cover.jpg"
+                "cover": "../8pT8FEpRJVI.cover.webp"
               },
               {
                 "id": "tIH84hxVcUI",
                 "type": "youtube",
                 "title": "Кветкі",
-                "cover": "../tIH84hxVcUI.cover.jpg"
+                "cover": "../tIH84hxVcUI.cover.webp"
               },
               {
                 "id": "9QufrOa3Pug",
                 "type": "youtube",
                 "title": "Свет раслін",
-                "cover": "../9QufrOa3Pug.cover.jpg"
+                "cover": "../9QufrOa3Pug.cover.webp"
               },
               {
                 "id": "aESG4qObat8",
                 "type": "youtube",
                 "title": "Гародніна Садавіна Ягады 1",
-                "cover": "../aESG4qObat8.cover.jpg"
+                "cover": "../aESG4qObat8.cover.webp"
               },
               {
                 "id": "E9jsJpCJ-q4",
                 "type": "youtube",
                 "title": "Гародніна Садавіна Ягады 2",
-                "cover": "../E9jsJpCJ-q4.cover.jpg"
+                "cover": "../E9jsJpCJ-q4.cover.webp"
               },
               {
                 "id": "7bCf7YbA6AA",
                 "type": "youtube",
                 "title": "Птушкі 1",
-                "cover": "../7bCf7YbA6AA.cover.jpg"
+                "cover": "../7bCf7YbA6AA.cover.webp"
               },
               {
                 "id": "8lRu_lFyHCo",
                 "type": "youtube",
                 "title": "Птушкі 2",
-                "cover": "../8lRu_lFyHCo.cover.jpg"
+                "cover": "../8lRu_lFyHCo.cover.webp"
               },
               {
                 "id": "zf02z-TqSI4",
                 "type": "youtube",
                 "title": "Пароды сабак 1",
-                "cover": "../zf02z-TqSI4.cover.jpg"
+                "cover": "../zf02z-TqSI4.cover.webp"
               },
               {
                 "id": "9tLAn0F9DR4",
                 "type": "youtube",
                 "title": "Пароды сабак 2",
-                "cover": "../9tLAn0F9DR4.cover.jpg"
+                "cover": "../9tLAn0F9DR4.cover.webp"
               },
               {
                 "id": "fGHcDTgTn7c",
                 "type": "youtube",
                 "title": "Музычныя інструменты",
-                "cover": "../fGHcDTgTn7c.cover.jpg"
+                "cover": "../fGHcDTgTn7c.cover.webp"
               },
               {
                 "id": "RmVqQCRBjkI",
                 "type": "youtube",
                 "title": "Гукі музычных інструментаў 2",
-                "cover": "../RmVqQCRBjkI.cover.jpg"
+                "cover": "../RmVqQCRBjkI.cover.webp"
               },
               {
                 "id": "0hvj9E_geSE",
                 "type": "youtube",
                 "title": "Мэбля",
-                "cover": "../0hvj9E_geSE.cover.jpg"
+                "cover": "../0hvj9E_geSE.cover.webp"
               },
               {
                 "id": "LJ4KAqADz2U",
                 "type": "youtube",
                 "title": "Пабудовы. частка 1",
-                "cover": "../LJ4KAqADz2U.cover.jpg"
+                "cover": "../LJ4KAqADz2U.cover.webp"
               },
               {
                 "id": "YeQR9xsEslc",
                 "type": "youtube",
                 "title": "Пабудовы. частка 2",
-                "cover": "../YeQR9xsEslc.cover.jpg"
+                "cover": "../YeQR9xsEslc.cover.webp"
               },
               {
                 "id": "p1OjYBU2-bA",
                 "type": "youtube",
                 "title": "Пабудовы. частка 3",
-                "cover": "../p1OjYBU2-bA.cover.jpg"
+                "cover": "../p1OjYBU2-bA.cover.webp"
               },
               {
                 "id": "NUivTcYi-oc",
                 "type": "youtube",
                 "title": "Бытавая тэхніка",
-                "cover": "../NUivTcYi-oc.cover.jpg"
+                "cover": "../NUivTcYi-oc.cover.webp"
               },
               {
                 "id": "cyGF22QhhB0",
                 "type": "youtube",
                 "title": "Бытавая электроніка",
-                "cover": "../cyGF22QhhB0.cover.jpg"
+                "cover": "../cyGF22QhhB0.cover.webp"
               },
               {
                 "id": "1UGBbPcheRo",
                 "type": "youtube",
                 "title": "Транспарт",
-                "cover": "../1UGBbPcheRo.cover.jpg"
+                "cover": "../1UGBbPcheRo.cover.webp"
               },
               {
                 "id": "RKYGxGK91s4",
                 "type": "youtube",
                 "title": "Маркі аўтамабіляў 1",
-                "cover": "../RKYGxGK91s4.cover.jpg"
+                "cover": "../RKYGxGK91s4.cover.webp"
               },
               {
                 "id": "Tmr5_BmuLyc",
                 "type": "youtube",
                 "title": "Маркі аўтамабіляў 2",
-                "cover": "../Tmr5_BmuLyc.cover.jpg"
+                "cover": "../Tmr5_BmuLyc.cover.webp"
               },
               {
                 "id": "dbI2bW9Kx7I",
                 "type": "youtube",
                 "title": "Маркі аўтамабіляў 3",
-                "cover": "../dbI2bW9Kx7I.cover.jpg"
+                "cover": "../dbI2bW9Kx7I.cover.webp"
               },
               {
                 "id": "kgzz6Dk6lag",
                 "type": "youtube",
                 "title": "Спецтэхніка",
-                "cover": "../kgzz6Dk6lag.cover.jpg"
+                "cover": "../kgzz6Dk6lag.cover.webp"
               },
               {
                 "id": "_I7bng5--Qo",
                 "type": "youtube",
                 "title": "Прафесіі 1",
-                "cover": "../_I7bng5--Qo.cover.jpg"
+                "cover": "../_I7bng5--Qo.cover.webp"
               },
               {
                 "id": "DQ5hhWrJ2sw",
                 "type": "youtube",
                 "title": "Прафесіі 2",
-                "cover": "../DQ5hhWrJ2sw.cover.jpg"
+                "cover": "../DQ5hhWrJ2sw.cover.webp"
               },
               {
                 "id": "uADOTPhwwQs",
                 "type": "youtube",
                 "title": "Віды спорту 1",
-                "cover": "../uADOTPhwwQs.cover.jpg"
+                "cover": "../uADOTPhwwQs.cover.webp"
               },
               {
                 "id": "cF_uS7qmOuU",
                 "type": "youtube",
                 "title": "Віды спорту 2",
-                "cover": "../cF_uS7qmOuU.cover.jpg"
+                "cover": "../cF_uS7qmOuU.cover.webp"
               },
               {
                 "id": "0iKD1tLZX6E",
                 "type": "youtube",
                 "title": "Інструменты 1",
-                "cover": "../0iKD1tLZX6E.cover.jpg"
+                "cover": "../0iKD1tLZX6E.cover.webp"
               },
               {
                 "id": "ii41hcXb7nQ",
                 "type": "youtube",
                 "title": "Інструменты 2",
-                "cover": "../ii41hcXb7nQ.cover.jpg"
+                "cover": "../ii41hcXb7nQ.cover.webp"
               },
               {
                 "id": "XHRhTB9MAZQ",
                 "type": "youtube",
                 "title": "Канцылярскія прылады",
-                "cover": "../XHRhTB9MAZQ.cover.jpg"
+                "cover": "../XHRhTB9MAZQ.cover.webp"
               }
             ]
           }
@@ -13812,175 +13812,175 @@
             "type": "book",
             "title": "Тры кацяняткі",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "vili",
             "type": "book",
             "title": "Дзе ж Вілі ?",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "try-parasiatki",
             "type": "book",
             "title": "Тры парасяткі",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "sasiska",
             "type": "book",
             "title": "Сіньора Сасіска",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "karlsan1",
             "type": "book",
             "title": "Малы і Карлсан, 1",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "karlsan2",
             "type": "book",
             "title": "Малы і Карлсан, 2",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "NuPacakaj1",
             "type": "book",
             "title": "Ну, пачакай 1",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "NuPacakaj2",
             "type": "book",
             "title": "Ну, пачакай 2",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "NuPacakaj3",
             "type": "book",
             "title": "Ну, пачакай 3",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "NuPacakaj4",
             "type": "book",
             "title": "Ну, пачакай 4",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "NuPacakaj5",
             "type": "book",
             "title": "Ну, пачакай 5",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "NuPacakaj6",
             "type": "book",
             "title": "Ну, пачакай 6",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "NuPacakaj7",
             "type": "book",
             "title": "Ну, пачакай 7",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "NuPacakaj8",
             "type": "book",
             "title": "Ну, пачакай 8",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "kotubotach",
             "type": "book",
             "title": "Кот у ботах",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "cyrvony-kapturok",
             "type": "book",
             "title": "Чырвоны Каптурок",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "ptushka",
             "type": "book",
             "title": "Птушка-шчасце",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "pryhazunia",
             "type": "book",
             "title": "Прыгажуня ў сонным лесе",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "cakatucha",
             "type": "book",
             "title": "Муха Цакатуха",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "maloje_palcanio",
             "type": "book",
             "title": "Малое Пальчанё",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "myjdadir",
             "type": "book",
             "title": "Мыйдадзір",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "piarscianacka",
             "type": "book",
             "title": "Пярсцяначка",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "pryncesa-na-haroshynie",
             "type": "book",
             "title": "Прынцэса на гарошыне",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "slaniania",
             "type": "book",
             "title": "Сланяня",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           },
           {
             "id": "snieznaja-karalieva",
             "type": "book",
             "title": "Снежная каралева",
             "description": "",
-            "cover": "cover.jpg"
+            "cover": "cover.webp"
           }
         ]
       }
