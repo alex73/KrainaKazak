@@ -69,7 +69,13 @@ public class BookLoader {
                 page.audio = fn;
             } else if (fn.endsWith(".ogg")) {
                 page.audio = fn;
+            } else if (fn.endsWith(".opus")) {
+                page.audio = fn;
             } else if (fn.endsWith(".jpg")) {
+                page.jpg = fn;
+            } else if (fn.endsWith(".be.webp")) {
+                page.png = fn;
+            } else if (fn.endsWith(".webp")) {
                 page.jpg = fn;
             } else if (fn.endsWith(".png")) {
                 page.png = fn;
