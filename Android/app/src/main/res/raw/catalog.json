@@ -8170,6 +8170,50 @@
             "cover": "cover.webp"
           },
           {
+            "id": "Bielaruski_alfavit",
+            "title": "Беларускі алфавіт",
+            "description": "Вытворчасць студыі Gavarun.by",
+            "cover": "cover.webp",
+            "items": [
+              {
+                "id": "OCiiGElY6bw",
+                "type": "youtube",
+                "title": "Уступ: усе літары",
+                "cover": "../OCiiGElY6bw.cover.webp"
+              },
+              {
+                "id": "v5luVNLpDn8",
+                "type": "youtube",
+                "title": "Літары А - Ё",
+                "cover": "../v5luVNLpDn8.cover.jpg"
+              },
+              {
+                "id": "Fk0LH_vwXck",
+                "type": "youtube",
+                "title": "Літары Ж - Л",
+                "cover": "../Fk0LH_vwXck.cover.jpg"
+              },
+              {
+                "id": "mHR7J9G7UoI",
+                "type": "youtube",
+                "title": "Літары М - С",
+                "cover": "../mHR7J9G7UoI.cover.jpg"
+              },
+              {
+                "id": "Rkif2RxScO4",
+                "type": "youtube",
+                "title": "Літары Т - Ц",
+                "cover": "../Rkif2RxScO4.cover.jpg"
+              },
+              {
+                "id": "MuE_lJz2FXE",
+                "type": "youtube",
+                "title": "Літары Ч - Я",
+                "cover": "../MuE_lJz2FXE.cover.jpg"
+              }
+            ]
+          },
+          {
             "id": "Pryhody_Havaruna",
             "title": "Прыгоды Гаваруна",
             "description": "Вытворчасць студыі Gavarun.by\nАўтар сцэнарыя, дыктар і мантажор – Таша Мурзэнштольц. Лепка, анімацыя – Таццяна Мурзо (instagram.com/tanyamurzo/). Гукарэжысёр – Павел Бычкоў, Рэдактар тэксту – Леў Глушыцкі.",
@@ -8198,6 +8242,31 @@
                 "type": "youtube",
                 "title": "04 Вывучаем агародніну па-беларуску",
                 "cover": "../fwFE9TM0cqg.cover.jpg"
+              },
+              {
+                "id": "D4DBPOI1Pg4",
+                "type": "youtube",
+                "title": "Цікавыя факты пра жывёл",
+                "cover": "../D4DBPOI1Pg4.cover.jpg"
+              }
+            ]
+          },
+          {
+            "id": "Paznavalnyja_videa",
+            "title": "Пазнавальнае відэа",
+            "cover": "cover.jpg",
+            "items": [
+              {
+                "id": "jGklZBpSA4I",
+                "type": "youtube",
+                "title": "Анатомія чалавека – Сэрца",
+                "cover": "../jGklZBpSA4I.cover.jpg"
+              },
+              {
+                "id": "dNvhSfzMQIU",
+                "type": "youtube",
+                "title": "Пра снег і сняжынкі",
+                "cover": "../dNvhSfzMQIU.cover.jpg"
               }
             ]
           },
@@ -9474,133 +9543,173 @@
             "id": "Klypa",
             "title": "К’ю Клыпа 5",
             "description": "Там, сярод безлічы зорак ёсць маленькая планета пад назвай Окі-Докі. На ёй жыве прыязны зялёны прышэльц К’ю Клыпа 5, які любіць глядзець на зоркі і бавіць час з сябрамі. Для Аёечкі, Эдзі, Стэлы, Клёвіча і робата Брат-Ка на Окі-Докі таксама ніколі не бывае сумна! Клыпа імчыцца па галактыцы, каб дапамагчы заблукалым касмічным турыстам, вылечыць перагрэтыя планеты і, самае галоўнае, выявіць каштоўнасць сяброўства!\nПа-беларуску агучана студыяй Gavarun.by",
-            "cover": "cover.jpg",
+            "cover": "cover.webp",
             "items": [
               {
                 "id": "UQVsId2kUYI",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 01 Вялікая касмічная гонка",
-                "cover": "../UQVsId2kUYI.cover.jpg"
+                "title": "01 Вялікая касмічная гонка",
+                "cover": "../UQVsId2kUYI.cover.webp"
               },
               {
                 "id": "aTWL8CeqWUI",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 02 Пікнік з захадулямі",
-                "cover": "../aTWL8CeqWUI.cover.jpg"
+                "title": "02 Пікнік з захадулямі",
+                "cover": "../aTWL8CeqWUI.cover.webp"
               },
               {
                 "id": "ICuX0tklBXQ",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 03 Клёвавача-кукарача",
-                "cover": "../ICuX0tklBXQ.cover.jpg"
+                "title": "03 Клёвавача-кукарача",
+                "cover": "../ICuX0tklBXQ.cover.webp"
               },
               {
                 "id": "HbBDakGOJ2c",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 04 У гасцях у Клыпы",
-                "cover": "../HbBDakGOJ2c.cover.jpg"
+                "title": "04 У гасцях у Клыпы",
+                "cover": "../HbBDakGOJ2c.cover.webp"
               },
               {
                 "id": "sFfJJNRbWzU",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 05 Загадка з фота",
-                "cover": "../sFfJJNRbWzU.cover.jpg"
+                "title": "05 Загадка з фота",
+                "cover": "../sFfJJNRbWzU.cover.webp"
               },
               {
                 "id": "ogawnbp55WY",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 06 Брат-Ка за галоўнага",
-                "cover": "../ogawnbp55WY.cover.jpg"
+                "title": "06 Брат-Ка за галоўнага"
               },
               {
                 "id": "uJvtMJJkjvo",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 07 Дзе Рэй?",
-                "cover": "../uJvtMJJkjvo.cover.jpg"
+                "title": "07 Дзе Рэй?"
               },
               {
                 "id": "93bTpczp5g0",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 08 Капялюш для Эдзі",
-                "cover": "../93bTpczp5g0.cover.jpg"
+                "title": "08 Капялюш для Эдзі",
+                "cover": "../93bTpczp5g0.cover.webp"
               },
               {
                 "id": "wKSAegSPGrs",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 09 Новая Аёеччына прычоска",
-                "cover": "../wKSAegSPGrs.cover.jpg"
+                "title": "09 Новая Аёеччына прычоска",
+                "cover": "../wKSAegSPGrs.cover.webp"
               },
               {
                 "id": "gUscgy8Yl50",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 10 Дзень спорту",
-                "cover": "../gUscgy8Yl50.cover.jpg"
+                "title": "10 Дзень спорту",
+                "cover": "../gUscgy8Yl50.cover.webp"
               },
               {
                 "id": "EvS2UPql5Sk",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 11 Клёвіч ляціць на дапамогу",
-                "cover": "../EvS2UPql5Sk.cover.jpg"
+                "title": "11 Клёвіч ляціць на дапамогу",
+                "cover": "../EvS2UPql5Sk.cover.webp"
               },
               {
                 "id": "B6gsJDZbM00",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 12 Ракетная птушка Аёечка",
+                "title": "12 Ракетная птушка Аёечка",
                 "cover": "../B6gsJDZbM00.cover.jpg"
               },
               {
                 "id": "-Li07fMYXz0",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 13 Дзень з Рэем",
-                "cover": "../-Li07fMYXz0.cover.jpg"
+                "title": "13 Дзень з Рэем",
+                "cover": "../-Li07fMYXz0.cover.webp"
               },
               {
                 "id": "Yh5WangS-7M",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 14 Прыгоды з картай",
+                "title": "14 Прыгоды з картай",
                 "cover": "../Yh5WangS-7M.cover.jpg"
               },
               {
                 "id": "vCGrclzkFok",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 15 Клыпа тут, Клыпа там",
-                "cover": "../vCGrclzkFok.cover.jpg"
+                "title": "15 Клыпа тут, Клыпа там",
+                "cover": "../vCGrclzkFok.cover.webp"
               },
               {
                 "id": "L6f-iO9FwVU",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 16 Трывога! Астэроід!",
-                "cover": "../L6f-iO9FwVU.cover.jpg"
+                "title": "16 Трывога! Астэроід!",
+                "cover": "../L6f-iO9FwVU.cover.webp"
               },
               {
                 "id": "rRQpe9GxXo4",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 17 Фух! Ну і спёка!",
+                "title": "17 Фух! Ну і спёка!",
                 "cover": "../rRQpe9GxXo4.cover.jpg"
               },
               {
                 "id": "ikuynon8BA8",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 18 Як высокую ноту лавілі",
-                "cover": "../ikuynon8BA8.cover.jpg"
+                "title": "18 Як высокую ноту лавілі",
+                "cover": "../ikuynon8BA8.cover.webp"
               },
               {
                 "id": "pL6FAZKFlsU",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 19 Сямая вялікая карціна",
-                "cover": "../pL6FAZKFlsU.cover.jpg"
+                "title": "19 Сямая вялікая карціна",
+                "cover": "../pL6FAZKFlsU.cover.webp"
               },
               {
                 "id": "kpl9ZULSDls",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 20 Аёеччын дзень наадварот",
-                "cover": "../kpl9ZULSDls.cover.jpg"
+                "title": "20 Аёеччын дзень наадварот",
+                "cover": "../kpl9ZULSDls.cover.webp"
               },
               {
                 "id": "UP11xnQ3tCc",
                 "type": "youtube",
-                "title": "К’ю Клыпа 5 – 21 Аэрашоу",
-                "cover": "../UP11xnQ3tCc.cover.jpg"
+                "title": "21 Аэрашоу",
+                "cover": "../UP11xnQ3tCc.cover.webp"
+              },
+              {
+                "id": "ThP6qF5h58E",
+                "type": "youtube",
+                "title": "22 Аёеччын мегафон",
+                "cover": "../ThP6qF5h58E.cover.webp"
+              },
+              {
+                "id": "KFt_G_pMXDY",
+                "type": "youtube",
+                "title": "23 Клыпа-даследчык",
+                "cover": "../KFt_G_pMXDY.cover.webp"
+              },
+              {
+                "id": "wbbzfEYycTs",
+                "type": "youtube",
+                "title": "24 Валун-пакатун",
+                "cover": "../wbbzfEYycTs.cover.jpg"
+              },
+              {
+                "id": "E_3H_wN2nZw",
+                "type": "youtube",
+                "title": "25 Госць з космасу",
+                "cover": "../E_3H_wN2nZw.cover.jpg"
+              },
+              {
+                "id": "F7MsgiKJ8h8",
+                "type": "youtube",
+                "title": "26 Клёвічава Касмамыйня",
+                "cover": "../F7MsgiKJ8h8.cover.webp"
+              },
+              {
+                "id": "J4EQrM9Uyek",
+                "type": "youtube",
+                "title": "27 Спеўная Лагчына",
+                "cover": "../J4EQrM9Uyek.cover.webp"
+              },
+              {
+                "id": "y_9ifgTlCN8",
+                "type": "youtube",
+                "title": "28 Таямніца раслін",
+                "cover": "../y_9ifgTlCN8.cover.webp"
               }
             ]
           },
@@ -9675,122 +9784,170 @@
               {
                 "id": "tTBKsLa2TQg",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 01 Да гары Альмы",
+                "title": "01 Да гары Альмы",
                 "cover": "../tTBKsLa2TQg.cover.jpg"
               },
               {
                 "id": "PX82m6g-E8Q",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 02 Дзядулева хата ў гарах",
-                "cover": "../PX82m6g-E8Q.cover.jpg"
+                "title": "02 Дзядулева хата ў гарах",
+                "cover": "../PX82m6g-E8Q.cover.webp"
               },
               {
                 "id": "VTr_D0xJ4j8",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 03 Горная паша",
+                "title": "03 Горная паша",
                 "cover": "../VTr_D0xJ4j8.cover.jpg"
               },
               {
                 "id": "wAAuEVuAei8",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 04 Яшчэ адзін сямейнік",
+                "title": "04 Яшчэ адзін сямейнік",
                 "cover": "../wAAuEVuAei8.cover.jpg"
               },
               {
                 "id": "NbJ83ScwFl0",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 05 Спалены ліст",
+                "title": "05 Спалены ліст",
                 "cover": "../NbJ83ScwFl0.cover.jpg"
               },
               {
                 "id": "Iff5sqg6lWw",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 06 Пранізлівы свіст",
+                "title": "06 Пранізлівы свіст",
                 "cover": "../Iff5sqg6lWw.cover.jpg"
               },
               {
                 "id": "hlrWSqOd1vU",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 07 Шэпт ялін",
+                "title": "07 Шэпт ялін",
                 "cover": "../hlrWSqOd1vU.cover.jpg"
               },
               {
                 "id": "zxMWLSlSCQA",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 08 Куды знік Піці?",
+                "title": "08 Куды знік Піці?",
                 "cover": "../zxMWLSlSCQA.cover.jpg"
               },
               {
                 "id": "DSy2mNLU1Ho",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 09 Срэбныя горы",
-                "cover": "../DSy2mNLU1Ho.cover.jpg"
+                "title": "09 Срэбныя горы",
+                "cover": "../DSy2mNLU1Ho.cover.webp"
               },
               {
                 "id": "w-EAtBVaWyg",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 10 Бабуліна хата",
+                "title": "10 Бабуліна хата",
                 "cover": "../w-EAtBVaWyg.cover.jpg"
               },
               {
                 "id": "lu--plW3OhA",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 11 Снежная бура",
+                "title": "11 Снежная бура",
                 "cover": "../lu--plW3OhA.cover.jpg"
               },
               {
                 "id": "4fHAbTarS64",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 12 Гукі вясны",
+                "title": "12 Гукі вясны",
                 "cover": "../4fHAbTarS64.cover.jpg"
               },
               {
                 "id": "eX3EY_cQktA",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 13 Вяртанне на пашу",
+                "title": "13 Вяртанне на пашу",
                 "cover": "../eX3EY_cQktA.cover.jpg"
               },
               {
                 "id": "DofLCJwHpo0",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 14 Сумная навіна",
+                "title": "14 Сумная навіна",
                 "cover": "../DofLCJwHpo0.cover.jpg"
               },
               {
                 "id": "1H0HB_eDzf4",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 15 Снежка",
+                "title": "15 Снежка",
                 "cover": "../1H0HB_eDzf4.cover.jpg"
               },
               {
                 "id": "0vf5RmamzMQ",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 16 Вёска Дзёрфлі",
+                "title": "16 Вёска Дзёрфлі",
                 "cover": "../0vf5RmamzMQ.cover.jpg"
               },
               {
                 "id": "npm1l_p0Q7g",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 17 Госці",
-                "cover": "../npm1l_p0Q7g.cover.jpg"
+                "title": "17 Госці",
+                "cover": "../npm1l_p0Q7g.cover.webp"
               },
               {
                 "id": "nhRBIsdPvmQ",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 18 Дарогі разыходзяцца",
+                "title": "18 Дарогі разыходзяцца",
                 "cover": "../nhRBIsdPvmQ.cover.jpg"
               },
               {
                 "id": "p1Xb3TzyaOk",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 19 Дарога ў Франкфурт",
-                "cover": "../p1Xb3TzyaOk.cover.jpg"
+                "title": "19 Дарога ў Франкфурт",
+                "cover": "../p1Xb3TzyaOk.cover.webp"
               },
               {
                 "id": "ESIIjHBfCck",
                 "type": "youtube",
-                "title": "Хайдзі, дзяўчынка Альпаў – 20 Новае жыццё",
+                "title": "20 Новае жыццё",
                 "cover": "../ESIIjHBfCck.cover.jpg"
+              },
+              {
+                "id": "zF7rUL-mhDI",
+                "type": "youtube",
+                "title": "21 Я хачу лятаць",
+                "cover": "../zF7rUL-mhDI.cover.jpg"
+              },
+              {
+                "id": "Cg5l_VRo6u8",
+                "type": "youtube",
+                "title": "22 Дзе вы, Альпы?",
+                "cover": "../Cg5l_VRo6u8.cover.jpg"
+              },
+              {
+                "id": "uXDsoss0Zu0",
+                "type": "youtube",
+                "title": "23 Вэрхал у доме Зэзэманаў",
+                "cover": "../uXDsoss0Zu0.cover.jpg"
+              },
+              {
+                "id": "MBr41K2Aqh0",
+                "type": "youtube",
+                "title": "24 Страчанае кацяня",
+                "cover": "../MBr41K2Aqh0.cover.jpg"
+              },
+              {
+                "id": "2EhiGB2lAaw",
+                "type": "youtube",
+                "title": "25 Белы хлеб",
+                "cover": "../2EhiGB2lAaw.cover.jpg"
+              },
+              {
+                "id": "a5yNsTaBe30",
+                "type": "youtube",
+                "title": "26 Вяртанне спадара Зэзэмана",
+                "cover": "../a5yNsTaBe30.cover.jpg"
+              },
+              {
+                "id": "ZZCYrLp7rUY",
+                "type": "youtube",
+                "title": "27 Бабуля Клары",
+                "cover": "../ZZCYrLp7rUY.cover.jpg"
+              },
+              {
+                "id": "zpEpP6COoww",
+                "type": "youtube",
+                "title": "28 Едзьма ў лес",
+                "cover": "../zpEpP6COoww.cover.jpg"
               }
             ]
           },
@@ -9798,31 +9955,115 @@
             "id": "Stodzionnaja_biazbieka_z_Ember",
             "title": "Штодзённая бяспека з Эмбер",
             "description": "Мультсерыял «Штодзённая бяспека з Эмбер» (Daily life Safety with Amber) з’яўляецца адгалінаваннем паўднёвакарэйскага мультсерыяла «Рабакар Полі». Прэм’ера адбылася ў 2018 годзе на EBS. \nАдважная хуткая дапамога Эмбер з ратавальнай каманды супер-трансформераў кожны раз спяшаецца выратаваць людзей і машыны з небяспечнага становішча. У часе кожнага эпізоду дзеці навучаюцца дзейнічаць у надзвычайных сітуацыях і засвойваюць меры тэхнікі бяспекі.\nПа-беларуску агучана студыяй Gavarun.by",
-            "cover": "cover.jpg",
+            "cover": "cover.webp",
             "items": [
               {
                 "id": "MsxYoICJxX0",
                 "type": "youtube",
                 "title": "01 Як бяспечна гуляць на пляцоўцы",
-                "cover": "../MsxYoICJxX0.cover.jpg"
+                "cover": "../MsxYoICJxX0.cover.webp"
               },
               {
                 "id": "s52_Haw7yNE",
                 "type": "youtube",
                 "title": "02 Асцярожней з моцным ветрам!",
-                "cover": "../s52_Haw7yNE.cover.jpg"
+                "cover": "../s52_Haw7yNE.cover.webp"
               },
               {
                 "id": "rqq3DXwQuoM",
                 "type": "youtube",
                 "title": "03 Калі цукерка ў горле засела!",
-                "cover": "../rqq3DXwQuoM.cover.jpg"
+                "cover": "../rqq3DXwQuoM.cover.webp"
               },
               {
                 "id": "jDhsY1VV3lY",
                 "type": "youtube",
                 "title": "04 Пчолы навокал",
                 "cover": "../jDhsY1VV3lY.cover.jpg"
+              },
+              {
+                "id": "JbInve07pFU",
+                "type": "youtube",
+                "title": "05 Мітусня са злодзеем",
+                "cover": "../JbInve07pFU.cover.webp"
+              },
+              {
+                "id": "jksHRkMzmcU",
+                "type": "youtube",
+                "title": "06 Гарачая праблема",
+                "cover": "../jksHRkMzmcU.cover.jpg"
+              },
+              {
+                "id": "Y_R51ojDiOA",
+                "type": "youtube",
+                "title": "07 Дзіка бяспечна",
+                "cover": "../Y_R51ojDiOA.cover.jpg"
+              },
+              {
+                "id": "RwOdEZD4y8o",
+                "type": "youtube",
+                "title": "08 У натоўпе",
+                "cover": "../RwOdEZD4y8o.cover.webp"
+              },
+              {
+                "id": "R-uotLPJq_Y",
+                "type": "youtube",
+                "title": "09 Даждлівы дзень",
+                "cover": "../R-uotLPJq_Y.cover.jpg"
+              },
+              {
+                "id": "2y1Rgp6cy5s",
+                "type": "youtube",
+                "title": "10 Лунай бы матылёк, спявай бы птушка",
+                "cover": "../2y1Rgp6cy5s.cover.jpg"
+              },
+              {
+                "id": "zulOG7FbEdU",
+                "type": "youtube",
+                "title": "11 Сабакі і бяспека",
+                "cover": "../zulOG7FbEdU.cover.jpg"
+              },
+              {
+                "id": "zVmPX6KOhqY",
+                "type": "youtube",
+                "title": "12 Як катацца бяспечна",
+                "cover": "../zVmPX6KOhqY.cover.webp"
+              },
+              {
+                "id": "zTJKT4gifog",
+                "type": "youtube",
+                "title": "13 Глядзі, што ясі",
+                "cover": "../zTJKT4gifog.cover.webp"
+              },
+              {
+                "id": "neGaDBcBlc0",
+                "type": "youtube",
+                "title": "14 Уважлівей у горах",
+                "cover": "../neGaDBcBlc0.cover.jpg"
+              },
+              {
+                "id": "BJiLiixGLR8",
+                "type": "youtube",
+                "title": "15 Не хадзі з незнаёмцамі",
+                "cover": "../BJiLiixGLR8.cover.webp"
+              },
+              {
+                "id": "0QZj4Z9JKlY",
+                "type": "youtube",
+                "title": "16 Як не захварэць",
+                "cover": "../0QZj4Z9JKlY.cover.webp"
+              },
+              {
+                "id": "lbIKKvkT72E",
+                "type": "youtube",
+                "title": "17 Бяспека на лесвіцы",
+                "cover": "../lbIKKvkT72E.cover.webp"
+              },
+              {
+                "id": "3Je-9ZlwUGw",
+                "type": "youtube",
+                "title": "18 Як паводзіцца ў ліфце",
+                "cover": "../3Je-9ZlwUGw.cover.webp"
               }
             ]
           },
@@ -9830,13 +10071,13 @@
             "id": "Pakajo",
             "title": "Пакаё",
             "description": "Пакаё – гэта цікаўны чатырохгадовы малы, апрануты ў блакітнае, які даследуе свет праз гульні і фантазію. Разам са сваімі сябрамі — жоўтай качкай Пата, ружовым сланяня Слоняй, сабачкай Лулай і іншымі — ён вучыцца карыстацца рознымі прадметамі, складае музыку, бегае навыперадкі і нават ладзіць конкурс на самы звонкі і заразлівы смех! А захопленыя гледачы — дзеці — дапамагаюць сябрам у гэтым, даючы слушныя парады.\nПа-беларуску агучана студыяй Gavarun.by",
-            "cover": "cover.jpg",
+            "cover": "cover.webp",
             "items": [
               {
                 "id": "2JnjSNOWo-0",
                 "type": "youtube",
                 "title": "01 Парасон, парасон",
-                "cover": "../2JnjSNOWo-0.cover.jpg"
+                "cover": "../2JnjSNOWo-0.cover.webp"
               },
               {
                 "id": "wJICbWBGItQ",
@@ -9848,13 +10089,43 @@
                 "id": "ctJidih0ReU",
                 "type": "youtube",
                 "title": "03 Мяцёлка",
-                "cover": "../ctJidih0ReU.cover.jpg"
+                "cover": "../ctJidih0ReU.cover.webp"
               },
               {
                 "id": "AUs9WSVbWU8",
                 "type": "youtube",
                 "title": "04 Хто звоніць?",
                 "cover": "../AUs9WSVbWU8.cover.jpg"
+              },
+              {
+                "id": "cYkYEXSL8P8",
+                "type": "youtube",
+                "title": "05 Апорт, Лула, апорт",
+                "cover": "../cYkYEXSL8P8.cover.webp"
+              },
+              {
+                "id": "AxTX2vqh8Hs",
+                "type": "youtube",
+                "title": "06 Воблачка",
+                "cover": "../AxTX2vqh8Hs.cover.webp"
+              },
+              {
+                "id": "rolkNK8BNcU",
+                "type": "youtube",
+                "title": "07 Падарунак для Слоні",
+                "cover": "../rolkNK8BNcU.cover.webp"
+              },
+              {
+                "id": "z67Bmta5C5c",
+                "type": "youtube",
+                "title": "08 Пакаё танцуе",
+                "cover": "../z67Bmta5C5c.cover.webp"
+              },
+              {
+                "id": "fCKIG1-XG3w",
+                "type": "youtube",
+                "title": "09 Вялікі чых",
+                "cover": "../fCKIG1-XG3w.cover.webp"
               }
             ]
           },
