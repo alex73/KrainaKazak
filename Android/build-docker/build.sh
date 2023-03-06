@@ -1,7 +1,9 @@
 #!/bin/sh
 
-echo Run /app/build.sh
-sleep 3
+echo Run:
+echo cd /app/
+echo ./build.sh
+sleep 5
 
 cp ~/gits/My/mykey.keystore .
 cp ~/gits/My/gradle.properties .

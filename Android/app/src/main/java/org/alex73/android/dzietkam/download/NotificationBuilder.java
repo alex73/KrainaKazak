@@ -45,14 +45,14 @@ public class NotificationBuilder {
 
         Intent close = new Intent(DownloadService.ACTION_CLOSE);
         close.setComponent(service);
-        views.setOnClickPendingIntent(R.id.notificationClose, PendingIntent.getService(caller, 0, close, 0));
+        views.setOnClickPendingIntent(R.id.notificationClose, PendingIntent.getService(caller, 0, close, PendingIntent.FLAG_IMMUTABLE));
 
         views.setTextViewText(R.id.notificationTitle, title);
         views.setProgressBar(R.id.notificationProgressBar, 100, progress, false);
 
         Intent intent = new Intent(caller, caller.getClass());
         intent.setAction(Intent.ACTION_MAIN);
-        PendingIntent mNotificationAction = PendingIntent.getActivity(caller, 0, intent, 0);
+        PendingIntent mNotificationAction = PendingIntent.getActivity(caller, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(caller, DownloadService.CHANNEL_ID);
         mBuilder.setSmallIcon(R.drawable.notification_icon);
@@ -85,7 +85,7 @@ public class NotificationBuilder {
         Intent intent = new Intent(caller, PlayAudioActivity.class);
         intent.setAction(Intent.ACTION_MAIN);
         intent.addCategory(Intent.CATEGORY_LAUNCHER);
-        PendingIntent mNotificationAction = PendingIntent.getActivity(caller, 0, intent, 0);
+        PendingIntent mNotificationAction = PendingIntent.getActivity(caller, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(caller, PlayService.CHANNEL_ID);
         mBuilder.setSmallIcon(R.drawable.notification_icon);
