@@ -6,28 +6,26 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Base64;
 import android.widget.Toast;
+import android.webkit.WebView;
+import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.youtube.player.YouTubeBaseActivity;
-import com.google.android.youtube.player.YouTubeInitializationResult;
-import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayerView;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URLEncoder;
 
 import org.alex73.android.dzietkam.CatalogLoader;
 import org.alex73.android.dzietkam.Logger;
 import org.alex73.android.dzietkam.R;
 import org.alex73.android.dzietkam.catalog.Item;
 import org.alex73.android.dzietkam.ui.AnalyticsApplication;
+import org.alex73.android.dzietkam.util.IO;
 
 
-public class PlayYoutubeActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
-    public static final String YOUTUBE_API_KEY_ENCODED = "QUl6YVN5Q3JHbS1KSE56cnJxSHMxZWdNTU4wVFA2WmpfLXBPa3ZZ";
-    private static final int RECOVERY_REQUEST = 1;
-
-    private final Logger log = new Logger(getClass());
+public class PlayYoutubeActivity extends AppCompatActivity {
 
     private String itemPath;
     private Item item;
-    private YouTubePlayerView youTubeView;
+    private WebView youTubeView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,69 +39,22 @@ public class PlayYoutubeActivity extends YouTubeBaseActivity implements YouTubeP
 
         application.showScreen(item);
 
-        youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
-        String key = new String(Base64.decode(YOUTUBE_API_KEY_ENCODED, 0));
-        youTubeView.initialize(key, this);
-    }
-
-    @Override
-    public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer player, boolean wasRestored) {
-        if (!wasRestored) {
-            player.setFullscreen(true);
-            player.setPlayerStateChangeListener(new YouTubePlayer.PlayerStateChangeListener() {
-                public void onLoading() {
-                }
-
-                public void onLoaded(String var1) {
-                }
-
-                public void onAdStarted() {
-                }
-
-                public void onVideoStarted() {
-                }
-
-                public void onVideoEnded() {
-                    PlayYoutubeActivity.this.finish();
-                }
-
-                public void onError(YouTubePlayer.ErrorReason reason) {
-                    log.e("YouTube initialization error: " + reason);
-                    Toast.makeText(PlayYoutubeActivity.this, "Налады відэа недазваляюць бачыць яго ў Краіне казак. Зараз мы паспрабуем адчыніць яго на youtube...", Toast.LENGTH_LONG).show();
-                    PlayYoutubeActivity.this.finish();
-
-                    try {
-                        Intent appIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:" + item.id));
-                        startActivity(appIntent);
-                    } catch (ActivityNotFoundException ex) {
-                        Intent webIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=" + item.id));
-                        startActivity(webIntent);
-                    }
-                }
-            });
-            player.loadVideo(item.id);
-            CatalogLoader.setItemViewed(this, item, true);
+        String html;
+        InputStream in = getResources().openRawResource(R.raw.youtube);
+        try {
+            html = IO.read(in, "UTF-8");
+            html = html.replace("{ID}", item.id);
+        } catch (Exception ex) {
+            html = "error";
+        } finally {
+            try {
+                in.close();
+            } catch (IOException ex) {}
         }
-    }
 
-    @Override
-    public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult errorReason) {
-        String error = "Памылка доступу да YouTube: " + errorReason.toString();
-        for (int i = 0; i < 3; i++) {
-            Toast.makeText(this, error, Toast.LENGTH_LONG).show();
-        }
-        if (errorReason.isUserRecoverableError()) {
-            errorReason.getErrorDialog(this, RECOVERY_REQUEST).show();
-        }
-        PlayYoutubeActivity.this.finish();
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == RECOVERY_REQUEST) {
-            // Retry initialization if user performed a recovery action
-            String key = new String(Base64.decode(YOUTUBE_API_KEY_ENCODED, 0));
-            youTubeView.initialize(key, this);
-        }
+        youTubeView = (WebView) findViewById(R.id.youtube_view);
+        youTubeView.getSettings().setDefaultTextEncodingName("utf-8");
+        youTubeView.getSettings().setJavaScriptEnabled(true);
+        youTubeView.loadDataWithBaseURL("file:///android_res/raw/", html, "text/html", "UTF-8", null);
     }
 }

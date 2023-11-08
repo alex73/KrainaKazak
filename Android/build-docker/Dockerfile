@@ -1,8 +1,8 @@
 FROM ubuntu:22.04
 
-ARG CMDTOOLS_VERSION=8512546    # from https://developer.android.com/studio#downloads
-ARG ANDROID_BUILD_TOOLS_LEVEL=33.0.0
-ARG ANDROID_API_LEVEL=33
+ARG CMDTOOLS_VERSION=10406996    # from https://developer.android.com/studio#downloads
+ARG ANDROID_BUILD_TOOLS_LEVEL=34.0.0
+ARG ANDROID_API_LEVEL=34
 
 ENV ANDROID_SDK_ROOT=/opt/android/
 
